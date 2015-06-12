@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2EE6621B2B32D100632575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6611B2B32D100632575 /* main.m */; };
+		9E2EE6651B2B32D100632575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6641B2B32D100632575 /* AppDelegate.m */; };
+		9E2EE6681B2B32D100632575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6671B2B32D100632575 /* ViewController.m */; };
+		9E2EE66B1B2B32D100632575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6691B2B32D100632575 /* Main.storyboard */; };
+		9E2EE66D1B2B32D100632575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE66C1B2B32D100632575 /* Images.xcassets */; };
+		9E2EE6701B2B32D100632575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */; };
+		9E2EE69B1B2B335A00632575 /* dooScanbotSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */; };
+		9E2EE69E1B2B338900632575 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2EE69D1B2B338900632575 /* CoreMotion.framework */; };
+		9E2EE6A01B2B338F00632575 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2EE69F1B2B338F00632575 /* libc++.dylib */; };
+		9E2EE6A21B2B341F00632575 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6601B2B32D100632575 /* Info.plist */; };
+		9E745A511B2B3B3D00C89CB9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */; };
+		9E745A541B2B3C4600C89CB9 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E745A531B2B3C4600C89CB9 /* NavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E2EE65C1B2B32D100632575 /* DocumentDetectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentDetectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2EE6601B2B32D100632575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2EE6611B2B32D100632575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E2EE6631B2B32D100632575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E2EE6641B2B32D100632575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E2EE6661B2B32D100632575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E2EE6671B2B32D100632575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E2EE66A1B2B32D100632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2EE66C1B2B32D100632575 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E2EE66F1B2B32D100632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = dooScanbotSDK.bundle; sourceTree = "<group>"; };
+		9E2EE6881B2B335A00632575 /* dooCameraSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooCameraSession.h; sourceTree = "<group>"; };
+		9E2EE6891B2B335A00632575 /* dooDetectionStatusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDetectionStatusLabel.h; sourceTree = "<group>"; };
+		9E2EE68A1B2B335A00632575 /* dooDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDeviceInformation.h; sourceTree = "<group>"; };
+		9E2EE68B1B2B335A00632575 /* dooDocumentDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentDetectionResult.h; sourceTree = "<group>"; };
+		9E2EE68C1B2B335A00632575 /* dooDocumentDetectionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentDetectionStatus.h; sourceTree = "<group>"; };
+		9E2EE68D1B2B335A00632575 /* dooDocumentDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentDetector.h; sourceTree = "<group>"; };
+		9E2EE68E1B2B335A00632575 /* dooDocumentScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentScannerViewController.h; sourceTree = "<group>"; };
+		9E2EE68F1B2B335A00632575 /* dooFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooFeatures.h; sourceTree = "<group>"; };
+		9E2EE6901B2B335A00632575 /* dooGeometryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooGeometryUtilities.h; sourceTree = "<group>"; };
+		9E2EE6911B2B335A00632575 /* dooImageFilterTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooImageFilterTypes.h; sourceTree = "<group>"; };
+		9E2EE6921B2B335A00632575 /* dooImageOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooImageOperations.h; sourceTree = "<group>"; };
+		9E2EE6931B2B335A00632575 /* dooPayFormScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPayFormScanner.h; sourceTree = "<group>"; };
+		9E2EE6941B2B335A00632575 /* dooPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPolygon.h; sourceTree = "<group>"; };
+		9E2EE6951B2B335A00632575 /* dooPolygonEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPolygonEdge.h; sourceTree = "<group>"; };
+		9E2EE6961B2B335A00632575 /* dooPolygonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPolygonLayer.h; sourceTree = "<group>"; };
+		9E2EE6971B2B335A00632575 /* dooScanbotSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooScanbotSDK.h; sourceTree = "<group>"; };
+		9E2EE6981B2B335A00632575 /* dooScanbotSDKLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooScanbotSDKLicense.h; sourceTree = "<group>"; };
+		9E2EE6991B2B335A00632575 /* dooShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooShutterButton.h; sourceTree = "<group>"; };
+		9E2EE69D1B2B338900632575 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		9E2EE69F1B2B338F00632575 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		9E745A4F1B2B3B3D00C89CB9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		9E745A521B2B3C4600C89CB9 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		9E745A531B2B3C4600C89CB9 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2EE6591B2B32D100632575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2EE6A01B2B338F00632575 /* libc++.dylib in Frameworks */,
+				9E2EE69E1B2B338900632575 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2EE6531B2B32D100632575 = {
+			isa = PBXGroup;
+			children = (
+				9E2EE65E1B2B32D100632575 /* DocumentDetectionDemo */,
+				9E2EE65D1B2B32D100632575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2EE65D1B2B32D100632575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE65C1B2B32D100632575 /* DocumentDetectionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2EE65E1B2B32D100632575 /* DocumentDetectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE6851B2B335A00632575 /* dooScanbotSDK */,
+				9E2EE6A11B2B33B900632575 /* Frameworks */,
+				9E2EE6631B2B32D100632575 /* AppDelegate.h */,
+				9E2EE6641B2B32D100632575 /* AppDelegate.m */,
+				9E745A521B2B3C4600C89CB9 /* NavigationController.h */,
+				9E745A531B2B3C4600C89CB9 /* NavigationController.m */,
+				9E2EE6661B2B32D100632575 /* ViewController.h */,
+				9E2EE6671B2B32D100632575 /* ViewController.m */,
+				9E745A4F1B2B3B3D00C89CB9 /* ImageViewController.h */,
+				9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */,
+				9E2EE6691B2B32D100632575 /* Main.storyboard */,
+				9E2EE66C1B2B32D100632575 /* Images.xcassets */,
+				9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */,
+				9E2EE65F1B2B32D100632575 /* Supporting Files */,
+			);
+			path = DocumentDetectionDemo;
+			sourceTree = "<group>";
+		};
+		9E2EE65F1B2B32D100632575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE6601B2B32D100632575 /* Info.plist */,
+				9E2EE6611B2B32D100632575 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E2EE6851B2B335A00632575 /* dooScanbotSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */,
+				9E2EE6871B2B335A00632575 /* include */,
+			);
+			name = dooScanbotSDK;
+			path = lib/dooScanbotSDK;
+			sourceTree = "<group>";
+		};
+		9E2EE6871B2B335A00632575 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE6881B2B335A00632575 /* dooCameraSession.h */,
+				9E2EE6891B2B335A00632575 /* dooDetectionStatusLabel.h */,
+				9E2EE68A1B2B335A00632575 /* dooDeviceInformation.h */,
+				9E2EE68B1B2B335A00632575 /* dooDocumentDetectionResult.h */,
+				9E2EE68C1B2B335A00632575 /* dooDocumentDetectionStatus.h */,
+				9E2EE68D1B2B335A00632575 /* dooDocumentDetector.h */,
+				9E2EE68E1B2B335A00632575 /* dooDocumentScannerViewController.h */,
+				9E2EE68F1B2B335A00632575 /* dooFeatures.h */,
+				9E2EE6901B2B335A00632575 /* dooGeometryUtilities.h */,
+				9E2EE6911B2B335A00632575 /* dooImageFilterTypes.h */,
+				9E2EE6921B2B335A00632575 /* dooImageOperations.h */,
+				9E2EE6931B2B335A00632575 /* dooPayFormScanner.h */,
+				9E2EE6941B2B335A00632575 /* dooPolygon.h */,
+				9E2EE6951B2B335A00632575 /* dooPolygonEdge.h */,
+				9E2EE6961B2B335A00632575 /* dooPolygonLayer.h */,
+				9E2EE6971B2B335A00632575 /* dooScanbotSDK.h */,
+				9E2EE6981B2B335A00632575 /* dooScanbotSDKLicense.h */,
+				9E2EE6991B2B335A00632575 /* dooShutterButton.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9E2EE6A11B2B33B900632575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE69F1B2B338F00632575 /* libc++.dylib */,
+				9E2EE69D1B2B338900632575 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2EE65B1B2B32D100632575 /* DocumentDetectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2EE67F1B2B32D100632575 /* Build configuration list for PBXNativeTarget "DocumentDetectionDemo" */;
+			buildPhases = (
+				9E2EE6581B2B32D100632575 /* Sources */,
+				9E2EE6591B2B32D100632575 /* Frameworks */,
+				9E2EE65A1B2B32D100632575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocumentDetectionDemo;
+			productName = DocumentDetectionDemo;
+			productReference = 9E2EE65C1B2B32D100632575 /* DocumentDetectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2EE6541B2B32D100632575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "doo GmbH";
+				TargetAttributes = {
+					9E2EE65B1B2B32D100632575 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 9E2EE6571B2B32D100632575 /* Build configuration list for PBXProject "DocumentDetectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2EE6531B2B32D100632575;
+			productRefGroup = 9E2EE65D1B2B32D100632575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2EE65B1B2B32D100632575 /* DocumentDetectionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2EE65A1B2B32D100632575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2EE66B1B2B32D100632575 /* Main.storyboard in Resources */,
+				9E2EE6701B2B32D100632575 /* LaunchScreen.xib in Resources */,
+				9E2EE69B1B2B335A00632575 /* dooScanbotSDK.bundle in Resources */,
+				9E2EE6A21B2B341F00632575 /* Info.plist in Resources */,
+				9E2EE66D1B2B32D100632575 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2EE6581B2B32D100632575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2EE6681B2B32D100632575 /* ViewController.m in Sources */,
+				9E2EE6651B2B32D100632575 /* AppDelegate.m in Sources */,
+				9E745A541B2B3C4600C89CB9 /* NavigationController.m in Sources */,
+				9E745A511B2B3B3D00C89CB9 /* ImageViewController.m in Sources */,
+				9E2EE6621B2B32D100632575 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E2EE6691B2B32D100632575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2EE66A1B2B32D100632575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2EE66F1B2B32D100632575 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2EE67D1B2B32D100632575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2EE67E1B2B32D100632575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2EE6801B2B32D100632575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/lib/dooScanbotSDK/include",
+				);
+				INFOPLIST_FILE = DocumentDetectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/lib/dooScanbotSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib/**";
+			};
+			name = Debug;
+		};
+		9E2EE6811B2B32D100632575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/lib/dooScanbotSDK/include",
+				);
+				INFOPLIST_FILE = DocumentDetectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/lib/dooScanbotSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2EE6571B2B32D100632575 /* Build configuration list for PBXProject "DocumentDetectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2EE67D1B2B32D100632575 /* Debug */,
+				9E2EE67E1B2B32D100632575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2EE67F1B2B32D100632575 /* Build configuration list for PBXNativeTarget "DocumentDetectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2EE6801B2B32D100632575 /* Debug */,
+				9E2EE6811B2B32D100632575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E2EE6541B2B32D100632575 /* Project object */;
+}
