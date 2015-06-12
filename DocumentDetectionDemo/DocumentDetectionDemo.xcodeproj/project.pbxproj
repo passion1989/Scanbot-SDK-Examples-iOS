@@ -17,6 +17,7 @@
 		9E2EE69E1B2B338900632575 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2EE69D1B2B338900632575 /* CoreMotion.framework */; };
 		9E2EE6A01B2B338F00632575 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2EE69F1B2B338F00632575 /* libc++.dylib */; };
 		9E2EE6A21B2B341F00632575 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6601B2B32D100632575 /* Info.plist */; };
+		9E4AD2471B2B43EE00890DA4 /* libdooScanbotSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4AD2461B2B43EE00890DA4 /* libdooScanbotSDK.a */; };
 		9E745A511B2B3B3D00C89CB9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */; };
 		9E745A541B2B3C4600C89CB9 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E745A531B2B3C4600C89CB9 /* NavigationController.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		9E2EE6991B2B335A00632575 /* dooShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooShutterButton.h; sourceTree = "<group>"; };
 		9E2EE69D1B2B338900632575 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		9E2EE69F1B2B338F00632575 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		9E4AD2461B2B43EE00890DA4 /* libdooScanbotSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdooScanbotSDK.a; path = DocumentDetectionDemo/lib/libdooScanbotSDK.a; sourceTree = SOURCE_ROOT; };
 		9E745A4F1B2B3B3D00C89CB9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		9E745A521B2B3C4600C89CB9 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4AD2471B2B43EE00890DA4 /* libdooScanbotSDK.a in Frameworks */,
 				9E2EE6A01B2B338F00632575 /* libc++.dylib in Frameworks */,
 				9E2EE69E1B2B338900632575 /* CoreMotion.framework in Frameworks */,
 			);
@@ -121,6 +124,7 @@
 		9E2EE6851B2B335A00632575 /* dooScanbotSDK */ = {
 			isa = PBXGroup;
 			children = (
+				9E4AD2461B2B43EE00890DA4 /* libdooScanbotSDK.a */,
 				9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */,
 				9E2EE6871B2B335A00632575 /* include */,
 			);
@@ -363,6 +367,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DocumentDetectionDemo/lib/dooScanbotSDK",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib/**";
@@ -385,6 +390,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DocumentDetectionDemo/lib/dooScanbotSDK",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib/**";
