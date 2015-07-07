@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  DocumentDetectionDemo
+//  PayFormScannerDemo
 //
-//  Created by Sebastian Husche on 12.06.15.
+//  Created by Sebastian Husche on 21.04.15.
 //  Copyright (c) 2015 doo GmbH. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "dooScanbotSDK.h"
+#import <ScanbotSDK/ScanbotSDK.h>
 
 @interface AppDelegate ()
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [dooScanbotSDKLicense autoInstallLicense];
+    [SBSDKScanbotSDKLicense autoInstallLicense];
     return YES;
 }
 

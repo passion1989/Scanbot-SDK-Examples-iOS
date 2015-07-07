@@ -1,0 +1,126 @@
+//
+//  SBSDKOpticalTextRecognizer.h
+//  ScanbotSDK
+//
+//  Created by Sebastian Husche on 23.06.15.
+//  Copyright (c) 2015 doo GmbH. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "SBSDKScanbotSDKConstants.h"
+#import "SBSDKImageStorage.h"
+#import "SBSDKProgress.h"
+#import "SBSDKOCRResult.h"
+#import "SBSDKPageAnalyzerResult.h"
+
+
+/**
+ * @class SBSDKOpticalTextRecognizer
+ * A static class to execute optical character recognition operations: the heart of the Scanbot SDK OCR module.
+ * It performs OCR operations on either a single image or a collection of images, see SBSDKImageStorage.
+ * Additionally it can perform a standalone page analysis on a single image.
+ * All of the operations are dispatched to a single serial queue to ensure low memory footprint and optimum CPU load.
+ * 
+ * For best OCR results the language(s) of the text to be recognized should be passed. 
+ * For each language exists is a set of training data files. Scanbot SDK ships with English and German 
+ * training data files by default.
+ * Other languages can be downloaded and delivered with your app.
+ * The number of languages passed to OCR operations have a significant impact on the performance: the more languages, 
+ * the slower the recognition process.
+ *
+ * Note: A later version of Scanbot SDK will support automatic language data download.
+ **/
+@interface SBSDKOpticalTextRecognizer : NSObject
+
+/**
+ * Returns a list of all available two-letter ISO 639-1 language codes. 
+ * Note: This is not a list of installed languages but of all languages with training data available.
+ * @return NSArray of NSString objects, each being a two-letter ISO 639-1 language code.
+ */
++ (NSArray *)availableLanguages;
+
+/**
+ * Returns a list of the two-letter ISO 639-1 language codes that are retrieved from the current NSLocale and the 
+ * users preferred languages.
+ * Note: This is not a list of installed languages but of languages with training data available.
+ * @return NSArray of NSString objects, each being a two-letter ISO 639-1 language code.
+ */
++ (NSArray *)userPreferredLanguages;
+
+/** 
+ * The path to the folder containing the installed languages training data files. 
+ * Copy your language training data files into this folder if you want to use them during OCR operations.
+ * By default this path resolves to `.../Application Support/OCRData/tessdata/`.
+ **/
++ (NSString *)languageDataPath;
+
+
+/**
+ * Recognizes text on a set of images with the specified languages and calls the completion handler upon completion.
+ * If pdfOutputURL is a valid file URL a searchable PDF is created and written to the specified URL. 
+ * A searchable PDF contains selectable and searchable text.
+ * @param storage The image storage containing the images to be recognized. Must not be nil.
+ * @param indices An NSIndexSet specifying the indices of the images in the image storage that you want to recognize.
+ * Pass nil if you want to select all images. Invalid indices are ignored.
+ * @param languageString A string of two-letter ISO 639-1 language codes, separated by '+', 
+ * the OCR engine should use for recognition. E.g. "de+en" (german and english) "ar+he+ja" (arabic, hebrew and japanese).
+ * If the string is invalid or nil the user preferred languages are used. 
+ * Ignores white spaces, invalid languages and invalid characters.
+ * @param pdfOutputURL If not nil and a valid file URL a searchable PDF is rendered and saved to this URL.
+ * @param completionHandler The completionHandler that is being called upon completion of the operation.
+ * Called on main thread.
+ * The result info dictionary contains values for the following keys:
+ * - SBSDKResultInfoImageStorageKey: the image storage as SBSDKImageStorage
+ * - SBSDKResultInfoOCRResultsKey: the OCR  results as SBSDKOCRResult
+ * - SBSDKResultInfoDestinationFileURLKey: the file URL of the output PDF
+
+ * @return An SBSDKProgress object that can be used to observe the operations progress and to cancel the operation.
+ */
++ (SBSDKProgress *)recognizeText:(SBSDKImageStorage *)storage
+                        indexSet:(NSIndexSet *)indices
+                  languageString:(NSString *)languageString
+                    pdfOutputURL:(NSURL *)pdfOutputURL
+                      completion:(SBSDKCompletionHandler)completionHandler;
+
+/**
+ * Recognizes text within a specified area on a single image with the specified languages and
+ * calls the completion handler upon completion.
+ * @param imageURL The file URL at which the image is located. Must not be nil.
+ * @param rectangle A rectangle defining the boundaries of where to recognize text. 
+ * Pass CGRectZero to recognize the whole image.
+ * @param languageString A string of two-letter ISO 639-1 language codes, separated by '+',
+ * the OCR engine should use for recognition. E.g. "de+en" (german and english) "ar+he+ja" (arabic, hebrew and japanese).
+ * If the string is invalid or nil the user preferred languages are used.
+ * Ignores white spaces, invalid languages and invalid characters.
+ * @param completionHandler The completionHandler that is being called upon completion of the operation.
+ * Called on main thread.
+ * The result info dictionary contains values for the following keys:
+ * - SBSDKResultInfoSourceFileURLKey: the file URL of the input image as NSURL
+ * - SBSDKResultInfoOCRResultsKey: the OCR  results as SBSDKOCRResult
+ 
+ * @return An SBSDKProgress object that can be used to observe the operations progress and to cancel the operation.
+ */
++ (SBSDKProgress *)recognizeText:(NSURL *)imageURL
+                       rectangle:(CGRect)rectangle
+                  languageString:(NSString *)languageString
+                      completion:(SBSDKCompletionHandler)completionHandler;
+
+
+/**
+ * Runs a basic page layout analysis asynchronously on the given image and calls the completion handler upon completion.
+ * The result contains information about general text orientation, writing direction, textline order and an angle to
+ * deskew the image.
+ * @param imageURL The file URL at which the image is located. Must not be nil.
+ * @param completionHandler The completionHandler that is being called upon completion of the operation.
+ * Called on main thread.
+ * The result info dictionary contains values for the following keys:
+ * - SBSDKResultInfoSourceFileURLKey: the file URL of the input image as NSURL
+ * - SBSDKResultInfoPageAnalyzerResultsKey: the page analysis result as SBSDKPageAnalyzerResult.
+ *
+ * @return An SBSDKProgress object that can be used to observe the operations progress and to cancel the operation.
+ */
++ (SBSDKProgress *)analyseImagePageLayout:(NSURL *)imageURL
+                               completion:(SBSDKCompletionHandler)completionHandler;
+
+
+@end

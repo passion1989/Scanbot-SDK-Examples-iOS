@@ -8,57 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		9E2EE6621B2B32D100632575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6611B2B32D100632575 /* main.m */; };
-		9E2EE6651B2B32D100632575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6641B2B32D100632575 /* AppDelegate.m */; };
-		9E2EE6681B2B32D100632575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6671B2B32D100632575 /* ViewController.m */; };
-		9E2EE66B1B2B32D100632575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6691B2B32D100632575 /* Main.storyboard */; };
 		9E2EE66D1B2B32D100632575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE66C1B2B32D100632575 /* Images.xcassets */; };
 		9E2EE6701B2B32D100632575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */; };
-		9E2EE69B1B2B335A00632575 /* dooScanbotSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */; };
-		9E2EE69E1B2B338900632575 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2EE69D1B2B338900632575 /* CoreMotion.framework */; };
-		9E2EE6A01B2B338F00632575 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2EE69F1B2B338F00632575 /* libc++.dylib */; };
-		9E2EE6A21B2B341F00632575 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE6601B2B32D100632575 /* Info.plist */; };
-		9E4AD2471B2B43EE00890DA4 /* libdooScanbotSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4AD2461B2B43EE00890DA4 /* libdooScanbotSDK.a */; };
-		9E745A511B2B3B3D00C89CB9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */; };
-		9E745A541B2B3C4600C89CB9 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E745A531B2B3C4600C89CB9 /* NavigationController.m */; };
+		9E9744CF1B4C0CB700FB1D1C /* ScanbotSDK.framework in Embed Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 9E9744CE1B4C0CB700FB1D1C /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9ECDE94E1B4BDBD600C1466D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE9451B4BDBD600C1466D /* AppDelegate.m */; };
+		9ECDE94F1B4BDBD600C1466D /* DemoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE9471B4BDBD600C1466D /* DemoNavigationViewController.m */; };
+		9ECDE9501B4BDBD600C1466D /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE9491B4BDBD600C1466D /* DemoViewController.m */; };
+		9ECDE9511B4BDBD600C1466D /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE94B1B4BDBD600C1466D /* PDFViewController.m */; };
+		9ECDE9521B4BDBD600C1466D /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE94D1B4BDBD600C1466D /* TextViewController.m */; };
+		9ECDE9541B4BDBE300C1466D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE9531B4BDBE300C1466D /* Main.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9ECDE95C1B4BDC9F00C1466D /* Embed Frameworks (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E9744CF1B4C0CB700FB1D1C /* ScanbotSDK.framework in Embed Frameworks (1 item) */,
+			);
+			name = "Embed Frameworks (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9E2EE65C1B2B32D100632575 /* DocumentDetectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentDetectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2EE6601B2B32D100632575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E2EE6611B2B32D100632575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E2EE6631B2B32D100632575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9E2EE6641B2B32D100632575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E2EE6661B2B32D100632575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E2EE6671B2B32D100632575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E2EE66A1B2B32D100632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E2EE66C1B2B32D100632575 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9E2EE66F1B2B32D100632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = dooScanbotSDK.bundle; sourceTree = "<group>"; };
-		9E2EE6881B2B335A00632575 /* dooCameraSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooCameraSession.h; sourceTree = "<group>"; };
-		9E2EE6891B2B335A00632575 /* dooDetectionStatusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDetectionStatusLabel.h; sourceTree = "<group>"; };
-		9E2EE68A1B2B335A00632575 /* dooDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDeviceInformation.h; sourceTree = "<group>"; };
-		9E2EE68B1B2B335A00632575 /* dooDocumentDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentDetectionResult.h; sourceTree = "<group>"; };
-		9E2EE68C1B2B335A00632575 /* dooDocumentDetectionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentDetectionStatus.h; sourceTree = "<group>"; };
-		9E2EE68D1B2B335A00632575 /* dooDocumentDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentDetector.h; sourceTree = "<group>"; };
-		9E2EE68E1B2B335A00632575 /* dooDocumentScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooDocumentScannerViewController.h; sourceTree = "<group>"; };
-		9E2EE68F1B2B335A00632575 /* dooFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooFeatures.h; sourceTree = "<group>"; };
-		9E2EE6901B2B335A00632575 /* dooGeometryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooGeometryUtilities.h; sourceTree = "<group>"; };
-		9E2EE6911B2B335A00632575 /* dooImageFilterTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooImageFilterTypes.h; sourceTree = "<group>"; };
-		9E2EE6921B2B335A00632575 /* dooImageOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooImageOperations.h; sourceTree = "<group>"; };
-		9E2EE6931B2B335A00632575 /* dooPayFormScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPayFormScanner.h; sourceTree = "<group>"; };
-		9E2EE6941B2B335A00632575 /* dooPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPolygon.h; sourceTree = "<group>"; };
-		9E2EE6951B2B335A00632575 /* dooPolygonEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPolygonEdge.h; sourceTree = "<group>"; };
-		9E2EE6961B2B335A00632575 /* dooPolygonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooPolygonLayer.h; sourceTree = "<group>"; };
-		9E2EE6971B2B335A00632575 /* dooScanbotSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooScanbotSDK.h; sourceTree = "<group>"; };
-		9E2EE6981B2B335A00632575 /* dooScanbotSDKLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooScanbotSDKLicense.h; sourceTree = "<group>"; };
-		9E2EE6991B2B335A00632575 /* dooShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dooShutterButton.h; sourceTree = "<group>"; };
-		9E2EE69D1B2B338900632575 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		9E2EE69F1B2B338F00632575 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		9E4AD2461B2B43EE00890DA4 /* libdooScanbotSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdooScanbotSDK.a; path = DocumentDetectionDemo/lib/libdooScanbotSDK.a; sourceTree = SOURCE_ROOT; };
-		9E745A4F1B2B3B3D00C89CB9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
-		9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
-		9E745A521B2B3C4600C89CB9 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		9E745A531B2B3C4600C89CB9 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		9E9744CE1B4C0CB700FB1D1C /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanbotSDK.framework; sourceTree = "<group>"; };
+		9ECDE9441B4BDBD600C1466D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ECDE9451B4BDBD600C1466D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ECDE9461B4BDBD600C1466D /* DemoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationViewController.h; sourceTree = "<group>"; };
+		9ECDE9471B4BDBD600C1466D /* DemoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationViewController.m; sourceTree = "<group>"; };
+		9ECDE9481B4BDBD600C1466D /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		9ECDE9491B4BDBD600C1466D /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		9ECDE94A1B4BDBD600C1466D /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		9ECDE94B1B4BDBD600C1466D /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		9ECDE94C1B4BDBD600C1466D /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		9ECDE94D1B4BDBD600C1466D /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		9ECDE9531B4BDBE300C1466D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4AD2471B2B43EE00890DA4 /* libdooScanbotSDK.a in Frameworks */,
-				9E2EE6A01B2B338F00632575 /* libc++.dylib in Frameworks */,
-				9E2EE69E1B2B338900632575 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +67,7 @@
 		9E2EE6531B2B32D100632575 = {
 			isa = PBXGroup;
 			children = (
+				9E9744CE1B4C0CB700FB1D1C /* ScanbotSDK.framework */,
 				9E2EE65E1B2B32D100632575 /* DocumentDetectionDemo */,
 				9E2EE65D1B2B32D100632575 /* Products */,
 			);
@@ -94,19 +84,20 @@
 		9E2EE65E1B2B32D100632575 /* DocumentDetectionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9E2EE6851B2B335A00632575 /* dooScanbotSDK */,
+				9ECDE9441B4BDBD600C1466D /* AppDelegate.h */,
+				9ECDE9451B4BDBD600C1466D /* AppDelegate.m */,
+				9ECDE9461B4BDBD600C1466D /* DemoNavigationViewController.h */,
+				9ECDE9471B4BDBD600C1466D /* DemoNavigationViewController.m */,
+				9ECDE9481B4BDBD600C1466D /* DemoViewController.h */,
+				9ECDE9491B4BDBD600C1466D /* DemoViewController.m */,
+				9ECDE94A1B4BDBD600C1466D /* PDFViewController.h */,
+				9ECDE94B1B4BDBD600C1466D /* PDFViewController.m */,
+				9ECDE94C1B4BDBD600C1466D /* TextViewController.h */,
+				9ECDE94D1B4BDBD600C1466D /* TextViewController.m */,
 				9E2EE6A11B2B33B900632575 /* Frameworks */,
-				9E2EE6631B2B32D100632575 /* AppDelegate.h */,
-				9E2EE6641B2B32D100632575 /* AppDelegate.m */,
-				9E745A521B2B3C4600C89CB9 /* NavigationController.h */,
-				9E745A531B2B3C4600C89CB9 /* NavigationController.m */,
-				9E2EE6661B2B32D100632575 /* ViewController.h */,
-				9E2EE6671B2B32D100632575 /* ViewController.m */,
-				9E745A4F1B2B3B3D00C89CB9 /* ImageViewController.h */,
-				9E745A501B2B3B3D00C89CB9 /* ImageViewController.m */,
-				9E2EE6691B2B32D100632575 /* Main.storyboard */,
 				9E2EE66C1B2B32D100632575 /* Images.xcassets */,
 				9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */,
+				9ECDE9531B4BDBE300C1466D /* Main.storyboard */,
 				9E2EE65F1B2B32D100632575 /* Supporting Files */,
 			);
 			path = DocumentDetectionDemo;
@@ -121,47 +112,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9E2EE6851B2B335A00632575 /* dooScanbotSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9E4AD2461B2B43EE00890DA4 /* libdooScanbotSDK.a */,
-				9E2EE6861B2B335A00632575 /* dooScanbotSDK.bundle */,
-				9E2EE6871B2B335A00632575 /* include */,
-			);
-			name = dooScanbotSDK;
-			path = lib/dooScanbotSDK;
-			sourceTree = "<group>";
-		};
-		9E2EE6871B2B335A00632575 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				9E2EE6881B2B335A00632575 /* dooCameraSession.h */,
-				9E2EE6891B2B335A00632575 /* dooDetectionStatusLabel.h */,
-				9E2EE68A1B2B335A00632575 /* dooDeviceInformation.h */,
-				9E2EE68B1B2B335A00632575 /* dooDocumentDetectionResult.h */,
-				9E2EE68C1B2B335A00632575 /* dooDocumentDetectionStatus.h */,
-				9E2EE68D1B2B335A00632575 /* dooDocumentDetector.h */,
-				9E2EE68E1B2B335A00632575 /* dooDocumentScannerViewController.h */,
-				9E2EE68F1B2B335A00632575 /* dooFeatures.h */,
-				9E2EE6901B2B335A00632575 /* dooGeometryUtilities.h */,
-				9E2EE6911B2B335A00632575 /* dooImageFilterTypes.h */,
-				9E2EE6921B2B335A00632575 /* dooImageOperations.h */,
-				9E2EE6931B2B335A00632575 /* dooPayFormScanner.h */,
-				9E2EE6941B2B335A00632575 /* dooPolygon.h */,
-				9E2EE6951B2B335A00632575 /* dooPolygonEdge.h */,
-				9E2EE6961B2B335A00632575 /* dooPolygonLayer.h */,
-				9E2EE6971B2B335A00632575 /* dooScanbotSDK.h */,
-				9E2EE6981B2B335A00632575 /* dooScanbotSDKLicense.h */,
-				9E2EE6991B2B335A00632575 /* dooShutterButton.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
 		9E2EE6A11B2B33B900632575 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E2EE69F1B2B338F00632575 /* libc++.dylib */,
-				9E2EE69D1B2B338900632575 /* CoreMotion.framework */,
 			);
 			name = Frameworks;
 			path = ..;
@@ -177,6 +130,7 @@
 				9E2EE6581B2B32D100632575 /* Sources */,
 				9E2EE6591B2B32D100632575 /* Frameworks */,
 				9E2EE65A1B2B32D100632575 /* Resources */,
+				9ECDE95C1B4BDC9F00C1466D /* Embed Frameworks (1 item) */,
 			);
 			buildRules = (
 			);
@@ -193,7 +147,7 @@
 		9E2EE6541B2B32D100632575 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "doo GmbH";
 				TargetAttributes = {
 					9E2EE65B1B2B32D100632575 = {
@@ -224,11 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E2EE66B1B2B32D100632575 /* Main.storyboard in Resources */,
 				9E2EE6701B2B32D100632575 /* LaunchScreen.xib in Resources */,
-				9E2EE69B1B2B335A00632575 /* dooScanbotSDK.bundle in Resources */,
-				9E2EE6A21B2B341F00632575 /* Info.plist in Resources */,
 				9E2EE66D1B2B32D100632575 /* Images.xcassets in Resources */,
+				9ECDE9541B4BDBE300C1466D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,25 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E2EE6681B2B32D100632575 /* ViewController.m in Sources */,
-				9E2EE6651B2B32D100632575 /* AppDelegate.m in Sources */,
-				9E745A541B2B3C4600C89CB9 /* NavigationController.m in Sources */,
-				9E745A511B2B3B3D00C89CB9 /* ImageViewController.m in Sources */,
+				9ECDE94E1B4BDBD600C1466D /* AppDelegate.m in Sources */,
+				9ECDE9511B4BDBD600C1466D /* PDFViewController.m in Sources */,
 				9E2EE6621B2B32D100632575 /* main.m in Sources */,
+				9ECDE9521B4BDBD600C1466D /* TextViewController.m in Sources */,
+				9ECDE94F1B4BDBD600C1466D /* DemoNavigationViewController.m in Sources */,
+				9ECDE9501B4BDBD600C1466D /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E2EE6691B2B32D100632575 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E2EE66A1B2B32D100632575 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,7 +301,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/DocumentDetectionDemo",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -379,7 +327,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/DocumentDetectionDemo",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
