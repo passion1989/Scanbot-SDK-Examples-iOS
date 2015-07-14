@@ -10,13 +10,14 @@
 		9E2EE6621B2B32D100632575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EE6611B2B32D100632575 /* main.m */; };
 		9E2EE66D1B2B32D100632575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE66C1B2B32D100632575 /* Images.xcassets */; };
 		9E2EE6701B2B32D100632575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E2EE66E1B2B32D100632575 /* LaunchScreen.xib */; };
-		9E9744CF1B4C0CB700FB1D1C /* ScanbotSDK.framework in Embed Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 9E9744CE1B4C0CB700FB1D1C /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9ECDE94E1B4BDBD600C1466D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE9451B4BDBD600C1466D /* AppDelegate.m */; };
 		9ECDE94F1B4BDBD600C1466D /* DemoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE9471B4BDBD600C1466D /* DemoNavigationViewController.m */; };
 		9ECDE9501B4BDBD600C1466D /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE9491B4BDBD600C1466D /* DemoViewController.m */; };
 		9ECDE9511B4BDBD600C1466D /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE94B1B4BDBD600C1466D /* PDFViewController.m */; };
 		9ECDE9521B4BDBD600C1466D /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE94D1B4BDBD600C1466D /* TextViewController.m */; };
 		9ECDE9541B4BDBE300C1466D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE9531B4BDBE300C1466D /* Main.storyboard */; };
+		9EF3DCF11B552D8F0057571E /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF3DCEF1B552D890057571E /* ScanbotSDK.framework */; };
+		9EF3DCF21B552D8F0057571E /* ScanbotSDK.framework in Embed Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 9EF3DCEF1B552D890057571E /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9E9744CF1B4C0CB700FB1D1C /* ScanbotSDK.framework in Embed Frameworks (1 item) */,
+				9EF3DCF21B552D8F0057571E /* ScanbotSDK.framework in Embed Frameworks (1 item) */,
 			);
 			name = "Embed Frameworks (1 item)";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +40,6 @@
 		9E2EE6611B2B32D100632575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E2EE66C1B2B32D100632575 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9E2EE66F1B2B32D100632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9E9744CE1B4C0CB700FB1D1C /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanbotSDK.framework; sourceTree = "<group>"; };
 		9ECDE9441B4BDBD600C1466D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ECDE9451B4BDBD600C1466D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9ECDE9461B4BDBD600C1466D /* DemoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationViewController.h; sourceTree = "<group>"; };
@@ -51,6 +51,7 @@
 		9ECDE94C1B4BDBD600C1466D /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		9ECDE94D1B4BDBD600C1466D /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		9ECDE9531B4BDBE300C1466D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9EF3DCEF1B552D890057571E /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanbotSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF3DCF11B552D8F0057571E /* ScanbotSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +69,7 @@
 		9E2EE6531B2B32D100632575 = {
 			isa = PBXGroup;
 			children = (
-				9E9744CE1B4C0CB700FB1D1C /* ScanbotSDK.framework */,
+				9EF3DCC91B552C710057571E /* dooScanbotSDK */,
 				9E2EE65E1B2B32D100632575 /* DocumentDetectionDemo */,
 				9E2EE65D1B2B32D100632575 /* Products */,
 			);
@@ -118,6 +120,15 @@
 			);
 			name = Frameworks;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		9EF3DCC91B552C710057571E /* dooScanbotSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9EF3DCEF1B552D890057571E /* ScanbotSDK.framework */,
+			);
+			name = dooScanbotSDK;
+			path = DocumentDetectionDemo/dooScanbotSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,19 +315,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/DocumentDetectionDemo",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/dooScanbotSDK",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/lib/dooScanbotSDK/include",
 				);
 				INFOPLIST_FILE = DocumentDetectionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/DocumentDetectionDemo/lib/dooScanbotSDK",
-					"$(PROJECT_DIR)/DocumentDetectionDemo/lib",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/dooScanbotSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib/**";
 			};
@@ -330,19 +341,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/DocumentDetectionDemo",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/dooScanbotSDK",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/lib/dooScanbotSDK/include",
 				);
 				INFOPLIST_FILE = DocumentDetectionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/DocumentDetectionDemo/lib/dooScanbotSDK",
-					"$(PROJECT_DIR)/DocumentDetectionDemo/lib",
+					"$(PROJECT_DIR)/DocumentDetectionDemo/dooScanbotSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib/**";
 			};

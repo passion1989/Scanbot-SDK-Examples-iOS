@@ -261,8 +261,9 @@
     pdfURL = [pdfURL URLByAppendingPathComponent:filename];
     
     self.currentProgress = [SBSDKPDFRenderer renderImageStorage:self.imageStorage
+                                               copyImageStorage:YES
                                                        indexSet:nil
-                                                   withPageSize:SBSDKPDFRendererPageSizeUnknown
+                                                   withPageSize:SBSDKPDFRendererPageSizeAuto
                                                          output:pdfURL
                                               completionHandler:^(BOOL finished, NSError *error, NSDictionary *resultInfo)
     {
@@ -291,6 +292,7 @@
     
     self.currentProgress =
     [SBSDKOpticalTextRecognizer recognizeText:self.imageStorage
+                             copyImageStorage:YES
                                      indexSet:nil
                                languageString:@"en+de"
                                  pdfOutputURL:nil
@@ -326,6 +328,7 @@
     
     self.currentProgress =
     [SBSDKOpticalTextRecognizer recognizeText:self.imageStorage
+                             copyImageStorage:YES
                                      indexSet:nil
                                languageString:@"en+de"
                                  pdfOutputURL:pdfURL
