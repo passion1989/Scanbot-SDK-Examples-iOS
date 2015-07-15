@@ -124,7 +124,9 @@ Class Methods</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A factory class to enqueue and execute optical character recognition operations: the heart of the Scanbot SDK OCR module. It performs OCR operations on either a single image or a collection of images, see <a class="el" href="interface_s_b_s_d_k_image_storage.html">SBSDKImageStorage</a>. Additionally it can perform a standalone page analysis on a single image. All of the operations are dispatched to a single serial queue to ensure low memory footprint and optimum CPU load.</p>
-<p>For best OCR results the language(s) of the text to be recognized should be passed. For each language exists is a training data file. Scanbot SDK ships with no training data files by default. Other languages can be downloaded and delivered with your app. The number of languages passed to OCR operations have a significant impact on the performance: the more languages, the slower the recognition process. </p>
+<p>For best OCR results the language(s) of the text to be recognized should be passed. For each language exists is a training data file. Scanbot SDK ships with no training data files by default to keep the framework small in size. To install language files and deliver them with your app you must download them, unzip and place the *.traineddata file without any subfolders in your applications bundle in a subfolder named 'SBSDKLanguageData'. Make sure that this folder is copied along with your resources into your app. Language files can be downloaded here <a href="https://code.google.com/p/tesseract-ocr/downloads/list">https://code.google.com/p/tesseract-ocr/downloads/list</a></p>
+<p>Any text recognition operation will fail with an error if all specified languages are missing. If the specified languages are partially available a warning will be logged, but the operation executes without using the missing languages.</p>
+<p>The number of languages passed to OCR operations have a significant impact on the performance: the more languages, the slower the recognition process. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a class="anchor" id="a148eab2f04647f17aad55a9bf7e07765"></a>
 <div class="memitem">
@@ -149,7 +151,8 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Runs a basic page layout analysis asynchronously on the given image and calls the completion handler upon completion. The result contains information about general text orientation, writing direction, textline order and an angle to deskew the image. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Runs a basic page layout analysis asynchronously on the given image and calls the completion handler upon completion. The result contains information about general text orientation, writing direction, textline order and an angle to deskew the image. In order to execute this operation the english language file 'eng.traineddata' and the OSD file 'osd.traineddata' must be placed in your app bundles 'SBSDKLanguageData' folder. Download eng: <a href="https://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.01.eng.tar.gz&can=2&q=">https://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.01.eng.tar.gz&amp;can=2&amp;q=</a> Download osd: <a href="https://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.01.osd.tar.gz&can=2&q=">https://code.google.com/p/tesseract-ocr/downloads/detail?name=tesseract-ocr-3.01.osd.tar.gz&amp;can=2&amp;q=</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">imageURL</td><td>The file URL at which the image is located. Must not be nil. </td></tr>
     <tr><td class="paramname">completionHandler</td><td>The completionHandler that is being called upon completion of the operation. Called on main thread. The result info dictionary contains values for the following keys:<ul>
@@ -208,7 +211,7 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The path to the folder containing the installed languages training data files. Copy your language training data files into this folder if you want to use them during OCR operations. By default this path resolves to <code>.../Application Support/LanguageData/tessdata/</code>. </p>
+<p>The path to the folder containing the installed languages training data files. If you want to implement e.g. dynamic language downloading within your app, place the extracted *.traineddata files here. New text recognition operations will find these language files and use them if needed resp. specified. </p>
 
 </div>
 </div>
