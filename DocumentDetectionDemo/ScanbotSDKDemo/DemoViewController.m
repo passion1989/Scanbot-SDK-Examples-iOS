@@ -42,12 +42,13 @@
                                                                        message:@"The ScanbotSDK license has been expired. Please contact the manufacturer of the app."
                                                                 preferredStyle:UIAlertControllerStyleAlert];
         
-        [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                handler:^(UIAlertAction *action)
+        {
             [self dismissViewControllerAnimated:YES completion:nil];
         }]];
         
         [self presentViewController:alert animated:NO completion:nil];
-
         return;
     }
     [[NSNotificationCenter defaultCenter] addObserver:self
