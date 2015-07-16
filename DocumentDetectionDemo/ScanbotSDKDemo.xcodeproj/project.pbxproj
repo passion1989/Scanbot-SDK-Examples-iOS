@@ -16,21 +16,21 @@
 		9EBA42171B56CC400041B9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA420A1B56CC400041B9DA /* Main.storyboard */; };
 		9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420C1B56CC400041B9DA /* PDFViewController.m */; };
 		9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420E1B56CC400041B9DA /* TextViewController.m */; };
-		9EBA42291B56CFA70041B9DA /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBA42281B56CFA70041B9DA /* ScanbotSDK.framework */; };
-		9EBA422A1B56CFA70041B9DA /* ScanbotSDK.framework in Embed Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 9EBA42281B56CFA70041B9DA /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EBA422C1B56D1440041B9DA /* SBSDKLanguageData in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA422B1B56D1440041B9DA /* SBSDKLanguageData */; };
+		9EE64FF51B581477008EDFD4 /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */; };
+		9EE64FF61B581477008EDFD4 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9ECDE95C1B4BDC9F00C1466D /* Embed Frameworks (1 item) */ = {
+		9EE64FF71B581477008EDFD4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9EBA422A1B56CFA70041B9DA /* ScanbotSDK.framework in Embed Frameworks (1 item) */,
+				9EE64FF61B581477008EDFD4 /* ScanbotSDK.framework in Embed Frameworks */,
 			);
-			name = "Embed Frameworks (1 item)";
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -52,8 +52,8 @@
 		9EBA420C1B56CC400041B9DA /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		9EBA420D1B56CC400041B9DA /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		9EBA420E1B56CC400041B9DA /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
-		9EBA42281B56CFA70041B9DA /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanbotSDK.framework; path = ScanbotSDKDemo/dooScanbotSDK/ScanbotSDK.framework; sourceTree = "<group>"; };
 		9EBA422B1B56D1440041B9DA /* SBSDKLanguageData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SBSDKLanguageData; path = "../../../PayFormScannerLib/iOS/Development Application/ScanbotSDKTestApp/SBSDKLanguageData"; sourceTree = "<group>"; };
+		9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanbotSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EBA42291B56CFA70041B9DA /* ScanbotSDK.framework in Frameworks */,
+				9EE64FF51B581477008EDFD4 /* ScanbotSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,6 @@
 		9E2EE6531B2B32D100632575 = {
 			isa = PBXGroup;
 			children = (
-				9EBA42281B56CFA70041B9DA /* ScanbotSDK.framework */,
 				9EBA41FC1B56CC400041B9DA /* ScanbotSDKDemo */,
 				9E2EE65D1B2B32D100632575 /* Products */,
 			);
@@ -88,6 +87,7 @@
 		9EBA41FC1B56CC400041B9DA /* ScanbotSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9EE64FF01B581467008EDFD4 /* Framework */,
 				9EBA41FD1B56CC400041B9DA /* AppDelegate.h */,
 				9EBA41FE1B56CC400041B9DA /* AppDelegate.m */,
 				9EBA41FF1B56CC400041B9DA /* LaunchScreen.xib */,
@@ -108,6 +108,15 @@
 			path = ScanbotSDKDemo;
 			sourceTree = "<group>";
 		};
+		9EE64FF01B581467008EDFD4 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */,
+			);
+			name = Framework;
+			path = ScanbotSDK/Framework;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,7 +127,7 @@
 				9E2EE6581B2B32D100632575 /* Sources */,
 				9E2EE6591B2B32D100632575 /* Frameworks */,
 				9E2EE65A1B2B32D100632575 /* Resources */,
-				9ECDE95C1B4BDC9F00C1466D /* Embed Frameworks (1 item) */,
+				9EE64FF71B581477008EDFD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,9 +298,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ScanbotSDKDemo/dooScanbotSDK",
+					"$(PROJECT_DIR)/ScanbotSDK/Framework",
+					"$(PROJECT_DIR)/ScanbotSDK",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,10 +320,12 @@
 		9E2EE6811B2B32D100632575 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ScanbotSDKDemo/dooScanbotSDK",
+					"$(PROJECT_DIR)/ScanbotSDK/Framework",
+					"$(PROJECT_DIR)/ScanbotSDK",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
