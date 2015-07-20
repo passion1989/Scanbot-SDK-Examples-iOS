@@ -17,18 +17,18 @@
 		9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420C1B56CC400041B9DA /* PDFViewController.m */; };
 		9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420E1B56CC400041B9DA /* TextViewController.m */; };
 		9EBA422C1B56D1440041B9DA /* SBSDKLanguageData in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA422B1B56D1440041B9DA /* SBSDKLanguageData */; };
-		9EE64FF51B581477008EDFD4 /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */; };
-		9EE64FF61B581477008EDFD4 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9EF774D91B5DBE3E00A3FEE4 /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF774D81B5DBE3E00A3FEE4 /* ScanbotSDK.framework */; };
+		9EF774DA1B5DBE3E00A3FEE4 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF774D81B5DBE3E00A3FEE4 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9EE64FF71B581477008EDFD4 /* Embed Frameworks */ = {
+		9EF774D71B5DBD9200A3FEE4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9EE64FF61B581477008EDFD4 /* ScanbotSDK.framework in Embed Frameworks */,
+				9EF774DA1B5DBE3E00A3FEE4 /* ScanbotSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 		9EBA420D1B56CC400041B9DA /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		9EBA420E1B56CC400041B9DA /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		9EBA422B1B56D1440041B9DA /* SBSDKLanguageData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SBSDKLanguageData; path = "../../../PayFormScannerLib/iOS/Development Application/ScanbotSDKTestApp/SBSDKLanguageData"; sourceTree = "<group>"; };
-		9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanbotSDK.framework; sourceTree = "<group>"; };
+		9EF774D81B5DBE3E00A3FEE4 /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanbotSDK.framework; path = ScanbotSDK/Framework/All_Archs/ScanbotSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE64FF51B581477008EDFD4 /* ScanbotSDK.framework in Frameworks */,
+				9EF774D91B5DBE3E00A3FEE4 /* ScanbotSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +71,7 @@
 		9E2EE6531B2B32D100632575 = {
 			isa = PBXGroup;
 			children = (
+				9EF774D81B5DBE3E00A3FEE4 /* ScanbotSDK.framework */,
 				9EBA41FC1B56CC400041B9DA /* ScanbotSDKDemo */,
 				9E2EE65D1B2B32D100632575 /* Products */,
 			);
@@ -111,7 +112,6 @@
 		9EE64FF01B581467008EDFD4 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				9EE64FF11B581467008EDFD4 /* ScanbotSDK.framework */,
 			);
 			name = Framework;
 			path = ScanbotSDK/Framework;
@@ -127,7 +127,7 @@
 				9E2EE6581B2B32D100632575 /* Sources */,
 				9E2EE6591B2B32D100632575 /* Frameworks */,
 				9E2EE65A1B2B32D100632575 /* Resources */,
-				9EE64FF71B581477008EDFD4 /* Embed Frameworks */,
+				9EF774D71B5DBD9200A3FEE4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +303,8 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ScanbotSDK/Framework",
 					"$(PROJECT_DIR)/ScanbotSDK",
+					"$(PROJECT_DIR)/ScanbotSDK/Framework/All_Archs",
+					"$(PROJECT_DIR)/ScanbotSDK/Framework/Device_Only",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +328,8 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ScanbotSDK/Framework",
 					"$(PROJECT_DIR)/ScanbotSDK",
+					"$(PROJECT_DIR)/ScanbotSDK/Framework/All_Archs",
+					"$(PROJECT_DIR)/ScanbotSDK/Framework/Device_Only",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
