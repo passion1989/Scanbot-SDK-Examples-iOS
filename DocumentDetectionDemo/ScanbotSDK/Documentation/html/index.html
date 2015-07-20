@@ -483,6 +483,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </p><h3>3.6 Payform Recognition</h3>
 <p>See <a class="el" href="interface_s_b_s_d_k_pay_form_scanner.html">SBSDKPayFormScanner</a>.</p>
 <p>The <a class="el" href="interface_s_b_s_d_k_pay_form_scanner.html">SBSDKPayFormScanner</a> class provides functionality to detect and recognize SEPA payforms. It extracts relevant information fields by performing optical text recognition on certain areas of the image, e.g. IBAN, BIC, receiver, amount of money and reference.</p>
+<p>This module needs the german language package. See <a class="el" href="interface_s_b_s_d_k_optical_text_recognizer.html">SBSDKOpticalTextRecognizer</a> for language addition.</p>
 <p>For performance reasons the scanner is divided into two parts: detection and recognition. The detection only tests whether the scanned image contains a payform or not. The recognizer performs the text extraction and fills the fields.</p>
 <p>The common usage is to configure the iPhones camera for full HD video capturing and run the detection part on each incoming frame synchronously in the video capture queue. When the detector returns a positive result the recognizing part runs on the same full HD frame in the same video capture queue and returns the recognizers result.</p>
 <p>Example code on how to detect and recognize payforms in the video delegate </p><div class="fragment"><div class="line">- (void)captureOutput:(AVCaptureOutput *)captureOutput</div>
@@ -525,5 +526,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Jul 17 2015 15:06:09 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Tue Jul 21 2015 00:44:03 <a href="https://scanbot.io"></a>
  </div>

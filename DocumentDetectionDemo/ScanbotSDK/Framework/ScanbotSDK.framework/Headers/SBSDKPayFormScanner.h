@@ -198,6 +198,10 @@ typedef NS_ENUM(NSInteger, SBSDKPayFormTokenType) {
  * the better the recognition results. Images are rotated accordingly to either the UIImage imageOrientation property
  * or the given video orientation.
  * Detection and recognition are successful only if the rotated image has natural orientation.
+ *
+ * Note: This class needs the german (deu.traineddata) language file installed. See SBSDKOpticalTextRecognizer on how to install
+ * language files in your app.
+ *
  */
 @interface SBSDKPayFormScanner : NSObject
 

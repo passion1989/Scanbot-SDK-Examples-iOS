@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/SBSDKPayFormScanner.h</key>
 		<data>
-		95uDHUK/FtqSs7eJzhViz9xCeoI=
+		PvKGaDyxdfXNk1P5rt4Zxm32VZM=
 		</data>
 		<key>Headers/SBSDKPolygon.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<data>
-		jAislbgRyUVkEm9LhOZV3yEZygA=
+		VZ8TSdQ7sdLF0fh1eqj3EyvHc3Q=
 		</data>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jMfvX8M+BODUMhpnyF8Zvo6EOzE=
+		NPZNr4TbBwUy2/vgpcKLxU4CMws=
 		</data>
 		<key>LanguageToTesseractTrainedData.plist</key>
 		<data>
@@ -139,6 +139,10 @@
 		<key>SBSDKLanguageData/pdf.ttx</key>
 		<data>
 		qX79xHAtx2WFw3XVvNvIGfRI0QU=
+		</data>
+		<key>banks.csv</key>
+		<data>
+		rEji5xf8YOn1OgsckiGtzODBGYg=
 		</data>
 		<key>ui_scan_snapbutton_active.png</key>
 		<data>
@@ -253,7 +257,7 @@
 		</data>
 		<key>Headers/SBSDKPayFormScanner.h</key>
 		<data>
-		95uDHUK/FtqSs7eJzhViz9xCeoI=
+		PvKGaDyxdfXNk1P5rt4Zxm32VZM=
 		</data>
 		<key>Headers/SBSDKPolygon.h</key>
 		<data>
@@ -277,7 +281,7 @@
 		</data>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<data>
-		jAislbgRyUVkEm9LhOZV3yEZygA=
+		VZ8TSdQ7sdLF0fh1eqj3EyvHc3Q=
 		</data>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
 		<data>
@@ -322,6 +326,10 @@
 		<key>SBSDKLanguageData/pdf.ttx</key>
 		<data>
 		qX79xHAtx2WFw3XVvNvIGfRI0QU=
+		</data>
+		<key>banks.csv</key>
+		<data>
+		rEji5xf8YOn1OgsckiGtzODBGYg=
 		</data>
 		<key>ui_scan_snapbutton_active.png</key>
 		<data>
