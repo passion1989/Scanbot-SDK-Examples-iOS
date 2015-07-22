@@ -133,7 +133,8 @@
 @property (nonatomic, weak) SBSDKImageStorage *imageStorage;
 
 /**
- * Scaling factor being applied to captured still shots before processing. Defaults to 0.8.
+ * Scaling factor being applied to captured still shots before processing. Must be in the range 0.0 < imageScale <= 1.0.
+ * Invalid values are threated as 1.0. Defaults to 0.8.
  * Used to scale images before processing them. Lower numbers reduce memory pressure.
  */
 @property (nonatomic, assign) CGFloat imageScale;
