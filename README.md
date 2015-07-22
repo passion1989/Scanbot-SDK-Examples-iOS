@@ -25,5 +25,7 @@ https://github.com/doo/Scanbot-SDK-Examples-iOS/tree/master/DocumentDetectionDem
 Documentation can be found here:
 https://github.com/doo/Scanbot-SDK-Examples-iOS/tree/master/DocumentDetectionDemo/ScanbotSDK/Documentation
 
-If you need further information or are interested in licensing Scanbot SDK please contact us: sdk@scanbot.io
+If you need further information or are interested in licensing Scanbot SDK please contact us 
+by mail to sdk@scanbot.io. When sending a mail please provide your apps bundle identifier to us so we can
+generate development or test licenses for you.
 
