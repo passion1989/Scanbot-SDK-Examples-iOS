@@ -29,7 +29,16 @@ typedef NS_ENUM(NSInteger, SBSDKPayFormTokenType) {
     SBSDKPayFormTokenTypeAmount,
     
     /** The reference number or text. */
-    SBSDKPayFormTokenTypeReferenceNo
+    SBSDKPayFormTokenTypeReferenceNumber,
+    
+    /** Second line for reference number */
+    SBSDKPayFormTokenTypeReferenceNumber2,
+    
+    /** The name of the payment sender */
+    SBSDKPayFormTokenTypeSender,
+    
+    /** The IBAN of the payment sender */
+    SBSDKPayFormTokenTypeSenderIBAN
 };
 
 
