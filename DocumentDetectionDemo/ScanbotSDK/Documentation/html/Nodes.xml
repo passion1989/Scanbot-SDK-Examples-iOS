@@ -1937,9 +1937,24 @@
                 <Anchor>a421e0dfcb440ce182cae7d9129a3b11ea9ce16319970ea8340c4d8555d493fed2</Anchor>
                </Node>
                <Node>
-                <Name>SBSDKPayFormTokenTypeReferenceNo</Name>
+                <Name>SBSDKPayFormTokenTypeReferenceNumber</Name>
                 <Path>_s_b_s_d_k_pay_form_scanner_8h.html</Path>
-                <Anchor>a421e0dfcb440ce182cae7d9129a3b11ea34e32fbdc3da273ee4d2a832fe347c13</Anchor>
+                <Anchor>a421e0dfcb440ce182cae7d9129a3b11ea7ee766992aedf9c50d2d4c548e4013cc</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKPayFormTokenTypeReferenceNumber2</Name>
+                <Path>_s_b_s_d_k_pay_form_scanner_8h.html</Path>
+                <Anchor>a421e0dfcb440ce182cae7d9129a3b11ea820f3e3e03778144a63887108d9149a1</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKPayFormTokenTypeSender</Name>
+                <Path>_s_b_s_d_k_pay_form_scanner_8h.html</Path>
+                <Anchor>a421e0dfcb440ce182cae7d9129a3b11eab62583ec628ce3c3625bf2159add1a46</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKPayFormTokenTypeSenderIBAN</Name>
+                <Path>_s_b_s_d_k_pay_form_scanner_8h.html</Path>
+                <Anchor>a421e0dfcb440ce182cae7d9129a3b11ea1987812239c9cb0ced83aea6bbf95cdb</Anchor>
                </Node>
               </Subnodes>
              </Node>
