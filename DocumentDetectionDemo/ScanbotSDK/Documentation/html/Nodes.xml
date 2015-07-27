@@ -738,6 +738,11 @@
               <Anchor>a0a28e6e24ef2a7532dec29f3009935d4</Anchor>
              </Node>
              <Node>
+              <Name>autoShutterEnabled</Name>
+              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+              <Anchor>a15a7313a10374cdfa0007022cab70ade</Anchor>
+             </Node>
+             <Node>
               <Name>cameraControlsHidden</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>aab4074302f4a1a8011aae7b3db81197c</Anchor>
@@ -766,6 +771,11 @@
               <Name>imageStorage</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>a01ee9c9a1fd3a05569e678496437d95d</Anchor>
+             </Node>
+             <Node>
+              <Name>shutterMode</Name>
+              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+              <Anchor>abfb26f67f836f08520370601fe9014d7</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -797,6 +807,11 @@
               <Name>scannerController:didFailCapturingImage:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Anchor>a22fd1d8b834880bb179c36f7857e92b5</Anchor>
+             </Node>
+             <Node>
+              <Name>scannerController:didToggleAutoShutter:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>a1381a6665979754384667e24b22b33b7</Anchor>
              </Node>
              <Node>
               <Name>scannerControllerShouldAnalyseVideoFrame:</Name>
@@ -2412,6 +2427,11 @@
                 <Anchor>a22fd1d8b834880bb179c36f7857e92b5</Anchor>
                </Node>
                <Node>
+                <Name>scannerController:didToggleAutoShutter:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>a1381a6665979754384667e24b22b33b7</Anchor>
+               </Node>
+               <Node>
                 <Name>scannerControllerShouldAnalyseVideoFrame:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
                 <Anchor>a5635798aed897d0b33b3ac11d25bc58c</Anchor>
@@ -2443,6 +2463,11 @@
                 <Anchor>a0a28e6e24ef2a7532dec29f3009935d4</Anchor>
                </Node>
                <Node>
+                <Name>autoShutterEnabled</Name>
+                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+                <Anchor>a15a7313a10374cdfa0007022cab70ade</Anchor>
+               </Node>
+               <Node>
                 <Name>cameraControlsHidden</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
                 <Anchor>aab4074302f4a1a8011aae7b3db81197c</Anchor>
@@ -2471,6 +2496,33 @@
                 <Name>imageStorage</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
                 <Anchor>a01ee9c9a1fd3a05569e678496437d95d</Anchor>
+               </Node>
+               <Node>
+                <Name>shutterMode</Name>
+                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+                <Anchor>abfb26f67f836f08520370601fe9014d7</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>SBSDKShutterMode</Name>
+              <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+              <Anchor>a64d6a880d46054525d0430a13386c5ca</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>SBSDKShutterModeSmart</Name>
+                <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+                <Anchor>a64d6a880d46054525d0430a13386c5caa9c1671d7799f68e60e385c1aa32ae011</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKShutterModeAlwaysAuto</Name>
+                <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+                <Anchor>a64d6a880d46054525d0430a13386c5caa49bd433f1007e595a708d33ae8881b9c</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKShutterModeAlwaysManual</Name>
+                <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+                <Anchor>a64d6a880d46054525d0430a13386c5caa4b96a4ce3fb45d9d480105a4be979f97</Anchor>
                </Node>
               </Subnodes>
              </Node>

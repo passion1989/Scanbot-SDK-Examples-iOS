@@ -682,6 +682,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SBSDKShutterModeSmart</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+    <Anchor>a64d6a880d46054525d0430a13386c5caa9c1671d7799f68e60e385c1aa32ae011</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKShutterModeAlwaysAuto</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+    <Anchor>a64d6a880d46054525d0430a13386c5caa49bd433f1007e595a708d33ae8881b9c</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKShutterModeAlwaysManual</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_scanner_view_controller_8h.html</Path>
+    <Anchor>a64d6a880d46054525d0430a13386c5caa4b96a4ce3fb45d9d480105a4be979f97</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ShutterButtonStatusSearching</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -2610,6 +2640,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shutterMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKScannerViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+    <Anchor>abfb26f67f836f08520370601fe9014d7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>autoShutterEnabled</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKScannerViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+    <Anchor>a15a7313a10374cdfa0007022cab70ade</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HUDView</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -2637,6 +2687,17 @@
     </TokenIdentifier>
     <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
     <Anchor>a5635798aed897d0b33b3ac11d25bc58c</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scannerController:didToggleAutoShutter:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+    <Anchor>a1381a6665979754384667e24b22b33b7</Anchor>
     <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
   </Token>
   <Token>

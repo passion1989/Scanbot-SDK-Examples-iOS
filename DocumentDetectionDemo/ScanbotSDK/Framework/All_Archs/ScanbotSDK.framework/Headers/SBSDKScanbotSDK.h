@@ -41,5 +41,5 @@
 #import "SBSDKProgress.h"
 
 /**
- * Scanbot SDK version 1.0.2
+ * Scanbot SDK version 1.0.4
  */

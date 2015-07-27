@@ -107,6 +107,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Instance Methods</h2></td></tr>
 <tr class="memitem:a5635798aed897d0b33b3ac11d25bc58c"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a5635798aed897d0b33b3ac11d25bc58c">scannerControllerShouldAnalyseVideoFrame:</a></td></tr>
 <tr class="separator:a5635798aed897d0b33b3ac11d25bc58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1381a6665979754384667e24b22b33b7"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a1381a6665979754384667e24b22b33b7">scannerController:didToggleAutoShutter:</a></td></tr>
+<tr class="separator:a1381a6665979754384667e24b22b33b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab88fbf87a004ab7d24976891184b0707"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#ab88fbf87a004ab7d24976891184b0707">scannerControllerWillCaptureStillImage:</a></td></tr>
 <tr class="separator:ab88fbf87a004ab7d24976891184b0707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75dd8c6f48a4808ece615b561bc4927c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a75dd8c6f48a4808ece615b561bc4927c">scannerController:didCaptureDocumentImage:</a></td></tr>
@@ -340,6 +342,47 @@ Instance Methods</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1381a6665979754384667e24b22b33b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) scannerController: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)&#160;</td>
+          <td class="paramname"><em>controller</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didToggleAutoShutter:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>enable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">optional</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Informs the delegate that the scanner has toggled automatic shutter release on or off. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>The calling <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a>. </td></tr>
+    <tr><td class="paramname">enable</td><td>YES, if the auto shutter was turned on, NO otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a5635798aed897d0b33b3ac11d25bc58c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -484,5 +527,5 @@ Instance Methods</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Jul 23 2015 10:45:27 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Mon Jul 27 2015 18:40:39 <a href="https://scanbot.io"></a>
  </div>

@@ -121,6 +121,10 @@ Properties</h2></td></tr>
 <tr class="separator:a71bee112418027b8d1e04a473f2282d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab4074302f4a1a8011aae7b3db81197c"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#aab4074302f4a1a8011aae7b3db81197c">cameraControlsHidden</a></td></tr>
 <tr class="separator:aab4074302f4a1a8011aae7b3db81197c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb26f67f836f08520370601fe9014d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5ca">SBSDKShutterMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#abfb26f67f836f08520370601fe9014d7">shutterMode</a></td></tr>
+<tr class="separator:abfb26f67f836f08520370601fe9014d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a7313a10374cdfa0007022cab70ade"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a15a7313a10374cdfa0007022cab70ade">autoShutterEnabled</a></td></tr>
+<tr class="separator:a15a7313a10374cdfa0007022cab70ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bda06ad1c78a64fb1b64255af544529"><td class="memItemLeft" align="right" valign="top">UIView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a9bda06ad1c78a64fb1b64255af544529">HUDView</a></td></tr>
 <tr class="separator:a9bda06ad1c78a64fb1b64255af544529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -161,6 +165,27 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a15a7313a10374cdfa0007022cab70ade"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) autoShutterEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether the receiver automatically releases the shutter or not. Powerful energy saver if combined with the delegate method (BOOL)scannerControllerShouldAnalyseVideoFrame:(SBSDKScannerViewController *)controller. If you return controller.autoShutterEnabled here the document detection is toggled off until you re-enable the auto shutter or significantly move your device. </p>
+
+</div>
+</div>
 <a class="anchor" id="aab4074302f4a1a8011aae7b3db81197c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -287,6 +312,27 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abfb26f67f836f08520370601fe9014d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5ca">SBSDKShutterMode</a>) shutterMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The receivers shutter mode. See SBSDKShutterMode. Defaults to SBSDKShutterModeSmart. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!--<div id="nav-path" class="navpath">
  <ul>
@@ -297,5 +343,5 @@ Properties</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Jul 23 2015 10:45:27 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Mon Jul 27 2015 18:40:39 <a href="https://scanbot.io"></a>
  </div>

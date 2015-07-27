@@ -12,5 +12,6 @@ var searchData=
   ['applicationdocumentsfolderurl',['applicationDocumentsFolderURL',['../interface_s_b_s_d_k_image_storage.html#a0610f49c83be70e630cd0eae318808ca',1,'SBSDKImageStorage']]],
   ['applicationsupportfolderurl',['applicationSupportFolderURL',['../interface_s_b_s_d_k_image_storage.html#a9aed8c884e274f7d75ed56aea9948622',1,'SBSDKImageStorage']]],
   ['automaticthumbnailsize',['automaticThumbnailSize',['../interface_s_b_s_d_k_image_storage.html#a85e2d06350d76fcf9fde1b6b049ce004',1,'SBSDKImageStorage']]],
+  ['autoshutterenabled',['autoShutterEnabled',['../interface_s_b_s_d_k_scanner_view_controller.html#a15a7313a10374cdfa0007022cab70ade',1,'SBSDKScannerViewController']]],
   ['availablelanguages',['availableLanguages',['../interface_s_b_s_d_k_optical_text_recognizer.html#a55569d1d50aa92a3a2b53eee2b5bded7',1,'SBSDKOpticalTextRecognizer']]]
 ];

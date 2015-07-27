@@ -12,6 +12,30 @@
 #import "SBSDKDocumentDetectionStatus.h"
 #import "SBSDKImageStorage.h"
 
+/**
+ * @enum SBSDKShutterMode
+ * This enum describes the possible modes of the cameras shutter. 
+ * Automatic shutter means, a photo is taken automatically if a document was detected in the video stream.
+ * The smart mode is the default mode. Whenever the automatic shutter is toggled the delegate of 
+ * SBSDKScannerViewController is informed. You can also the query the autoShutterEnabled property.
+ * The default shutter button reflects this mode.
+ */
+typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
+    
+    /** 
+     * Toggles the automatic shutter in a smart way. If there, for 3 seconds, is no significant device motion and 
+     * no document was detected the automatic snapping is turned off. Significant device motion turns it on again.
+     */
+    SBSDKShutterModeSmart = 0,
+
+    /** The camera will always take a photo automatically when a document was detected. */
+    SBSDKShutterModeAlwaysAuto = 1,
+
+    /** The camera will never take a photo automatically. */
+    SBSDKShutterModeAlwaysManual = 2
+};
+
+
 /** Forward declaration to be used in protocol declaration. */
 @class SBSDKScannerViewController;
 
@@ -31,6 +55,13 @@
  * @return YES if the video frame should be analyzed, NO otherwise.
  */
 - (BOOL)scannerControllerShouldAnalyseVideoFrame:(SBSDKScannerViewController *)controller;
+
+/**
+ * Informs the delegate that the scanner has toggled automatic shutter release on or off.
+ * @param controller The calling SBSDKScannerViewController.
+ * @param enable YES, if the auto shutter was turned on, NO otherwise.
+ */
+- (void)scannerController:(SBSDKScannerViewController *)controller didToggleAutoShutter:(BOOL)enable;
 
 /**
  * Tells the delegate that a still image is about to be captured. Here you can change the appearance of you custom 
@@ -104,6 +135,7 @@
  */
 - (UIColor *)polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status
                        forScannerController:(SBSDKScannerViewController *)controller;
+
 @end
 
 
@@ -143,6 +175,20 @@
  * Hides or unhides the camera controls (shutter button).
  */
 @property (nonatomic, assign) BOOL cameraControlsHidden;
+
+/** 
+ * The receivers shutter mode. See SBSDKShutterMode. Defaults to SBSDKShutterModeSmart.
+ */
+@property (nonatomic, assign) SBSDKShutterMode shutterMode;
+
+/** 
+ * Whether the receiver automatically releases the shutter or not.
+ * Powerful energy saver if combined with the delegate method 
+ * (BOOL)scannerControllerShouldAnalyseVideoFrame:(SBSDKScannerViewController *)controller.
+ * If you return controller.autoShutterEnabled here the document detection is toggled off until you re-enable 
+ * the auto shutter or significantly move your device.
+  **/
+@property (nonatomic, readonly) BOOL autoShutterEnabled;
 
 /**
  * A transparent view that lies over the preview layer. You can add custom UI here. Read-only.

@@ -88,7 +88,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">SBSDKScannerViewController.h File Reference</div>  </div>
 </div><!--header-->
@@ -100,7 +101,40 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a64d6a880d46054525d0430a13386c5ca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5ca">SBSDKShutterMode</a> { <a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5caa9c1671d7799f68e60e385c1aa32ae011">SBSDKShutterModeSmart</a> = 0, 
+<a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5caa49bd433f1007e595a708d33ae8881b9c">SBSDKShutterModeAlwaysAuto</a> = 1, 
+<a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5caa4b96a4ce3fb45d9d480105a4be979f97">SBSDKShutterModeAlwaysManual</a> = 2
+ }<tr class="separator:a64d6a880d46054525d0430a13386c5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="a64d6a880d46054525d0430a13386c5ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_s_b_s_d_k_scanner_view_controller_8h.html#a64d6a880d46054525d0430a13386c5ca">SBSDKShutterMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This enum describes the possible modes of the cameras shutter. Automatic shutter means, a photo is taken automatically if a document was detected in the video stream. The smart mode is the default mode. Whenever the automatic shutter is toggled the delegate of <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> is informed. You can also the query the autoShutterEnabled property. The default shutter button reflects this mode. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a64d6a880d46054525d0430a13386c5caa9c1671d7799f68e60e385c1aa32ae011"></a>SBSDKShutterModeSmart&#160;</td><td class="fielddoc">
+<p>Toggles the automatic shutter in a smart way. If there, for 3 seconds, is no significant device motion and no document was detected the automatic snapping is turned off. Significant device motion turns it on again. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a64d6a880d46054525d0430a13386c5caa49bd433f1007e595a708d33ae8881b9c"></a>SBSDKShutterModeAlwaysAuto&#160;</td><td class="fielddoc">
+<p>The camera will always take a photo automatically when a document was detected. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a64d6a880d46054525d0430a13386c5caa4b96a4ce3fb45d9d480105a4be979f97"></a>SBSDKShutterModeAlwaysManual&#160;</td><td class="fielddoc">
+<p>The camera will never take a photo automatically. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 <!--<div id="nav-path" class="navpath">
  <ul>
@@ -111,5 +145,5 @@ Classes</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Jul 23 2015 10:45:27 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Mon Jul 27 2015 18:40:39 <a href="https://scanbot.io"></a>
  </div>
