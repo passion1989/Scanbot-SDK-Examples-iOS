@@ -29,3 +29,6 @@ If you need further information or are interested in licensing Scanbot SDK pleas
 by mail to sdk@scanbot.io. When sending a mail please provide your apps bundle identifier to us so we can
 generate development or test licenses for you.
 
+This is a trial version and will only work for 1 minute (if you require a trial license which works for a longer period of time please contact us).
+We are constantly updating and evolving the SDK and it is no final product.
+The SDK with a trial license should only be tested in a experimental setting and it is not developed to be integrated into your live products.
