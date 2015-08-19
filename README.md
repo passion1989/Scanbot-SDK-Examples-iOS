@@ -56,7 +56,7 @@ Added new method for custom drawing of detected document polygon
 
 ###### SBSDKScannerViewController
 - Fixed a bug with empty images/samplebuffers
-
+- Removed property cameraControlsHidden and replaced it by two separate properties shutterButtonHidden and detectionStatusHidden
 
 ###### Licensing
 - Licenses can now be valid for iOS, Android or both
