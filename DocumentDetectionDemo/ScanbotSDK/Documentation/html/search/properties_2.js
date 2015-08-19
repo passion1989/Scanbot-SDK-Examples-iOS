@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['cameracontrolshidden',['cameraControlsHidden',['../interface_s_b_s_d_k_scanner_view_controller.html#aab4074302f4a1a8011aae7b3db81197c',1,'SBSDKScannerViewController']]],
   ['camerasession',['cameraSession',['../interface_s_b_s_d_k_scanner_view_controller.html#a2d4b8ce1c1d56a92f47a9585efc85422',1,'SBSDKScannerViewController']]],
   ['center',['center',['../interface_s_b_s_d_k_polygon_edge.html#a4789378a128b3f63ee1c3c5ffed8e5af',1,'SBSDKPolygonEdge']]],
   ['confidencevalue',['confidenceValue',['../interface_s_b_s_d_k_o_c_r_result_block.html#aad20df7ff06334734106989c5e74e9a8',1,'SBSDKOCRResultBlock']]],

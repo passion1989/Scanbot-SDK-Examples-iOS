@@ -303,15 +303,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"></div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line">- (UIView *)viewForDetectionStatus:(<a class="code" href="_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8">SBSDKDocumentDetectionStatus</a>)status</div>
-<div class="line">              forScannerController:(<a class="code" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)controller {</div>
+<div class="line">- (UIView *)scannerController:(<a class="code" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)controller </div>
+<div class="line">       viewForDetectionStatus:(<a class="code" href="_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8">SBSDKDocumentDetectionStatus</a>)status {</div>
+<div class="line"></div>
 <div class="line">    <span class="comment">// Here we can return a custom view that we want to use to visualize the latest detection status.</span></div>
 <div class="line">    <span class="comment">// We return nil for now to use the standard label.</span></div>
 <div class="line">    <span class="keywordflow">return</span> nil;</div>
 <div class="line">}</div>
 <div class="line"></div>
-<div class="line">- (UIColor *)polygonColorForDetectionStatus:(<a class="code" href="_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8">SBSDKDocumentDetectionStatus</a>)status</div>
-<div class="line">                       forScannerController:(<a class="code" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)controller {</div>
+<div class="line">- (UIColor *)scannerController:(<a class="code" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)controller </div>
+<div class="line">polygonColorForDetectionStatus:(<a class="code" href="_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8">SBSDKDocumentDetectionStatus</a>)status {</div>
+<div class="line"></div>
 <div class="line">    <span class="comment">// If the detector has found an acceptable polygon we show it with green color</span></div>
 <div class="line">    <span class="keywordflow">if</span> (status == <a class="code" href="_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8acc12be9ec79b5e741b5ed1ebd0da1650">SBSDKDocumentDetectionStatusOK</a>) {</div>
 <div class="line">        <span class="keywordflow">return</span> [UIColor greenColor];</div>
@@ -527,5 +529,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Mon Jul 27 2015 18:40:39 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Wed Aug 19 2015 12:16:42 <a href="https://scanbot.io"></a>
  </div>

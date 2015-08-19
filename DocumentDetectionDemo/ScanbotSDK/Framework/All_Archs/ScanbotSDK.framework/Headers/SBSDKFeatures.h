@@ -9,6 +9,11 @@
 #ifndef dooImageProcessing_SBSDKFeatures_h
 #define dooImageProcessing_SBSDKFeatures_h
 
+typedef enum: int8_t {
+    OperatingSystemIOS = 1 << 0,
+    OperatingSystemAndroid = 1 << 1
+} OperatingSystem;
+
 typedef enum: int64_t {
     FeaturePayformDetection = 1 << 0,
     FeatureEdgeDetection = 1 << 1,

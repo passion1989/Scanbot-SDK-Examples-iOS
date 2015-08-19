@@ -81,9 +81,9 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 /**
  * Tells the delegate that a still image has been captured and its orientation has been corrected. Optional.
  * @param controller The calling SBSDKScannerViewController.
- * @param image The captured image as a CMSampleBufferRef.
+ * @param image The captured image
  */
-- (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(CMSampleBufferRef)sampleBuffer;
+- (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(UIImage *)image;
 
 /**
  * Tells the delegate that capturing a still image has been failed The underlying error is provided. Optional.
@@ -109,32 +109,55 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
  * Asks the delegate for a view to visualize the current detection status. Optional.
  * @param status The status of the detection.
  * @param controller The calling SBSDKScannerViewController.
- * @return Your custom view to visualize the detection status, e.g. a label with localized text or an image view with an icon.
- * if you return nil the standard label is displayed. If you want to show nothing just return an empty view ([UIView new]).
+ * @return Your custom view to visualize the detection status, e.g. a label with localized text or 
+ * an image view with an icon.
+ * If you return nil the standard label is displayed. If you want to show nothing just return an empty view ([UIView new]).
  * If possible reuse the views per status or just use one single configurable view.
  * The scanner view controller takes care of adding and removing your view from/to the view hierarchy.
  */
-- (UIView *)viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status
-              forScannerController:(SBSDKScannerViewController *)controller;
+- (UIView *)scannerController:(SBSDKScannerViewController *)controller
+       viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status;
 
 
 /** 
  * Asks the delegate for custom shutter release button.
  * @param controller The calling SBSDKScannerViewController.
- * @return An instance of your custom shutter release button. Target and action are set by controller automatically.
+ * @return An instance of your custom shutter release button. Target and action are set automatically by controller.
  * If you return nil, the built-in standard button is used.
  */
-- (UIButton *)shutterButtonForScannerController:(SBSDKScannerViewController *)controller;
+- (UIButton *)scannerControllerCustomShutterButton:(SBSDKScannerViewController *)controller;
+
+
+/**
+ * Implement this method to customize the detected documents polygon drawing. If you implement this method you are 
+ * responsible for correct configuration of the shape layer and setting the shape layers path property.
+ * Implementing this method also disables calling of the delegate 
+ * method -(UIColor *)scannerController:polygonColorForDetectionStatus:
+ * @param controller The calling SBSDKScannerViewController.
+ * @param pointValues NSArray of 4 NSValues, containing CGPointValues. Or nil if there was no polygon detected. 
+ * Extract each point: CGPoint point = [pointValues[index] CGPointValue]. The points are already converted to 
+ * layer coordinate system and therefore can directly be used for drawing or creating a bezier path.
+ * @param detectionStatus The current detection status.
+ * @param layer The shape layer that draws the bezier path of the polygon points. 
+ * You can configure the layers stroke and fill color, the line width and other parameters. 
+ * See the documentation for CAShapeLayer.
+ */
+- (void)scannerController:(SBSDKScannerViewController *)controller
+        drawPolygonPoints:(NSArray *)pointValues
+      withDetectionStatus:(SBSDKDocumentDetectionStatus)detectionStatus
+                  onLayer:(CAShapeLayer *)layer;
 
 /**
  * Asks the delegate for a color to use for displaying the detected documents polygon. Optional.
+ * Note: This method is not called if the delegate 
+ * implements -(void)scannerController:drawPolygonPoints:withDetectionStatus:onLayer:
  * @param status The status of the detection.
  * @param controller The calling SBSDKScannerViewController.
  * @return An UIColor representing the state of detections.
  * You could for example return green for DetectionStateOK and red otherwise.
  */
-- (UIColor *)polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status
-                       forScannerController:(SBSDKScannerViewController *)controller;
+- (UIColor *)scannerController:(SBSDKScannerViewController *)controller polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status;
+
 
 @end
 
@@ -172,9 +195,15 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 @property (nonatomic, assign) CGFloat imageScale;
 
 /**
- * Hides or unhides the camera controls (shutter button).
+ * Hides or unhides the shutter button.
  */
-@property (nonatomic, assign) BOOL cameraControlsHidden;
+@property (nonatomic, assign) BOOL shutterButtonHidden;
+
+/**
+ * Hides or unhides the detection status label and polygon layer.
+ **/
+@property (nonatomic, assign) BOOL detectionStatusHidden;
+
 
 /** 
  * The receivers shutter mode. See SBSDKShutterMode. Defaults to SBSDKShutterModeSmart.

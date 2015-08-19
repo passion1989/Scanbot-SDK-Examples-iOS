@@ -743,11 +743,6 @@
               <Anchor>a15a7313a10374cdfa0007022cab70ade</Anchor>
              </Node>
              <Node>
-              <Name>cameraControlsHidden</Name>
-              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
-              <Anchor>aab4074302f4a1a8011aae7b3db81197c</Anchor>
-             </Node>
-             <Node>
               <Name>cameraSession</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>a2d4b8ce1c1d56a92f47a9585efc85422</Anchor>
@@ -756,6 +751,11 @@
               <Name>delegate</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>a3d6326fa3a4428ce2ce8562c126ff91c</Anchor>
+             </Node>
+             <Node>
+              <Name>detectionStatusHidden</Name>
+              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+              <Anchor>aa71bd49636867bae0b21012d4d4c3898</Anchor>
              </Node>
              <Node>
               <Name>HUDView</Name>
@@ -773,6 +773,11 @@
               <Anchor>a01ee9c9a1fd3a05569e678496437d95d</Anchor>
              </Node>
              <Node>
+              <Name>shutterButtonHidden</Name>
+              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+              <Anchor>aa765f8d286949cc34f97cf5711364963</Anchor>
+             </Node>
+             <Node>
               <Name>shutterMode</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>abfb26f67f836f08520370601fe9014d7</Anchor>
@@ -784,11 +789,6 @@
             <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
             <Subnodes>
              <Node>
-              <Name>polygonColorForDetectionStatus:forScannerController:</Name>
-              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-              <Anchor>a653dfbae82a0c0f2ae23c2aa99f34173</Anchor>
-             </Node>
-             <Node>
               <Name>scannerController:didCaptureDocumentImage:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Anchor>a75dd8c6f48a4808ece615b561bc4927c</Anchor>
@@ -796,7 +796,7 @@
              <Node>
               <Name>scannerController:didCaptureImage:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-              <Anchor>a7b47b48af26909b3c0e8ec8e2a480eb2</Anchor>
+              <Anchor>a9bb5584885d1733bd4de95d1d566aa7f</Anchor>
              </Node>
              <Node>
               <Name>scannerController:didDetectPolygon:withStatus:</Name>
@@ -814,6 +814,26 @@
               <Anchor>a1381a6665979754384667e24b22b33b7</Anchor>
              </Node>
              <Node>
+              <Name>scannerController:drawPolygonPoints:withDetectionStatus:onLayer:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>aea411350125e92b610ec3d952e137a0c</Anchor>
+             </Node>
+             <Node>
+              <Name>scannerController:polygonColorForDetectionStatus:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>a5cfbd25bdbbf8eec09b42f998485d8bc</Anchor>
+             </Node>
+             <Node>
+              <Name>scannerController:viewForDetectionStatus:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>a75ff7cc5699835a7a3f65978f6942a2c</Anchor>
+             </Node>
+             <Node>
+              <Name>scannerControllerCustomShutterButton:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>a5e5e4014facf12bfb2b71450e51316dc</Anchor>
+             </Node>
+             <Node>
               <Name>scannerControllerShouldAnalyseVideoFrame:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Anchor>a5635798aed897d0b33b3ac11d25bc58c</Anchor>
@@ -822,16 +842,6 @@
               <Name>scannerControllerWillCaptureStillImage:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Anchor>ab88fbf87a004ab7d24976891184b0707</Anchor>
-             </Node>
-             <Node>
-              <Name>shutterButtonForScannerController:</Name>
-              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-              <Anchor>ab27d78ffc8318570bdb958fa0808600b</Anchor>
-             </Node>
-             <Node>
-              <Name>viewForDetectionStatus:forScannerController:</Name>
-              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-              <Anchor>a8999cffeb1a129f7c3c6f03a808673a8</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2402,11 +2412,6 @@
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Subnodes>
                <Node>
-                <Name>polygonColorForDetectionStatus:forScannerController:</Name>
-                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-                <Anchor>a653dfbae82a0c0f2ae23c2aa99f34173</Anchor>
-               </Node>
-               <Node>
                 <Name>scannerController:didCaptureDocumentImage:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
                 <Anchor>a75dd8c6f48a4808ece615b561bc4927c</Anchor>
@@ -2414,7 +2419,7 @@
                <Node>
                 <Name>scannerController:didCaptureImage:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-                <Anchor>a7b47b48af26909b3c0e8ec8e2a480eb2</Anchor>
+                <Anchor>a9bb5584885d1733bd4de95d1d566aa7f</Anchor>
                </Node>
                <Node>
                 <Name>scannerController:didDetectPolygon:withStatus:</Name>
@@ -2432,6 +2437,26 @@
                 <Anchor>a1381a6665979754384667e24b22b33b7</Anchor>
                </Node>
                <Node>
+                <Name>scannerController:drawPolygonPoints:withDetectionStatus:onLayer:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>aea411350125e92b610ec3d952e137a0c</Anchor>
+               </Node>
+               <Node>
+                <Name>scannerController:polygonColorForDetectionStatus:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>a5cfbd25bdbbf8eec09b42f998485d8bc</Anchor>
+               </Node>
+               <Node>
+                <Name>scannerController:viewForDetectionStatus:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>a75ff7cc5699835a7a3f65978f6942a2c</Anchor>
+               </Node>
+               <Node>
+                <Name>scannerControllerCustomShutterButton:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>a5e5e4014facf12bfb2b71450e51316dc</Anchor>
+               </Node>
+               <Node>
                 <Name>scannerControllerShouldAnalyseVideoFrame:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
                 <Anchor>a5635798aed897d0b33b3ac11d25bc58c</Anchor>
@@ -2440,16 +2465,6 @@
                 <Name>scannerControllerWillCaptureStillImage:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
                 <Anchor>ab88fbf87a004ab7d24976891184b0707</Anchor>
-               </Node>
-               <Node>
-                <Name>shutterButtonForScannerController:</Name>
-                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-                <Anchor>ab27d78ffc8318570bdb958fa0808600b</Anchor>
-               </Node>
-               <Node>
-                <Name>viewForDetectionStatus:forScannerController:</Name>
-                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-                <Anchor>a8999cffeb1a129f7c3c6f03a808673a8</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2468,11 +2483,6 @@
                 <Anchor>a15a7313a10374cdfa0007022cab70ade</Anchor>
                </Node>
                <Node>
-                <Name>cameraControlsHidden</Name>
-                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
-                <Anchor>aab4074302f4a1a8011aae7b3db81197c</Anchor>
-               </Node>
-               <Node>
                 <Name>cameraSession</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
                 <Anchor>a2d4b8ce1c1d56a92f47a9585efc85422</Anchor>
@@ -2481,6 +2491,11 @@
                 <Name>delegate</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
                 <Anchor>a3d6326fa3a4428ce2ce8562c126ff91c</Anchor>
+               </Node>
+               <Node>
+                <Name>detectionStatusHidden</Name>
+                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+                <Anchor>aa71bd49636867bae0b21012d4d4c3898</Anchor>
                </Node>
                <Node>
                 <Name>HUDView</Name>
@@ -2496,6 +2511,11 @@
                 <Name>imageStorage</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
                 <Anchor>a01ee9c9a1fd3a05569e678496437d95d</Anchor>
+               </Node>
+               <Node>
+                <Name>shutterButtonHidden</Name>
+                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+                <Anchor>aa765f8d286949cc34f97cf5711364963</Anchor>
                </Node>
                <Node>
                 <Name>shutterMode</Name>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E4C46C91B848DE500F5F88D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C46C81B848DE500F5F88D /* README.md */; };
 		9E61554A1B5F9F33006EABB9 /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */; };
 		9E61554B1B5F9F33006EABB9 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EBA420F1B56CC400041B9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA41FE1B56CC400041B9DA /* AppDelegate.m */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		9E2EE65C1B2B32D100632575 /* ScanbotSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanbotSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4C46C81B848DE500F5F88D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanbotSDK.framework; path = ScanbotSDK/Framework/All_Archs/ScanbotSDK.framework; sourceTree = "<group>"; };
 		9EBA41FD1B56CC400041B9DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EBA41FE1B56CC400041B9DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		9E2EE6531B2B32D100632575 = {
 			isa = PBXGroup;
 			children = (
+				9E4C46C81B848DE500F5F88D /* README.md */,
 				9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */,
 				9EBA41FC1B56CC400041B9DA /* ScanbotSDKDemo */,
 				9E2EE65D1B2B32D100632575 /* Products */,
@@ -202,6 +205,7 @@
 				9EBA42121B56CC400041B9DA /* DemoViewController.m in Sources */,
 				9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */,
 				9EBA420F1B56CC400041B9DA /* AppDelegate.m in Sources */,
+				9E4C46C91B848DE500F5F88D /* README.md in Sources */,
 				9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */,
 				9EBA42161B56CC400041B9DA /* main.m in Sources */,
 				9EBA42111B56CC400041B9DA /* DemoNavigationViewController.m in Sources */,

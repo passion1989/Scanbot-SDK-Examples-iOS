@@ -189,9 +189,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
-<li>cameraControlsHidden
-: <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#aab4074302f4a1a8011aae7b3db81197c">SBSDKScannerViewController</a>
-</li>
 <li>cameraSession
 : <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a2d4b8ce1c1d56a92f47a9585efc85422">SBSDKScannerViewController</a>
 </li>
@@ -262,6 +259,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>detectionStatus
 : <a class="el" href="interface_s_b_s_d_k_polygon.html#aa38ab846c4a770bf9e0ccaf55cb51582">SBSDKPolygon</a>
+</li>
+<li>detectionStatusHidden
+: <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#aa71bd49636867bae0b21012d4d4c3898">SBSDKScannerViewController</a>
 </li>
 <li>detectOnImage:
 : <a class="el" href="interface_s_b_s_d_k_pay_form_scanner.html#a91efc357272a2b1d6639e32be7b84b53">SBSDKPayFormScanner</a>
@@ -487,9 +487,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="interface_s_b_s_d_k_pay_form_detected_box.html#af91eb4c04ab969e52c04001a55b2cdf4">SBSDKPayFormDetectedBox</a>
 , <a class="el" href="interface_s_b_s_d_k_pay_form_detection_result.html#a51f53b2388f2e63e860974e691317d93">SBSDKPayFormDetectionResult</a>
 </li>
-<li>polygonColorForDetectionStatus:forScannerController:
-: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a653dfbae82a0c0f2ae23c2aa99f34173">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
-</li>
 <li>previewLayer
 : <a class="el" href="interface_s_b_s_d_k_camera_session.html#ad4a65b8dbb714d6dac3dfdb007e7eec5">SBSDKCameraSession</a>
 </li>
@@ -562,7 +559,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a75dd8c6f48a4808ece615b561bc4927c">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
 </li>
 <li>scannerController:didCaptureImage:
-: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a7b47b48af26909b3c0e8ec8e2a480eb2">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
+: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a9bb5584885d1733bd4de95d1d566aa7f">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
 </li>
 <li>scannerController:didDetectPolygon:withStatus:
 : <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#adb83d01c8b4e5c59e7aff47b07623891">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
@@ -572,6 +569,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>scannerController:didToggleAutoShutter:
 : <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a1381a6665979754384667e24b22b33b7">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
+</li>
+<li>scannerController:drawPolygonPoints:withDetectionStatus:onLayer:
+: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#aea411350125e92b610ec3d952e137a0c">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
+</li>
+<li>scannerController:polygonColorForDetectionStatus:
+: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a5cfbd25bdbbf8eec09b42f998485d8bc">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
+</li>
+<li>scannerController:viewForDetectionStatus:
+: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a75ff7cc5699835a7a3f65978f6942a2c">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
+</li>
+<li>scannerControllerCustomShutterButton:
+: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a5e5e4014facf12bfb2b71450e51316dc">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
 </li>
 <li>scannerControllerShouldAnalyseVideoFrame:
 : <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a5635798aed897d0b33b3ac11d25bc58c">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
@@ -600,8 +609,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>setPageAnalyzerResult:
 : <a class="el" href="interface_s_b_s_d_k_o_c_r_result.html#a5e0a58eb779b0efeb5510d8fba2045bf">SBSDKOCRResult</a>
 </li>
-<li>shutterButtonForScannerController:
-: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#ab27d78ffc8318570bdb958fa0808600b">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
+<li>shutterButtonHidden
+: <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#aa765f8d286949cc34f97cf5711364963">SBSDKScannerViewController</a>
 </li>
 <li>shutterMode
 : <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#abfb26f67f836f08520370601fe9014d7">SBSDKScannerViewController</a>
@@ -673,9 +682,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>videoOrientation
 : <a class="el" href="interface_s_b_s_d_k_camera_session.html#ac20ea84a65e61c60688e06ca3681c3d3">SBSDKCameraSession</a>
 </li>
-<li>viewForDetectionStatus:forScannerController:
-: <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a8999cffeb1a129f7c3c6f03a808673a8">&lt;SBSDKScannerViewControllerDelegate&gt;</a>
-</li>
 </ul>
 
 
@@ -700,5 +706,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Mon Jul 27 2015 18:40:39 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Wed Aug 19 2015 12:16:42 <a href="https://scanbot.io"></a>
  </div>

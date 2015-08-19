@@ -2630,13 +2630,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>cameraControlsHidden</Name>
+      <Name>shutterButtonHidden</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
       <Scope>SBSDKScannerViewController</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
-    <Anchor>aab4074302f4a1a8011aae7b3db81197c</Anchor>
+    <Anchor>aa765f8d286949cc34f97cf5711364963</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detectionStatusHidden</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKScannerViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+    <Anchor>aa71bd49636867bae0b21012d4d4c3898</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2730,7 +2740,7 @@
       <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-    <Anchor>a7b47b48af26909b3c0e8ec8e2a480eb2</Anchor>
+    <Anchor>a9bb5584885d1733bd4de95d1d566aa7f</Anchor>
     <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
   </Token>
   <Token>
@@ -2757,35 +2767,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>viewForDetectionStatus:forScannerController:</Name>
+      <Name>scannerController:viewForDetectionStatus:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
       <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-    <Anchor>a8999cffeb1a129f7c3c6f03a808673a8</Anchor>
+    <Anchor>a75ff7cc5699835a7a3f65978f6942a2c</Anchor>
     <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>shutterButtonForScannerController:</Name>
+      <Name>scannerControllerCustomShutterButton:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
       <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-    <Anchor>ab27d78ffc8318570bdb958fa0808600b</Anchor>
+    <Anchor>a5e5e4014facf12bfb2b71450e51316dc</Anchor>
     <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>polygonColorForDetectionStatus:forScannerController:</Name>
+      <Name>scannerController:drawPolygonPoints:withDetectionStatus:onLayer:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
       <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
-    <Anchor>a653dfbae82a0c0f2ae23c2aa99f34173</Anchor>
+    <Anchor>aea411350125e92b610ec3d952e137a0c</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scannerController:polygonColorForDetectionStatus:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+    <Anchor>a5cfbd25bdbbf8eec09b42f998485d8bc</Anchor>
     <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
   </Token>
   <Token>

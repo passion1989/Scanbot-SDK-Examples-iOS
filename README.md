@@ -32,3 +32,31 @@ generate development or test licenses for you.
 This is a trial version and will only work for 1 minute (if you require a trial license which works for a longer period of time please contact us).
 We are constantly updating and evolving the SDK and it is no final product.
 The SDK with a trial license should only be tested in a experimental setting and it is not developed to be integrated into your live products.
+
+
+Changelog version 1.0.5:
+
+# SBSDKScannerViewControllerDelegate
+Changed signatures of following methods
+- (UIView *)viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status forScannerController:(SBSDKScannerViewController *)controller;
+- (UIButton *)shutterButtonForScannerController:(SBSDKScannerViewController *)controller;
+- (UIColor *)polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status forScannerController:(SBSDKScannerViewController *)controller;
+to start them all with scannerController:...
+
+
+Changed signature of 
+- (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(CMSampleBufferRef)sampleBuffer;
+Instead of CMSampleBufferRef it delivers an UIImage.
+
+
+Added new method for custom drawing of detected document polygon
+- (void)scannerController:(SBSDKScannerViewController *)controller drawPolygonPoints:(NSArray *)pointValues withDetectionStatus:(SBSDKDocumentDetectionStatus)detectionStatus onLayer:(CAShapeLayer *)layer;
+
+
+
+# SBSDKScannerViewController
+- Fixed a bug with empty images/samplebuffers
+
+
+# Licensing
+- Licenses can now be valid for iOS, Android or both

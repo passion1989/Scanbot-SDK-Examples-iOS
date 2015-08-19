@@ -42,13 +42,12 @@
                                                                        message:@"The ScanbotSDK license has been expired. Please contact the manufacturer of the app."
                                                                 preferredStyle:UIAlertControllerStyleAlert];
         
-        [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                handler:^(UIAlertAction *action)
-        {
+        [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
             [self dismissViewControllerAnimated:YES completion:nil];
         }]];
         
         [self presentViewController:alert animated:NO completion:nil];
+
         return;
     }
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -109,7 +108,10 @@
 #pragma mark - SBSDKScannerViewControllerDelegate
 
 - (BOOL)scannerControllerShouldAnalyseVideoFrame:(SBSDKScannerViewController *)controller {
-    return self.viewAppeared && self.presentedViewController == nil && self.currentProgress == nil;
+    return (self.viewAppeared
+            && self.presentedViewController == nil
+            && self.currentProgress == nil
+            && self.scannerViewController.autoShutterEnabled == YES);
 }
 
 - (void)scannerController:(SBSDKScannerViewController *)controller
@@ -133,7 +135,7 @@
     [self updateUI];
 }
 
-- (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(CMSampleBufferRef)sampleBuffer {
+- (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(UIImage *)image {
     // We finished successfully to capture an image.
     // Undo all your changes to your UI that you did in -scannerControllerWillCaptureStillImage:
     [UIView animateWithDuration:0.25 animations:^{
@@ -150,7 +152,7 @@
     }];
 }
 
-- (UIButton *)shutterButtonForScannerController:(SBSDKScannerViewController *)controller {
+- (UIButton *)scannerControllerCustomShutterButton:(SBSDKScannerViewController *)controller {
     /**
      // Create a custom shutter button and return it.
      if (!self.myShutterButton) {
@@ -166,15 +168,54 @@
     return nil;
 }
 
-- (UIView *)viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status
-              forScannerController:(SBSDKScannerViewController *)controller {
+- (UIView *)scannerController:(SBSDKScannerViewController *)controller
+       viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status {
     
     return nil;
 }
 
-- (UIColor *)polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status
-                       forScannerController:(SBSDKScannerViewController *)controller {
 
+- (void)scannerController:(SBSDKScannerViewController *)controller
+        drawPolygonPoints:(NSArray *)pointValues
+      withDetectionStatus:(SBSDKDocumentDetectionStatus)detectStatus
+                  onLayer:(CAShapeLayer *)layer {
+    
+    
+    UIColor *baseColor = [UIColor colorWithRed:0.173 green:0.612 blue:0.988 alpha:1];
+    CGFloat lineWidth = 0.0f;
+    CGFloat alpha = 0.3f;
+    if (detectStatus == SBSDKDocumentDetectionStatusOK) {
+        lineWidth = 2.0f;
+        alpha = 0.5f;
+    }
+    
+    layer.lineWidth = lineWidth;
+    
+    // Set the stroke color for the polygon path on the layer.
+    layer.strokeColor = baseColor.CGColor;
+    
+    // Set the fill color for the polygon path on the layer. If set to nil no fill is drawn.
+    layer.fillColor = [baseColor colorWithAlphaComponent:alpha].CGColor;
+    
+    // Create the bezier path from the polygons points.
+    UIBezierPath *path = nil;
+    for (NSUInteger index = 0; index < pointValues.count; index ++) {
+        if (index == 0) {
+            path = [UIBezierPath bezierPath];
+            [path moveToPoint:[pointValues[index] CGPointValue]];
+        } else {
+            [path addLineToPoint:[pointValues[index] CGPointValue]];
+        }
+    }
+    [path closePath];
+    
+    // Set the layers path. This automatically animates and creates nice and fluid transition between polygons.
+    layer.path = path.CGPath;
+}
+
+- (UIColor *)scannerController:(SBSDKScannerViewController *)controller
+polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status {
+    
     if (status == SBSDKDocumentDetectionStatusOK) {
         return [UIColor greenColor];
     }
@@ -209,7 +250,8 @@
     self.progressLabel.hidden = !operationRunning;
     self.cancelButton.hidden = !operationRunning;
     self.clearButton.hidden = !hasImages;
-    self.scannerViewController.cameraControlsHidden = operationRunning;
+    self.scannerViewController.shutterButtonHidden = operationRunning;
+    self.scannerViewController.detectionStatusHidden = operationRunning;
 }
 
 - (void)updateProgress {
