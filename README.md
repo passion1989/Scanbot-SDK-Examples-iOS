@@ -38,20 +38,25 @@ The SDK with a trial license should only be tested in a experimental setting and
 
 ###### SBSDKScannerViewControllerDelegate
 Changed signatures of following methods
+```
 - (UIView *)viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status forScannerController:(SBSDKScannerViewController *)controller;
 - (UIButton *)shutterButtonForScannerController:(SBSDKScannerViewController *)controller;
 - (UIColor *)polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status forScannerController:(SBSDKScannerViewController *)controller;
+```
 to start them all with scannerController:...
 
 
 Changed signature of 
+```
 - (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(CMSampleBufferRef)sampleBuffer;
+```
 Instead of CMSampleBufferRef it delivers an UIImage.
 
 
 Added new method for custom drawing of detected document polygon
+```
 - (void)scannerController:(SBSDKScannerViewController *)controller drawPolygonPoints:(NSArray *)pointValues withDetectionStatus:(SBSDKDocumentDetectionStatus)detectionStatus onLayer:(CAShapeLayer *)layer;
-
+```
 
 
 ###### SBSDKScannerViewController
