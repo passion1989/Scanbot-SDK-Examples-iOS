@@ -3,6 +3,8 @@ var searchData=
   ['absoluteedgewithindex_3aforsize_3a',['absoluteEdgeWithIndex:forSize:',['../interface_s_b_s_d_k_polygon.html#ac7761b34a554252cacd5db2c4199978b',1,'SBSDKPolygon']]],
   ['absolutepointfromnormalizedpoint_3awithsize_3a',['absolutePointFromNormalizedPoint:withSize:',['../interface_s_b_s_d_k_polygon.html#a66e4525c9dc51fc774b12878f0b1b90b',1,'SBSDKPolygon']]],
   ['absolutepointwithindex_3aforsize_3a',['absolutePointWithIndex:forSize:',['../interface_s_b_s_d_k_polygon.html#a6db1c00670a87d47bd8503fb19d83824',1,'SBSDKPolygon']]],
+  ['acceptedanglescore',['acceptedAngleScore',['../interface_s_b_s_d_k_scanner_view_controller.html#a9afdb343ac6b214c4b8ab20d89712f61',1,'SBSDKScannerViewController::acceptedAngleScore()'],['../interface_s_b_s_d_k_document_detector.html#a8228b3161716e9e4994507344c315d54',1,'SBSDKDocumentDetector::acceptedAngleScore()']]],
+  ['acceptedsizescore',['acceptedSizeScore',['../interface_s_b_s_d_k_scanner_view_controller.html#a1ded5b6c51a791768e8e1db2e7c68683',1,'SBSDKScannerViewController::acceptedSizeScore()'],['../interface_s_b_s_d_k_document_detector.html#a7552739419ff0a0f869d388e0347519a',1,'SBSDKDocumentDetector::acceptedSizeScore()']]],
   ['addimage_3a',['addImage:',['../interface_s_b_s_d_k_image_storage.html#a44137265d6577f6c551eee78ecb73c01',1,'SBSDKImageStorage']]],
   ['analyseimagepagelayout_3acompletion_3a',['analyseImagePageLayout:completion:',['../interface_s_b_s_d_k_optical_text_recognizer.html#a148eab2f04647f17aad55a9bf7e07765',1,'SBSDKOpticalTextRecognizer']]],
   ['appendlines_3a',['appendLines:',['../interface_s_b_s_d_k_o_c_r_result.html#a22bf02f27d7506b626864d4b413d1ee7',1,'SBSDKOCRResult']]],

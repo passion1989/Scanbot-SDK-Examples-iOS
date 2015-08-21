@@ -115,6 +115,10 @@ Instance Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a7552739419ff0a0f869d388e0347519a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_document_detector.html#a7552739419ff0a0f869d388e0347519a">acceptedSizeScore</a></td></tr>
+<tr class="separator:a7552739419ff0a0f869d388e0347519a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8228b3161716e9e4994507344c315d54"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_document_detector.html#a8228b3161716e9e4994507344c315d54">acceptedAngleScore</a></td></tr>
+<tr class="separator:a8228b3161716e9e4994507344c315d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0da9dc08f8b944e397f443996071d93c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_document_detector.html#a0da9dc08f8b944e397f443996071d93c">currentTotalScore</a></td></tr>
 <tr class="separator:a0da9dc08f8b944e397f443996071d93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71b33f7bac2effe1065bf660997bf7d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_document_detector.html#a71b33f7bac2effe1065bf660997bf7d1">currentSizeScore</a></td></tr>
@@ -246,6 +250,48 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a8228b3161716e9e4994507344c315d54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) acceptedAngleScore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The minimum score in percent (0 - 100) of the perspective distortion to accept a detected document. Default is 75.0. Set lower values to accept more perspective distortion. Warning: Lower values result in more blurred document images. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7552739419ff0a0f869d388e0347519a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) acceptedSizeScore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The minimum size in percent (0 - 100) of the screen size to accept a detected document. It is sufficient that height or width match the score. Default is 80.0. Warning: Lower values result in low resolution document images. </p>
+
+</div>
+</div>
 <a class="anchor" id="a222cdf489e392d2e08dbd369b6ee0fb1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -403,5 +449,5 @@ Properties</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Wed Aug 19 2015 12:16:41 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Aug 21 2015 15:59:54 <a href="https://scanbot.io"></a>
  </div>

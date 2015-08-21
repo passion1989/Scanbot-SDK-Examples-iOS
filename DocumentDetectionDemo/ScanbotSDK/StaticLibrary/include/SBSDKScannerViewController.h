@@ -195,6 +195,20 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 @property (nonatomic, assign) CGFloat imageScale;
 
 /**
+ * The minimum size in percent (0 - 100) of the screen size to accept a detected document.
+ * It is sufficient that height or width match the score. Default is 80.0.
+ * Warning: Lower values result in low resolution document images.
+ **/
+@property(nonatomic, assign) double acceptedSizeScore;
+
+/**
+ * The minimum score in percent (0 - 100) of the perspective distortion to accept a detected document.
+ * Default is 75.0. Set lower values to accept more perspective distortion.
+ * Warning: Lower values result in more blurred document images.
+ **/
+@property(nonatomic, assign) double acceptedAngleScore;
+
+/**
  * Hides or unhides the shutter button.
  */
 @property (nonatomic, assign) BOOL shutterButtonHidden;

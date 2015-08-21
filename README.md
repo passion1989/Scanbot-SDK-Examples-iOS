@@ -65,3 +65,12 @@ Added new method for custom drawing of detected document polygon
 
 ###### Licensing
 - Licenses can now be valid for iOS, Android or both
+
+
+
+
+##### Changelog version 1.0.6:
+
+###### SBSDKScannerViewController
+- Fixed a bug that prevented displaying the detection statuses for poor light and noise
+- Added properties acceptedSizeScore and acceptedAngleScore, allowing you to alter the acceptance parameters for automatic shutter release (e.g. more perspective distortion or smaller document size)

@@ -1000,6 +1000,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>acceptedSizeScore</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKDocumentDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_document_detector.html</Path>
+    <Anchor>a7552739419ff0a0f869d388e0347519a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>acceptedAngleScore</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKDocumentDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_document_detector.html</Path>
+    <Anchor>a8228b3161716e9e4994507344c315d54</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>currentTotalScore</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -2627,6 +2647,26 @@
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
     <Anchor>a71bee112418027b8d1e04a473f2282d3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>acceptedSizeScore</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKScannerViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+    <Anchor>a1ded5b6c51a791768e8e1db2e7c68683</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>acceptedAngleScore</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKScannerViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+    <Anchor>a9afdb343ac6b214c4b8ab20d89712f61</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

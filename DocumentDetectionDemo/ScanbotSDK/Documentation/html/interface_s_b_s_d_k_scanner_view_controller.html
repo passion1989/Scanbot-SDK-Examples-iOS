@@ -119,6 +119,10 @@ Properties</h2></td></tr>
 <tr class="separator:a01ee9c9a1fd3a05569e678496437d95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71bee112418027b8d1e04a473f2282d3"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a71bee112418027b8d1e04a473f2282d3">imageScale</a></td></tr>
 <tr class="separator:a71bee112418027b8d1e04a473f2282d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ded5b6c51a791768e8e1db2e7c68683"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a1ded5b6c51a791768e8e1db2e7c68683">acceptedSizeScore</a></td></tr>
+<tr class="separator:a1ded5b6c51a791768e8e1db2e7c68683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9afdb343ac6b214c4b8ab20d89712f61"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a9afdb343ac6b214c4b8ab20d89712f61">acceptedAngleScore</a></td></tr>
+<tr class="separator:a9afdb343ac6b214c4b8ab20d89712f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa765f8d286949cc34f97cf5711364963"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#aa765f8d286949cc34f97cf5711364963">shutterButtonHidden</a></td></tr>
 <tr class="separator:aa765f8d286949cc34f97cf5711364963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa71bd49636867bae0b21012d4d4c3898"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#aa71bd49636867bae0b21012d4d4c3898">detectionStatusHidden</a></td></tr>
@@ -167,6 +171,48 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a9afdb343ac6b214c4b8ab20d89712f61"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) acceptedAngleScore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The minimum score in percent (0 - 100) of the perspective distortion to accept a detected document. Default is 75.0. Set lower values to accept more perspective distortion. Warning: Lower values result in more blurred document images. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1ded5b6c51a791768e8e1db2e7c68683"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) acceptedSizeScore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The minimum size in percent (0 - 100) of the screen size to accept a detected document. It is sufficient that height or width match the score. Default is 80.0. Warning: Lower values result in low resolution document images. </p>
+
+</div>
+</div>
 <a class="anchor" id="a15a7313a10374cdfa0007022cab70ade"></a>
 <div class="memitem">
 <div class="memproto">
@@ -366,5 +412,5 @@ Properties</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Wed Aug 19 2015 12:16:41 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Aug 21 2015 15:59:54 <a href="https://scanbot.io"></a>
  </div>
