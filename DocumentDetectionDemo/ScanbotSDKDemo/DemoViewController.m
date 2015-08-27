@@ -61,7 +61,6 @@
     = [[SBSDKScannerViewController alloc] initWithParentViewController:self
                                                           imageStorage:nil];
     self.scannerViewController.delegate = self;
-    self.scannerViewController.imageScale = 1.0f;
     
     [self updateUI];
 }
@@ -133,14 +132,13 @@
     
     [self.imageStorage addImage:documentImage];
     [self updateUI];
+    [UIView animateWithDuration:0.25 animations:^{
+        controller.HUDView.backgroundColor = [UIColor clearColor];
+    }];
 }
 
 - (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(UIImage *)image {
     // We finished successfully to capture an image.
-    // Undo all your changes to your UI that you did in -scannerControllerWillCaptureStillImage:
-    [UIView animateWithDuration:0.25 animations:^{
-        controller.HUDView.backgroundColor = [UIColor clearColor];
-    }];
 }
 
 - (void)scannerController:(SBSDKScannerViewController *)controller didFailCapturingImage:(NSError *)error {

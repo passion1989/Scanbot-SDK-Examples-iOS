@@ -73,7 +73,7 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 /**
  * Tells the delegate that a document image has been cropped out of an orientation corrected still image.
  * @param controller The calling SBSDKScannerViewController.
- * @param documentImage The cropped and perspective corrected documents image.
+ * @param documentImage The cropped and perspective corrected documents image, rotated depending on the device orientation.
  */
 - (void)scannerController:(SBSDKScannerViewController *)controller
   didCaptureDocumentImage:(UIImage *)documentImage;
@@ -81,7 +81,7 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 /**
  * Tells the delegate that a still image has been captured and its orientation has been corrected. Optional.
  * @param controller The calling SBSDKScannerViewController.
- * @param image The captured image
+ * @param image The captured original image, rotated depending on the device orientation.
  */
 - (void)scannerController:(SBSDKScannerViewController *)controller didCaptureImage:(UIImage *)image;
 

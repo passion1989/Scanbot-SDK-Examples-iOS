@@ -165,7 +165,7 @@ Instance Methods</h2></td></tr>
 <p>Tells the delegate that a document image has been cropped out of an orientation corrected still image. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">controller</td><td>The calling <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a>. </td></tr>
-    <tr><td class="paramname">documentImage</td><td>The cropped and perspective corrected documents image. </td></tr>
+    <tr><td class="paramname">documentImage</td><td>The cropped and perspective corrected documents image, rotated depending on the device orientation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -206,7 +206,7 @@ Instance Methods</h2></td></tr>
 <p>Tells the delegate that a still image has been captured and its orientation has been corrected. Optional. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">controller</td><td>The calling <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a>. </td></tr>
-    <tr><td class="paramname">image</td><td>The captured image </td></tr>
+    <tr><td class="paramname">image</td><td>The captured original image, rotated depending on the device orientation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -584,5 +584,5 @@ Instance Methods</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Aug 21 2015 15:59:54 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Aug 27 2015 13:48:07 <a href="https://scanbot.io"></a>
  </div>
