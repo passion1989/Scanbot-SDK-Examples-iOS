@@ -248,4 +248,11 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 - (instancetype)initWithParentViewController:(UIViewController *)parentViewController
                                 imageStorage:(SBSDKImageStorage *)storage;
 
+/** 
+ * Captures a still image manually and calls the delegate methods.
+ * @return YES, if the capture process has been initiated successfully. NO otherwise. 
+ * Note: NO is returned if the device is currently capturing another image or if the camera session is not yet setup or broken.
+ **/
+- (BOOL)captureStillImage;
+
 @end

@@ -743,6 +743,11 @@
             <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
             <Subnodes>
              <Node>
+              <Name>captureStillImage</Name>
+              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+              <Anchor>a0434e94c12bb9f79db3ee6c683cc24e4</Anchor>
+             </Node>
+             <Node>
               <Name>initWithParentViewController:imageStorage:</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>a0a28e6e24ef2a7532dec29f3009935d4</Anchor>
@@ -2502,6 +2507,11 @@
               <Name>SBSDKScannerViewController</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Subnodes>
+               <Node>
+                <Name>captureStillImage</Name>
+                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+                <Anchor>a0434e94c12bb9f79db3ee6c683cc24e4</Anchor>
+               </Node>
                <Node>
                 <Name>initWithParentViewController:imageStorage:</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>

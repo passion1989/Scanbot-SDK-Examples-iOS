@@ -108,6 +108,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Instance Methods</h2></td></tr>
 <tr class="memitem:a0a28e6e24ef2a7532dec29f3009935d4"><td class="memItemLeft" align="right" valign="top">(instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a0a28e6e24ef2a7532dec29f3009935d4">initWithParentViewController:imageStorage:</a></td></tr>
 <tr class="separator:a0a28e6e24ef2a7532dec29f3009935d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0434e94c12bb9f79db3ee6c683cc24e4"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html#a0434e94c12bb9f79db3ee6c683cc24e4">captureStillImage</a></td></tr>
+<tr class="separator:a0434e94c12bb9f79db3ee6c683cc24e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -137,6 +139,22 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>UIViewController subclass showing a camera screen and running a user guiding Document detector. Detection result is visualized using a polygonal bezier path. This class cannot be instanced from a storyboard. Instead it is installing itself as a child view controller onto a given parent view controller. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a0434e94c12bb9f79db3ee6c683cc24e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) captureStillImage </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Captures a still image manually and calls the delegate methods. </p><dl class="section return"><dt>Returns</dt><dd>YES, if the capture process has been initiated successfully. NO otherwise. Note: NO is returned if the device is currently capturing another image or if the camera session is not yet setup or broken. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a0a28e6e24ef2a7532dec29f3009935d4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -412,5 +430,5 @@ Properties</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Aug 27 2015 13:48:07 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Aug 28 2015 11:31:54 <a href="https://scanbot.io"></a>
  </div>

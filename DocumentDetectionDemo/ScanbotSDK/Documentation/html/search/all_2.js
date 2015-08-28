@@ -1,6 +1,7 @@
 var searchData=
 [
   ['camerasession',['cameraSession',['../interface_s_b_s_d_k_scanner_view_controller.html#a2d4b8ce1c1d56a92f47a9585efc85422',1,'SBSDKScannerViewController']]],
+  ['capturestillimage',['captureStillImage',['../interface_s_b_s_d_k_scanner_view_controller.html#a0434e94c12bb9f79db3ee6c683cc24e4',1,'SBSDKScannerViewController']]],
   ['capturestillimagewithcompletionhandler_3a',['captureStillImageWithCompletionHandler:',['../interface_s_b_s_d_k_camera_session.html#a8c6f52ebde684cc62d848af48159af48',1,'SBSDKCameraSession']]],
   ['center',['center',['../interface_s_b_s_d_k_polygon_edge.html#a4789378a128b3f63ee1c3c5ffed8e5af',1,'SBSDKPolygonEdge::center()'],['../interface_s_b_s_d_k_polygon.html#a91313bf561c61b5e20c5fa5dcc673d13',1,'SBSDKPolygon::center()']]],
   ['concurrentnetworkqueue',['concurrentNetworkQueue',['../interface_s_b_s_d_k_processing_queue_factory.html#acd80b4eec191554d9608e81a031de988',1,'SBSDKProcessingQueueFactory']]],

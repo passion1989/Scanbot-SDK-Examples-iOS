@@ -81,3 +81,10 @@ Added new method for custom drawing of detected document polygon
 
 ###### SBSDKScannerViewController
 - Fixed wrong orientation of original image when capturing a document image
+
+
+
+##### Changelog version 1.0.8:
+
+###### SBSDKScannerViewController
+- Added new method -(BOOL)captureStillImage to allow manual capturing using the delegate interface
