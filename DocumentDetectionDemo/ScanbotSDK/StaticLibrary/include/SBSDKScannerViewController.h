@@ -159,6 +159,17 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
 - (UIColor *)scannerController:(SBSDKScannerViewController *)controller polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status;
 
 
+/**
+ * Informs the delegate that the device orientation has changed. The SBSDKScannerController will use this orientation to rotate captured images. 
+ * Optional.
+ * @param controller The calling SBSDKScannerViewController.
+ * @param orientation The new device orientation used to rotate captured images automatically.
+ * @param transform The CGAffineTransform that can be used to rotate UI elements to reflect the current capture orientation.
+ */
+- (void)scannerControllerDidChangeDeviceOrientation:(SBSDKScannerViewController *)controller
+                                                 to:(UIDeviceOrientation)orientation
+                                          transform:(CGAffineTransform)transform;
+
 @end
 
 

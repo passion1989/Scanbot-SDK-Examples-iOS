@@ -2862,6 +2862,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>scannerControllerDidChangeDeviceOrientation:to:transform:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+    <Anchor>a11e616fe27267a7ba5328a9b5b0ae8df</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SBSDKShutterButton</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>

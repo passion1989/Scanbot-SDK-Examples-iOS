@@ -859,6 +859,11 @@
               <Anchor>a5e5e4014facf12bfb2b71450e51316dc</Anchor>
              </Node>
              <Node>
+              <Name>scannerControllerDidChangeDeviceOrientation:to:transform:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>a11e616fe27267a7ba5328a9b5b0ae8df</Anchor>
+             </Node>
+             <Node>
               <Name>scannerControllerShouldAnalyseVideoFrame:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Anchor>a5635798aed897d0b33b3ac11d25bc58c</Anchor>
@@ -2490,6 +2495,11 @@
                 <Name>scannerControllerCustomShutterButton:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
                 <Anchor>a5e5e4014facf12bfb2b71450e51316dc</Anchor>
+               </Node>
+               <Node>
+                <Name>scannerControllerDidChangeDeviceOrientation:to:transform:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>a11e616fe27267a7ba5328a9b5b0ae8df</Anchor>
                </Node>
                <Node>
                 <Name>scannerControllerShouldAnalyseVideoFrame:</Name>

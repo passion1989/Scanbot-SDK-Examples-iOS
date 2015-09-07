@@ -88,3 +88,11 @@ Added new method for custom drawing of detected document polygon
 
 ###### SBSDKScannerViewController
 - Added new method -(BOOL)captureStillImage to allow manual capturing using the delegate interface
+
+
+
+##### Changelog version 1.0.9:
+
+###### SBSDKScannerViewController
+- Added new delegate method (void)scannerControllerDidChangeDeviceOrientation:to:transform:
+

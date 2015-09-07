@@ -127,6 +127,8 @@ Instance Methods</h2></td></tr>
 <tr class="separator:aea411350125e92b610ec3d952e137a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cfbd25bdbbf8eec09b42f998485d8bc"><td class="memItemLeft" align="right" valign="top">(UIColor *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a5cfbd25bdbbf8eec09b42f998485d8bc">scannerController:polygonColorForDetectionStatus:</a></td></tr>
 <tr class="separator:a5cfbd25bdbbf8eec09b42f998485d8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e616fe27267a7ba5328a9b5b0ae8df"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a11e616fe27267a7ba5328a9b5b0ae8df">scannerControllerDidChangeDeviceOrientation:to:transform:</a></td></tr>
+<tr class="separator:a11e616fe27267a7ba5328a9b5b0ae8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A delegate protocol to customize the behaviour, look and feel of the <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a>. </p>
@@ -513,6 +515,54 @@ Instance Methods</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a11e616fe27267a7ba5328a9b5b0ae8df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) scannerControllerDidChangeDeviceOrientation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)&#160;</td>
+          <td class="paramname"><em>controller</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">to:</td>
+          <td></td>
+          <td class="paramtype">(UIDeviceOrientation)&#160;</td>
+          <td class="paramname"><em>orientation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">transform:</td>
+          <td></td>
+          <td class="paramtype">(CGAffineTransform)&#160;</td>
+          <td class="paramname"><em>transform</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">optional</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Informs the delegate that the device orientation has changed. The SBSDKScannerController will use this orientation to rotate captured images. Optional. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>The calling <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a>. </td></tr>
+    <tr><td class="paramname">orientation</td><td>The new device orientation used to rotate captured images automatically. </td></tr>
+    <tr><td class="paramname">transform</td><td>The CGAffineTransform that can be used to rotate UI elements to reflect the current capture orientation. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a5635798aed897d0b33b3ac11d25bc58c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -584,5 +634,5 @@ Instance Methods</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Aug 28 2015 11:31:54 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Mon Sep 7 2015 10:15:00 <a href="https://scanbot.io"></a>
  </div>
