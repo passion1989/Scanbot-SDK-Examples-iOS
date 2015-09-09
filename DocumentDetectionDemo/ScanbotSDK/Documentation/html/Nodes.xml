@@ -849,6 +849,11 @@
               <Anchor>a5cfbd25bdbbf8eec09b42f998485d8bc</Anchor>
              </Node>
              <Node>
+              <Name>scannerController:shouldRotateInterfaceForDeviceOrientation:transform:</Name>
+              <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+              <Anchor>a3358c765db34de48c22b49ea5b444f0d</Anchor>
+             </Node>
+             <Node>
               <Name>scannerController:viewForDetectionStatus:</Name>
               <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
               <Anchor>a75ff7cc5699835a7a3f65978f6942a2c</Anchor>
@@ -2485,6 +2490,11 @@
                 <Name>scannerController:polygonColorForDetectionStatus:</Name>
                 <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
                 <Anchor>a5cfbd25bdbbf8eec09b42f998485d8bc</Anchor>
+               </Node>
+               <Node>
+                <Name>scannerController:shouldRotateInterfaceForDeviceOrientation:transform:</Name>
+                <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+                <Anchor>a3358c765db34de48c22b49ea5b444f0d</Anchor>
                </Node>
                <Node>
                 <Name>scannerController:viewForDetectionStatus:</Name>

@@ -88,13 +88,14 @@
     self.imageStorage = nil;
 }
 
-- (BOOL)shouldAutorotate {
-    return NO;
-}
-
-- (NSUInteger)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait;
-}
+/** Uncomment the following 2 methods if you want to suppress automatic interface rotations. **/
+//- (BOOL)shouldAutorotate {
+//    return NO;
+//}
+//
+//- (NSUInteger)supportedInterfaceOrientations {
+//    return UIInterfaceOrientationMaskPortrait;
+//}
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
@@ -220,6 +221,12 @@ polygonColorForDetectionStatus:(SBSDKDocumentDetectionStatus)status {
     return [UIColor redColor];
 }
 
+- (BOOL)scannerController:(SBSDKScannerViewController *)controller
+shouldRotateInterfaceForDeviceOrientation:(UIDeviceOrientation)orientation
+                transform:(CGAffineTransform)transform {
+    
+    return !self.shouldAutorotate;
+}
 
 /**
  UI updating

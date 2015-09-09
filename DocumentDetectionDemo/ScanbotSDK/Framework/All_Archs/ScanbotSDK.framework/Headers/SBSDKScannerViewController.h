@@ -170,6 +170,20 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
                                                  to:(UIDeviceOrientation)orientation
                                           transform:(CGAffineTransform)transform;
 
+
+
+/**
+ * Asks the delegate whether the camera UI, shutter button and guidance UI, should be rotated to
+ * reflect the device orientation or not.
+ * Optional.
+ * @param controller The calling SBSDKScannerViewController.
+ * @param orientation The new device orientation the device is rotated to.
+ * @param transform The CGAffineTransform that will be used to rotate UI elements.
+ */
+- (BOOL)scannerController:(SBSDKScannerViewController *)controller
+shouldRotateInterfaceForDeviceOrientation:(UIDeviceOrientation)orientation
+                transform:(CGAffineTransform)transform;
+
 @end
 
 

@@ -2873,6 +2873,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>scannerController:shouldRotateInterfaceForDeviceOrientation:transform:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+    <Anchor>a3358c765db34de48c22b49ea5b444f0d</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SBSDKShutterButton</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
