@@ -104,3 +104,10 @@ Added new method for custom drawing of detected document polygon
 - Significantly improved peak memory usage when capturing images (~ 50%)
 - Added new delegate method - (BOOL)scannerController:shouldRotateInterfaceForDeviceOrientation:transform:(CGAffineTransform)transform
 
+
+
+##### Changelog version 1.0.11:
+
+###### SBSDKScannerViewController
+- Fixed an orientation issue on iPad
+
