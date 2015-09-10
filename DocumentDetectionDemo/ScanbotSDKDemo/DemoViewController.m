@@ -345,6 +345,11 @@ shouldRotateInterfaceForDeviceOrientation:(UIDeviceOrientation)orientation
                                                                 }]];
     }
     
+    [self.actionController setModalPresentationStyle:UIModalPresentationPopover];
+    
+    UIPopoverPresentationController *popPresenter = [self.actionController popoverPresentationController];
+    popPresenter.sourceView = sender;
+    popPresenter.sourceRect = [sender bounds];
     [self presentViewController:self.actionController animated:YES completion:nil];
 }
 
