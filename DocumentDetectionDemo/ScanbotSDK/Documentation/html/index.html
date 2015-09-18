@@ -148,7 +148,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Each license is valid only to your apps bundle identifier. So no other app can highjack your license and reuse it. Any modification of the license will render it invalid. Make sure that you store your license in a safe location.</p>
 <p>You can purchase Scanbot SDK licenses here: <a href="https://scanbot.io">https://scanbot.io</a>.</p>
 <p>In order to activate the license in code use the method <code>-setLicense:</code> method in the <a class="el" href="interface_scanbot_s_d_k.html">ScanbotSDK</a> class. Execute this code as early as possible during your apps runtime, but at least before using any Scanbot SDK functionality, e.g. in your application delegates <code>-application:didFinishLaunchingWithOptions:</code> method.</p>
-<p>If your license has been expired any call to Scanbot SDK API will terminate your app. To prevent this you should check if the license is expired during runtime by calling <code>[<a class="el" href="interface_scanbot_s_d_k.html">ScanbotSDK</a> isLicenseValid]</code>. If this method returns NO, you should disable Scanbot SDK using features or UI.</p>
+<p>If your license has expired any invocation of the Scanbot SDK API will terminate your app. To prevent this you should check for license expiration during runtime by calling [<a class="el" href="interface_scanbot_s_d_k.html">ScanbotSDK</a> isLicenseValid]. If this method returns NO, you should disable Scanbot SDK using features or UI.</p>
 <p>Example code for using the license string </p><div class="fragment"><div class="line">- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {</div>
 <div class="line">  <span class="comment">// Override point for customization after application launch.</span></div>
 <div class="line">  [<a class="code" href="interface_scanbot_s_d_k.html">ScanbotSDK</a> <a class="code" href="interface_scanbot_s_d_k.html#a2bc57e5352b000248a608211e6a81ce6">setLicense</a>:</div>
@@ -529,5 +529,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Sep 10 2015 11:08:38 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Sep 18 2015 11:46:38 <a href="https://scanbot.io"></a>
  </div>
