@@ -111,3 +111,10 @@ Added new method for custom drawing of detected document polygon
 ###### SBSDKScannerViewController
 - Fixed an orientation issue on iPad
 
+
+
+##### Changelog version 1.0.12:
+
+- Rebuilt with Xcode 7 final
+- Updated some documentation
+
