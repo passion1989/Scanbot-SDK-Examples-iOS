@@ -144,6 +144,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  </p><h3>2.4 License</h3>
 <p>In order to run Scanbot SDK functionality within your app you must purchase and install a Scanbot SDK license.</p>
 <p>Not installing a license will let you test all Scanbot SDK features for a trial period of 1 minute. After the trial period is over your app will be terminated immediately. Installing an invalid license will also terminate your application immediately. Installing an expired but valid license will not terminate your app immediately but when using Scanbot SDK API. If the license expires during the apps life cycle Scanbot SDK will continue to work normally until the next start of the application.</p>
+<p>If an expiration date is given for the license the license will expire at that day at 11:59:59 PM o'clock. The timezone of the license is UTC. Any logging of the SDK converts the UTC expiration date to your local timezone.</p>
 <p>The license also defines which modules you are allowed to use. The usage of unlicensed modules will log an error to the console and terminate the app.</p>
 <p>Each license is valid only to your apps bundle identifier. So no other app can highjack your license and reuse it. Any modification of the license will render it invalid. Make sure that you store your license in a safe location.</p>
 <p>You can purchase Scanbot SDK licenses here: <a href="https://scanbot.io">https://scanbot.io</a>.</p>
@@ -529,5 +530,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Sep 18 2015 11:46:38 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Oct 2 2015 17:17:27 <a href="https://scanbot.io"></a>
  </div>
