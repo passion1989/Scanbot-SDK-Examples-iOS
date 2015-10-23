@@ -14,7 +14,8 @@ typedef enum SBSDKImageFilterType {
     SBSDKImageFilterTypeColor = 1,
     SBSDKImageFilterTypeGray = 2,
     SBSDKImageFilterTypeBinarized = 3,
-    SBSDKImageFilterTypeExperimental = 4
+    SBSDKImageFilterTypeColorDocument = 4,
+    SBSDKImageFilterTypeExperimental = 5
 }SBSDKImageFilterType;
 
 #endif

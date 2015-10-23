@@ -118,3 +118,9 @@ Added new method for custom drawing of detected document polygon
 - Rebuilt with Xcode 7 final
 - Updated some documentation
 
+
+
+##### Changelog version 1.0.13:
+
+- Improved accuracy of automatic document detection
+- Introduced new colored document image filter
