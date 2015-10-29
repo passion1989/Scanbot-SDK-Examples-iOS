@@ -124,3 +124,11 @@ Added new method for custom drawing of detected document polygon
 
 - Improved accuracy of automatic document detection
 - Introduced new colored document image filter
+
+
+
+##### Changelog version 1.0.14:
+
+- New color filter now working correctly
+- Fixed a bug in the binarization filter
+
