@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E4C46C91B848DE500F5F88D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C46C81B848DE500F5F88D /* README.md */; };
 		9E61554A1B5F9F33006EABB9 /* ScanbotSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */; };
 		9E61554B1B5F9F33006EABB9 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EBA420F1B56CC400041B9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA41FE1B56CC400041B9DA /* AppDelegate.m */; };
@@ -205,7 +204,6 @@
 				9EBA42121B56CC400041B9DA /* DemoViewController.m in Sources */,
 				9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */,
 				9EBA420F1B56CC400041B9DA /* AppDelegate.m in Sources */,
-				9E4C46C91B848DE500F5F88D /* README.md in Sources */,
 				9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */,
 				9EBA42161B56CC400041B9DA /* main.m in Sources */,
 				9EBA42111B56CC400041B9DA /* DemoNavigationViewController.m in Sources */,

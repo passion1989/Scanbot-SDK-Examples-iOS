@@ -121,6 +121,8 @@ Instance Methods</h2></td></tr>
 <tr class="separator:adb83d01c8b4e5c59e7aff47b07623891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75ff7cc5699835a7a3f65978f6942a2c"><td class="memItemLeft" align="right" valign="top">(UIView *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a75ff7cc5699835a7a3f65978f6942a2c">scannerController:viewForDetectionStatus:</a></td></tr>
 <tr class="separator:a75ff7cc5699835a7a3f65978f6942a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb03e4a5a1bf4b6a71bcc1f377bac5da"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#aeb03e4a5a1bf4b6a71bcc1f377bac5da">scannerController:localizedTextForDetectionStatus:</a></td></tr>
+<tr class="separator:aeb03e4a5a1bf4b6a71bcc1f377bac5da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e5e4014facf12bfb2b71450e51316dc"><td class="memItemLeft" align="right" valign="top">(UIButton *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#a5e5e4014facf12bfb2b71450e51316dc">scannerControllerCustomShutterButton:</a></td></tr>
 <tr class="separator:a5e5e4014facf12bfb2b71450e51316dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea411350125e92b610ec3d952e137a0c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html#aea411350125e92b610ec3d952e137a0c">scannerController:drawPolygonPoints:withDetectionStatus:onLayer:</a></td></tr>
@@ -399,6 +401,48 @@ Instance Methods</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="aeb03e4a5a1bf4b6a71bcc1f377bac5da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) scannerController: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a> *)&#160;</td>
+          <td class="paramname"><em>controller</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">localizedTextForDetectionStatus:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8">SBSDKDocumentDetectionStatus</a>)&#160;</td>
+          <td class="paramname"><em>status</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">optional</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Asks the delegate for the text to display for current detection status. Optional. Not called if custom status detection views are used. If not implemented english standard strings are applied. Return a string depending on the detection status, also consider the controllers autoShutterEnabled property. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>The calling <a class="el" href="interface_s_b_s_d_k_scanner_view_controller.html">SBSDKScannerViewController</a>. </td></tr>
+    <tr><td class="paramname">status</td><td>The status of the detection. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The localized string to display on the status detection label or view. If you return nil the status view is hidden. </dd></dl>
 
 </div>
 </div>
@@ -684,5 +728,5 @@ Instance Methods</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Oct 29 2015 11:02:08 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Tue Feb 9 2016 12:06:50 <a href="https://scanbot.io"></a>
  </div>

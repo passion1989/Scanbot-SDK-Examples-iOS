@@ -132,3 +132,10 @@ Added new method for custom drawing of detected document polygon
 - New color filter now working correctly
 - Fixed a bug in the binarization filter
 
+
+
+##### Changelog version 1.0.15:
+
+- Added new delegate method  -(NSString *)scannerController:(SBSDKScannerViewController *)controller localizedTextForDetectionStatus:(SBSDKDocumentDetectionStatus)status to help you localizing the detection status strings
+
+

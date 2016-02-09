@@ -2839,6 +2839,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>scannerController:localizedTextForDetectionStatus:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>SBSDKScannerViewControllerDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_s_b_s_d_k_scanner_view_controller_delegate-p.html</Path>
+    <Anchor>aeb03e4a5a1bf4b6a71bcc1f377bac5da</Anchor>
+    <DeclaredIn>SBSDKScannerViewController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>scannerControllerCustomShutterButton:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>

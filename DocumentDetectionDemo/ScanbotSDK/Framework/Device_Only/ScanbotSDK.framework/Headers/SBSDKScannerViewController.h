@@ -119,6 +119,19 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
        viewForDetectionStatus:(SBSDKDocumentDetectionStatus)status;
 
 
+/**
+ * Asks the delegate for the text to display for current detection status. Optional.
+ * Not called if custom status detection views are used.
+ * If not implemented english standard strings are applied.
+ * Return a string depending on the detection status, also consider the controllers autoShutterEnabled property.
+ * @param controller The calling SBSDKScannerViewController.
+ * @param status The status of the detection.
+ * @return The localized string to display on the status detection label or view. If you return nil the status view is
+ * hidden.
+**/
+ - (NSString *)scannerController:(SBSDKScannerViewController *)controller
+ localizedTextForDetectionStatus:(SBSDKDocumentDetectionStatus)status;
+
 /** 
  * Asks the delegate for custom shutter release button.
  * @param controller The calling SBSDKScannerViewController.
