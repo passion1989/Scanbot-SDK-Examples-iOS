@@ -1,5 +1,5 @@
 //
-//  DemoViewController.h
+//  DemoSelectionViewController.h
 //  ScanbotSDKDemo
 //
 //  Created by Sebastian Husche on 17.02.16.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DemoViewController.h"
 
-@interface DemoViewController : UIViewController
+@interface DemoSelectionViewController : DemoViewController
 
 @end

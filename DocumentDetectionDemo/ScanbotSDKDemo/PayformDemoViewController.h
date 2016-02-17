@@ -1,5 +1,5 @@
 //
-//  DemoViewController.m
+//  PayformDemoViewController.h
 //  ScanbotSDKDemo
 //
 //  Created by Sebastian Husche on 17.02.16.
@@ -7,15 +7,8 @@
 //
 
 #import "DemoViewController.h"
+#import <ScanbotSDK/ScanbotSDK.h>
 
-@interface DemoViewController ()
-
-@end
-
-@implementation DemoViewController
-
-- (BOOL)prefersStatusBarHidden {
-    return YES;
-}
+@interface PayformDemoViewController : DemoViewController
 
 @end

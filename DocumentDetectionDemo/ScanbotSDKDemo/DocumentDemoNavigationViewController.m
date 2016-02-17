@@ -1,18 +1,18 @@
 //
-//  DemoNavigationViewController.m
+//  DocumentDemoNavigationViewController.m
 //  PayFormScannerDemo
 //
 //  Created by Sebastian Husche on 24.06.15.
 //  Copyright (c) 2015 doo GmbH. All rights reserved.
 //
 
-#import "DemoNavigationViewController.h"
+#import "DocumentDemoNavigationViewController.h"
 
-@interface DemoNavigationViewController ()
+@interface DocumentDemoNavigationViewController ()
 
 @end
 
-@implementation DemoNavigationViewController
+@implementation DocumentDemoNavigationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,5 +26,8 @@
     return self.topViewController.supportedInterfaceOrientations;
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 
 @end

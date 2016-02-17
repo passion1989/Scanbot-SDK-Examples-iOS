@@ -1,5 +1,5 @@
 //
-//  DemoNavigationViewController.h
+//  DocumentDemoNavigationViewController.h
 //  PayFormScannerDemo
 //
 //  Created by Sebastian Husche on 24.06.15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DemoNavigationViewController : UINavigationController
+@interface DocumentDemoNavigationViewController : UINavigationController
 
 @end

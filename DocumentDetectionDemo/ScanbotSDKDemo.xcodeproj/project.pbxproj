@@ -11,13 +11,16 @@
 		9E61554B1B5F9F33006EABB9 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6155491B5F9F33006EABB9 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EBA420F1B56CC400041B9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA41FE1B56CC400041B9DA /* AppDelegate.m */; };
 		9EBA42101B56CC400041B9DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA41FF1B56CC400041B9DA /* LaunchScreen.xib */; };
-		9EBA42111B56CC400041B9DA /* DemoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA42021B56CC400041B9DA /* DemoNavigationViewController.m */; };
-		9EBA42121B56CC400041B9DA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA42041B56CC400041B9DA /* DemoViewController.m */; };
+		9EBA42111B56CC400041B9DA /* DocumentDemoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA42021B56CC400041B9DA /* DocumentDemoNavigationViewController.m */; };
+		9EBA42121B56CC400041B9DA /* DocumentDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA42041B56CC400041B9DA /* DocumentDemoViewController.m */; };
 		9EBA42141B56CC400041B9DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA42071B56CC400041B9DA /* Images.xcassets */; };
 		9EBA42161B56CC400041B9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA42091B56CC400041B9DA /* main.m */; };
 		9EBA42171B56CC400041B9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA420A1B56CC400041B9DA /* Main.storyboard */; };
 		9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420C1B56CC400041B9DA /* PDFViewController.m */; };
 		9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420E1B56CC400041B9DA /* TextViewController.m */; };
+		9ED67DF11C74824400061C86 /* DemoSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67DF01C74824400061C86 /* DemoSelectionViewController.m */; };
+		9ED67DF41C74889100061C86 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67DF31C74889100061C86 /* DemoViewController.m */; };
+		9ED67DFB1C74C2F000061C86 /* PayformDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67DFA1C74C2F000061C86 /* PayformDemoViewController.m */; };
 		9EF580DE1B5E3FCD00C913EF /* SBSDKLanguageData in Resources */ = {isa = PBXBuildFile; fileRef = 9EF580DD1B5E3FCD00C913EF /* SBSDKLanguageData */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +54,10 @@
 		9EBA41FD1B56CC400041B9DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EBA41FE1B56CC400041B9DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9EBA42001B56CC400041B9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9EBA42011B56CC400041B9DA /* DemoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationViewController.h; sourceTree = "<group>"; };
-		9EBA42021B56CC400041B9DA /* DemoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationViewController.m; sourceTree = "<group>"; };
-		9EBA42031B56CC400041B9DA /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		9EBA42041B56CC400041B9DA /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		9EBA42011B56CC400041B9DA /* DocumentDemoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentDemoNavigationViewController.h; sourceTree = "<group>"; };
+		9EBA42021B56CC400041B9DA /* DocumentDemoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentDemoNavigationViewController.m; sourceTree = "<group>"; };
+		9EBA42031B56CC400041B9DA /* DocumentDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentDemoViewController.h; sourceTree = "<group>"; };
+		9EBA42041B56CC400041B9DA /* DocumentDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentDemoViewController.m; sourceTree = "<group>"; };
 		9EBA42071B56CC400041B9DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EBA42081B56CC400041B9DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EBA42091B56CC400041B9DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,12 @@
 		9EBA420C1B56CC400041B9DA /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		9EBA420D1B56CC400041B9DA /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		9EBA420E1B56CC400041B9DA /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		9ED67DEF1C74824400061C86 /* DemoSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelectionViewController.h; sourceTree = "<group>"; };
+		9ED67DF01C74824400061C86 /* DemoSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelectionViewController.m; sourceTree = "<group>"; };
+		9ED67DF21C74889100061C86 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		9ED67DF31C74889100061C86 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		9ED67DF91C74C2F000061C86 /* PayformDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayformDemoViewController.h; sourceTree = "<group>"; };
+		9ED67DFA1C74C2F000061C86 /* PayformDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayformDemoViewController.m; sourceTree = "<group>"; };
 		9EF580DD1B5E3FCD00C913EF /* SBSDKLanguageData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SBSDKLanguageData; path = ScanbotSDK/AdditionalData/SBSDKLanguageData; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -104,10 +113,16 @@
 				9EBA41FD1B56CC400041B9DA /* AppDelegate.h */,
 				9EBA41FE1B56CC400041B9DA /* AppDelegate.m */,
 				9EBA41FF1B56CC400041B9DA /* LaunchScreen.xib */,
-				9EBA42011B56CC400041B9DA /* DemoNavigationViewController.h */,
-				9EBA42021B56CC400041B9DA /* DemoNavigationViewController.m */,
-				9EBA42031B56CC400041B9DA /* DemoViewController.h */,
-				9EBA42041B56CC400041B9DA /* DemoViewController.m */,
+				9ED67DF21C74889100061C86 /* DemoViewController.h */,
+				9ED67DF31C74889100061C86 /* DemoViewController.m */,
+				9EBA42011B56CC400041B9DA /* DocumentDemoNavigationViewController.h */,
+				9EBA42021B56CC400041B9DA /* DocumentDemoNavigationViewController.m */,
+				9ED67DEF1C74824400061C86 /* DemoSelectionViewController.h */,
+				9ED67DF01C74824400061C86 /* DemoSelectionViewController.m */,
+				9EBA42031B56CC400041B9DA /* DocumentDemoViewController.h */,
+				9EBA42041B56CC400041B9DA /* DocumentDemoViewController.m */,
+				9ED67DF91C74C2F000061C86 /* PayformDemoViewController.h */,
+				9ED67DFA1C74C2F000061C86 /* PayformDemoViewController.m */,
 				9EBA42071B56CC400041B9DA /* Images.xcassets */,
 				9EBA42081B56CC400041B9DA /* Info.plist */,
 				9EBA42091B56CC400041B9DA /* main.m */,
@@ -201,12 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EBA42121B56CC400041B9DA /* DemoViewController.m in Sources */,
+				9ED67DF11C74824400061C86 /* DemoSelectionViewController.m in Sources */,
+				9EBA42121B56CC400041B9DA /* DocumentDemoViewController.m in Sources */,
 				9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */,
+				9ED67DF41C74889100061C86 /* DemoViewController.m in Sources */,
 				9EBA420F1B56CC400041B9DA /* AppDelegate.m in Sources */,
+				9ED67DFB1C74C2F000061C86 /* PayformDemoViewController.m in Sources */,
 				9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */,
 				9EBA42161B56CC400041B9DA /* main.m in Sources */,
-				9EBA42111B56CC400041B9DA /* DemoNavigationViewController.m in Sources */,
+				9EBA42111B56CC400041B9DA /* DocumentDemoNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
