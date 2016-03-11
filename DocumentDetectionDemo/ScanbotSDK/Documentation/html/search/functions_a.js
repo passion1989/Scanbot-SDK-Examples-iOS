@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['recognizecreditcardinfoonbuffer_3aorientation_3a',['recognizeCreditCardInfoOnBuffer:orientation:',['../interface_s_b_s_d_k_credit_card_recognizer.html#a0f890be6678b79c330f23d5739901ab7',1,'SBSDKCreditCardRecognizer']]],
+  ['recognizecreditcardinfoonimage_3a',['recognizeCreditCardInfoOnImage:',['../interface_s_b_s_d_k_credit_card_recognizer.html#afb5f6022674902e776c6760535919d3c',1,'SBSDKCreditCardRecognizer']]],
   ['recognizefieldsinsamplebuffer_3aorientation_3a',['recognizeFieldsInSampleBuffer:orientation:',['../interface_s_b_s_d_k_pay_form_scanner.html#ad07be7253aea397a67972ba5b97a895a',1,'SBSDKPayFormScanner']]],
   ['recognizefieldsonimage_3a',['recognizeFieldsOnImage:',['../interface_s_b_s_d_k_pay_form_scanner.html#ac9e566b437e5741826f6ea4dcc27e0f9',1,'SBSDKPayFormScanner']]],
   ['recognizetext_3acopyimagestorage_3aindexset_3alanguagestring_3apdfoutputurl_3acompletion_3a',['recognizeText:copyImageStorage:indexSet:languageString:pdfOutputURL:completion:',['../interface_s_b_s_d_k_optical_text_recognizer.html#a444e00f99bed51a38b3270061c3b12bc',1,'SBSDKOpticalTextRecognizer']]],
@@ -12,7 +14,10 @@ var searchData=
   ['rotate180witholdsize_3anewsize_3a',['rotate180WithOldSize:newSize:',['../interface_s_b_s_d_k_polygon.html#a063233719e36b4f6de0dd9944254d132',1,'SBSDKPolygon']]],
   ['rotate90ccwwitholdsize_3anewsize_3a',['rotate90CCWWithOldSize:newSize:',['../interface_s_b_s_d_k_polygon.html#a26e14d11e644ac20d5a56f0d967569ca',1,'SBSDKPolygon']]],
   ['rotate90cwwitholdsize_3anewsize_3a',['rotate90CWWithOldSize:newSize:',['../interface_s_b_s_d_k_polygon.html#a2464df560bd3d5583145f4049449252f',1,'SBSDKPolygon']]],
-  ['rotateimage_3aclockwise_3aoutputimageurl_3acompletion_3a',['rotateImage:clockwise:outputImageURL:completion:',['../interface_s_b_s_d_k_image_processor.html#a62e1cd2a987f407ead64767b4a5683c1',1,'SBSDKImageProcessor']]],
-  ['rotateimage_3acounterclockwise_3aoutputimageurl_3acompletion_3a',['rotateImage:counterClockwise:outputImageURL:completion:',['../interface_s_b_s_d_k_image_processor.html#a5f810dbb7da5a79554028e1207bcac94',1,'SBSDKImageProcessor']]],
-  ['rotateimage_3adegrees_3aoutputimageurl_3acompletion_3a',['rotateImage:degrees:outputImageURL:completion:',['../interface_s_b_s_d_k_image_processor.html#a024ba0dc6e703e9a6f62392f49784f8f',1,'SBSDKImageProcessor']]]
+  ['rotateimage_3aclockwise_3acompletion_3a',['rotateImage:clockwise:completion:',['../interface_s_b_s_d_k_image_processor.html#a43c3a5764c1c9a7e3f4a85772e399a58',1,'SBSDKImageProcessor']]],
+  ['rotateimage_3aclockwise_3aoutputimageurl_3acompletion_3a',['rotateImage:clockwise:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#aa1a453b3e24a5093e3018f4b075872da',1,'SBSDKImageProcessor(NSURL)::rotateImage:clockwise:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#aa1a453b3e24a5093e3018f4b075872da',1,'SBSDKImageProcessor::rotateImage:clockwise:outputImageURL:completion:()']]],
+  ['rotateimage_3acounterclockwise_3acompletion_3a',['rotateImage:counterClockwise:completion:',['../interface_s_b_s_d_k_image_processor.html#afba10832b0ea3365d1c77b9e77201ad1',1,'SBSDKImageProcessor']]],
+  ['rotateimage_3acounterclockwise_3aoutputimageurl_3acompletion_3a',['rotateImage:counterClockwise:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a68c5e33612f2b86824942ed7fa00153c',1,'SBSDKImageProcessor(NSURL)::rotateImage:counterClockwise:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a68c5e33612f2b86824942ed7fa00153c',1,'SBSDKImageProcessor::rotateImage:counterClockwise:outputImageURL:completion:()']]],
+  ['rotateimage_3adegrees_3acompletion_3a',['rotateImage:degrees:completion:',['../interface_s_b_s_d_k_image_processor.html#a3321cba1dd4b28e5c4581436d096e011',1,'SBSDKImageProcessor']]],
+  ['rotateimage_3adegrees_3aoutputimageurl_3acompletion_3a',['rotateImage:degrees:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a59cc9430ff28264fb27edb32a6ac8d81',1,'SBSDKImageProcessor(NSURL)::rotateImage:degrees:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a59cc9430ff28264fb27edb32a6ac8d81',1,'SBSDKImageProcessor::rotateImage:degrees:outputImageURL:completion:()']]]
 ];

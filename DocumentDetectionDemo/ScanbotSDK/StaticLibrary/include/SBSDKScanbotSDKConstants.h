@@ -92,4 +92,17 @@ typedef NS_ENUM(NSInteger, SBSDKErrorCode) {
     SBDKErrorUnknown = 999
 };
 
+/**
+ * @enum SBSDKImageMode
+ *  Enum describing the image color mode of output images.
+ */
+typedef NS_ENUM(NSInteger, SBSDKImageMode) {
+    
+    /** 24/32 bit RGB(A) images. **/
+    SBSDKImageModeColor = 0,
+    
+    /** 8 bit grayscale images. **/
+    SBSDKImageModeGrayscale= 1
+};
+
 #endif

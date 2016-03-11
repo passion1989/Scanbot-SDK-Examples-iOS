@@ -1,6 +1,8 @@
 var searchData=
 [
   ['sbsdkcamerasession_2eh',['SBSDKCameraSession.h',['../_s_b_s_d_k_camera_session_8h.html',1,'']]],
+  ['sbsdkcreditcardrecognizer_2eh',['SBSDKCreditCardRecognizer.h',['../_s_b_s_d_k_credit_card_recognizer_8h.html',1,'']]],
+  ['sbsdkcreditcardrecognizerresult_2eh',['SBSDKCreditCardRecognizerResult.h',['../_s_b_s_d_k_credit_card_recognizer_result_8h.html',1,'']]],
   ['sbsdkdetectionstatuslabel_2eh',['SBSDKDetectionStatusLabel.h',['../_s_b_s_d_k_detection_status_label_8h.html',1,'']]],
   ['sbsdkdeviceinformation_2eh',['SBSDKDeviceInformation.h',['../_s_b_s_d_k_device_information_8h.html',1,'']]],
   ['sbsdkdocumentdetectionstatus_2eh',['SBSDKDocumentDetectionStatus.h',['../_s_b_s_d_k_document_detection_status_8h.html',1,'']]],

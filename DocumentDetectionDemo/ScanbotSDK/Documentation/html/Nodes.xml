@@ -82,6 +82,43 @@
             <Path>protocol_s_b_s_d_k_camera_session_delegate-p.html</Path>
            </Node>
            <Node>
+            <Name>SBSDKCreditCardRecognizer</Name>
+            <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>recognizeCreditCardInfoOnBuffer:orientation:</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+              <Anchor>a0f890be6678b79c330f23d5739901ab7</Anchor>
+             </Node>
+             <Node>
+              <Name>recognizeCreditCardInfoOnImage:</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+              <Anchor>afb5f6022674902e776c6760535919d3c</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKCreditCardRecognizerResult</Name>
+            <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>expirationDate</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+              <Anchor>a9810e168d13c83a47ac5099f81d7edb8</Anchor>
+             </Node>
+             <Node>
+              <Name>holder</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+              <Anchor>a9f3d2e32a076c76674ab6848d9273354</Anchor>
+             </Node>
+             <Node>
+              <Name>number</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+              <Anchor>a143415e5df757ef7761ef0248f635d53</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>SBSDKDetectionStatusLabel</Name>
             <Path>interface_s_b_s_d_k_detection_status_label.html</Path>
            </Node>
@@ -181,6 +218,12 @@
            <Node>
             <Name>SBSDKImageProcessor</Name>
             <Path>interface_s_b_s_d_k_image_processor.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKImageProcessor(NSURL)</Name>
+            <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
             <Subnodes>
             </Subnodes>
            </Node>
@@ -658,9 +701,24 @@
               <Anchor>afe286e1fc52f842aa90a4c67b49b6260</Anchor>
              </Node>
              <Node>
+              <Name>detectionScore</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>a466c4db129c203e661251b0ea9cbd689</Anchor>
+             </Node>
+             <Node>
               <Name>detectionStatus</Name>
               <Path>interface_s_b_s_d_k_polygon.html</Path>
               <Anchor>aa38ab846c4a770bf9e0ccaf55cb51582</Anchor>
+             </Node>
+             <Node>
+              <Name>heightPercentage</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>af4210ad105e593c8fadca5c595efb148</Anchor>
+             </Node>
+             <Node>
+              <Name>widthPercentage</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>a132f61c183a2f7df612699544df74e75</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -786,6 +844,11 @@
               <Name>HUDView</Name>
               <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
               <Anchor>a9bda06ad1c78a64fb1b64255af544529</Anchor>
+             </Node>
+             <Node>
+              <Name>imageMode</Name>
+              <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+              <Anchor>af8b89f4d867f20c0395b1a2b4cb022d0</Anchor>
              </Node>
              <Node>
               <Name>imageScale</Name>
@@ -1027,6 +1090,14 @@
               <Path>interface_s_b_s_d_k_camera_session.html</Path>
              </Node>
              <Node>
+              <Name>SBSDKCreditCardRecognizer</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+             </Node>
+             <Node>
+              <Name>SBSDKCreditCardRecognizerResult</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+             </Node>
+             <Node>
               <Name>SBSDKDeviceInformation</Name>
               <Path>interface_s_b_s_d_k_device_information.html</Path>
              </Node>
@@ -1139,6 +1210,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>SBSDKImageProcessor(NSURL)</Name>
+            <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+           </Node>
+           <Node>
             <Name>UIButton</Name>
             <Path></Path>
             <Subnodes>
@@ -1181,6 +1256,80 @@
            <Node>
             <Name>All</Name>
             <Path>functions.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>a</Name>
+              <Path>functions.html</Path>
+             </Node>
+             <Node>
+              <Name>b</Name>
+              <Path>functions_b.html</Path>
+             </Node>
+             <Node>
+              <Name>c</Name>
+              <Path>functions_c.html</Path>
+             </Node>
+             <Node>
+              <Name>d</Name>
+              <Path>functions_d.html</Path>
+             </Node>
+             <Node>
+              <Name>e</Name>
+              <Path>functions_e.html</Path>
+             </Node>
+             <Node>
+              <Name>f</Name>
+              <Path>functions_f.html</Path>
+             </Node>
+             <Node>
+              <Name>h</Name>
+              <Path>functions_h.html</Path>
+             </Node>
+             <Node>
+              <Name>i</Name>
+              <Path>functions_i.html</Path>
+             </Node>
+             <Node>
+              <Name>l</Name>
+              <Path>functions_l.html</Path>
+             </Node>
+             <Node>
+              <Name>n</Name>
+              <Path>functions_n.html</Path>
+             </Node>
+             <Node>
+              <Name>o</Name>
+              <Path>functions_o.html</Path>
+             </Node>
+             <Node>
+              <Name>p</Name>
+              <Path>functions_p.html</Path>
+             </Node>
+             <Node>
+              <Name>r</Name>
+              <Path>functions_r.html</Path>
+             </Node>
+             <Node>
+              <Name>s</Name>
+              <Path>functions_s.html</Path>
+             </Node>
+             <Node>
+              <Name>t</Name>
+              <Path>functions_t.html</Path>
+             </Node>
+             <Node>
+              <Name>u</Name>
+              <Path>functions_u.html</Path>
+             </Node>
+             <Node>
+              <Name>v</Name>
+              <Path>functions_v.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>functions_w.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>Functions</Name>
@@ -1263,6 +1412,55 @@
                 <Name>videoOrientation</Name>
                 <Path>interface_s_b_s_d_k_camera_session.html</Path>
                 <Anchor>ac20ea84a65e61c60688e06ca3681c3d3</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKCreditCardRecognizer.h</Name>
+            <Path>_s_b_s_d_k_credit_card_recognizer_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKCreditCardRecognizer</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>recognizeCreditCardInfoOnBuffer:orientation:</Name>
+                <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+                <Anchor>a0f890be6678b79c330f23d5739901ab7</Anchor>
+               </Node>
+               <Node>
+                <Name>recognizeCreditCardInfoOnImage:</Name>
+                <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+                <Anchor>afb5f6022674902e776c6760535919d3c</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKCreditCardRecognizerResult.h</Name>
+            <Path>_s_b_s_d_k_credit_card_recognizer_result_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKCreditCardRecognizerResult</Name>
+              <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>expirationDate</Name>
+                <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+                <Anchor>a9810e168d13c83a47ac5099f81d7edb8</Anchor>
+               </Node>
+               <Node>
+                <Name>holder</Name>
+                <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+                <Anchor>a9f3d2e32a076c76674ab6848d9273354</Anchor>
+               </Node>
+               <Node>
+                <Name>number</Name>
+                <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+                <Anchor>a143415e5df757ef7761ef0248f635d53</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1502,6 +1700,12 @@
              <Node>
               <Name>SBSDKImageProcessor</Name>
               <Path>interface_s_b_s_d_k_image_processor.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>SBSDKImageProcessor(NSURL)</Name>
+              <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
               <Subnodes>
               </Subnodes>
              </Node>
@@ -2198,9 +2402,24 @@
                 <Anchor>afe286e1fc52f842aa90a4c67b49b6260</Anchor>
                </Node>
                <Node>
+                <Name>detectionScore</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>a466c4db129c203e661251b0ea9cbd689</Anchor>
+               </Node>
+               <Node>
                 <Name>detectionStatus</Name>
                 <Path>interface_s_b_s_d_k_polygon.html</Path>
                 <Anchor>aa38ab846c4a770bf9e0ccaf55cb51582</Anchor>
+               </Node>
+               <Node>
+                <Name>heightPercentage</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>af4210ad105e593c8fadca5c595efb148</Anchor>
+               </Node>
+               <Node>
+                <Name>widthPercentage</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>a132f61c183a2f7df612699544df74e75</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2417,6 +2636,23 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>SBSDKImageMode</Name>
+              <Path>_s_b_s_d_k_scanbot_s_d_k_constants_8h.html</Path>
+              <Anchor>a1de31f92e668bff2ab65ba4c65c9536b</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>SBSDKImageModeColor</Name>
+                <Path>_s_b_s_d_k_scanbot_s_d_k_constants_8h.html</Path>
+                <Anchor>a1de31f92e668bff2ab65ba4c65c9536babca43be5afef71361ac7b9e48a884058</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKImageModeGrayscale</Name>
+                <Path>_s_b_s_d_k_scanbot_s_d_k_constants_8h.html</Path>
+                <Anchor>a1de31f92e668bff2ab65ba4c65c9536bae6b00ba604f9011df5e48db0c075767f</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>SBSDKErrorDomain</Name>
               <Path>_s_b_s_d_k_scanbot_s_d_k_constants_8h.html</Path>
               <Anchor>a0cc56bd78f580349de4ce4084d502b82</Anchor>
@@ -2586,6 +2822,11 @@
                 <Name>HUDView</Name>
                 <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
                 <Anchor>a9bda06ad1c78a64fb1b64255af544529</Anchor>
+               </Node>
+               <Node>
+                <Name>imageMode</Name>
+                <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+                <Anchor>af8b89f4d867f20c0395b1a2b4cb022d0</Anchor>
                </Node>
                <Node>
                 <Name>imageScale</Name>

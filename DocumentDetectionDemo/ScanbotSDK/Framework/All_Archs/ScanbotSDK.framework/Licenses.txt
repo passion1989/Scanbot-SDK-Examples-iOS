@@ -2,8 +2,8 @@ Scanbot SDK contains the following open source libraries:
 
 
 
-OpenCV 3.0 Beta
----------------
+OpenCV 3.1
+----------
 
 Copyright © 2014, Itseez. All rights reserved.
 This library is distributed under the terms of the following license: http://opencv.org/license.html.

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['orientation',['orientation',['../interface_s_b_s_d_k_page_analyzer_result.html#a2713299037fbc986e92aa29267cb7818',1,'SBSDKPageAnalyzerResult']]]
+  ['number',['number',['../interface_s_b_s_d_k_credit_card_recognizer_result.html#a143415e5df757ef7761ef0248f635d53',1,'SBSDKCreditCardRecognizerResult']]]
 ];

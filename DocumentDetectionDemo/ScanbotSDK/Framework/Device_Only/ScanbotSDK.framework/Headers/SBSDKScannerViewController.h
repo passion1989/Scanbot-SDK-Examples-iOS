@@ -11,6 +11,7 @@
 #import "SBSDKCameraSession.h"
 #import "SBSDKDocumentDetectionStatus.h"
 #import "SBSDKImageStorage.h"
+#import "SBSDKScanbotSDKConstants.h"
 
 /**
  * @enum SBSDKShutterMode
@@ -34,7 +35,6 @@ typedef NS_ENUM(NSInteger, SBSDKShutterMode) {
     /** The camera will never take a photo automatically. */
     SBSDKShutterModeAlwaysManual = 2
 };
-
 
 /** Forward declaration to be used in protocol declaration. */
 @class SBSDKScannerViewController;
@@ -270,6 +270,13 @@ shouldRotateInterfaceForDeviceOrientation:(UIDeviceOrientation)orientation
  * the auto shutter or significantly move your device.
   **/
 @property (nonatomic, readonly) BOOL autoShutterEnabled;
+
+/**
+ Specifies the format of the captured images handled via the delegate methods.
+ Use SBSDKImageModeGrayscale if a grayscale image is sufficient and to avoid memory pressure.
+ Defaults to SBSDKImageModeColor.
+ **/
+@property (nonatomic, assign) SBSDKImageMode imageMode;
 
 /**
  * A transparent view that lies over the preview layer. You can add custom UI here. Read-only.

@@ -13,5 +13,6 @@ var searchData=
   ['currentsizescore',['currentSizeScore',['../interface_s_b_s_d_k_document_detector.html#a71b33f7bac2effe1065bf660997bf7d1',1,'SBSDKDocumentDetector']]],
   ['currenttotalscore',['currentTotalScore',['../interface_s_b_s_d_k_document_detector.html#a0da9dc08f8b944e397f443996071d93c',1,'SBSDKDocumentDetector']]],
   ['currentwidthscore',['currentWidthScore',['../interface_s_b_s_d_k_document_detector.html#aa73fdf3c11cf4ba36694b1467b1cae11',1,'SBSDKDocumentDetector']]],
-  ['customfilterimage_3aprocessingblock_3aoutputimageurl_3acompletion_3a',['customFilterImage:processingBlock:outputImageURL:completion:',['../interface_s_b_s_d_k_image_processor.html#a7c2ca4f8dd0b3aae49266d688ab55bf0',1,'SBSDKImageProcessor']]]
+  ['customfilterimage_3aprocessingblock_3acompletion_3a',['customFilterImage:processingBlock:completion:',['../interface_s_b_s_d_k_image_processor.html#a7c63279181f09b6c9fa6442d274e9f23',1,'SBSDKImageProcessor']]],
+  ['customfilterimage_3aprocessingblock_3aoutputimageurl_3acompletion_3a',['customFilterImage:processingBlock:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a7c41db9b1817ad38c4e331552f30acfc',1,'SBSDKImageProcessor(NSURL)::customFilterImage:processingBlock:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a7c41db9b1817ad38c4e331552f30acfc',1,'SBSDKImageProcessor::customFilterImage:processingBlock:outputImageURL:completion:()']]]
 ];

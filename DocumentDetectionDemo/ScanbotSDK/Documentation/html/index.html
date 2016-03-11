@@ -355,10 +355,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><span class="comment">// Call the asynchronous image processing API. The returned progress object can be used to to cancel the operation.</span></div>
 <div class="line"><span class="comment">// Once the operation has been completed extract the image from resultInfo dictionary and do whatever you want with the image.</span></div>
 <div class="line"><a class="code" href="interface_s_b_s_d_k_progress.html">SBSDKProgress</a> *progress</div>
-<div class="line">= [<a class="code" href="interface_s_b_s_d_k_image_processor.html">SBSDKImageProcessor</a> <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c2ca4f8dd0b3aae49266d688ab55bf0">customFilterImage</a>:inputImageURL</div>
-<div class="line">                         <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c2ca4f8dd0b3aae49266d688ab55bf0">processingBlock</a>:processingHandler</div>
-<div class="line">                          <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c2ca4f8dd0b3aae49266d688ab55bf0">outputImageURL</a>:outputImageURL</div>
-<div class="line">                              <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c2ca4f8dd0b3aae49266d688ab55bf0">completion</a>:^(BOOL finished, NSError *error, NSDictionary *resultInfo) {</div>
+<div class="line">= [<a class="code" href="interface_s_b_s_d_k_image_processor.html">SBSDKImageProcessor</a> <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c41db9b1817ad38c4e331552f30acfc">customFilterImage</a>:inputImageURL</div>
+<div class="line">                         <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c41db9b1817ad38c4e331552f30acfc">processingBlock</a>:processingHandler</div>
+<div class="line">                          <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c41db9b1817ad38c4e331552f30acfc">outputImageURL</a>:outputImageURL</div>
+<div class="line">                              <a class="code" href="interface_s_b_s_d_k_image_processor.html#a7c41db9b1817ad38c4e331552f30acfc">completion</a>:^(BOOL finished, NSError *error, NSDictionary *resultInfo) {</div>
 <div class="line">                                  UIImage *outputImage = resultInfo[SBSDKResultInfoDestinationImageKey];</div>
 <div class="line">                              }];</div>
 </div><!-- fragment --><p>Example code for detecting and applying a polygon to an image </p><div class="fragment"><div class="line"><span class="comment">// Specify the input image URL.</span></div>
@@ -383,10 +383,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">    <span class="comment">// If the result is an acceptable polygon, we warp the image into the polygon asynchronously.</span></div>
 <div class="line">    <span class="comment">// When warping is done we check the result and on success we pick up the output image.</span></div>
 <div class="line">    <span class="comment">// Then do whatever you want with the warped image.</span></div>
-<div class="line">    [<a class="code" href="interface_s_b_s_d_k_image_processor.html">SBSDKImageProcessor</a> <a class="code" href="interface_s_b_s_d_k_image_processor.html#a3ce5969f3f52bb25038bc30710e8e33b">warpImage</a>:inputImageURL</div>
-<div class="line">                           <a class="code" href="interface_s_b_s_d_k_image_processor.html#a3ce5969f3f52bb25038bc30710e8e33b">polygon</a>:result.polygon</div>
-<div class="line">                    <a class="code" href="interface_s_b_s_d_k_image_processor.html#a3ce5969f3f52bb25038bc30710e8e33b">outputImageURL</a>:outputImageURL</div>
-<div class="line">                        <a class="code" href="interface_s_b_s_d_k_image_processor.html#a3ce5969f3f52bb25038bc30710e8e33b">completion</a>:^(BOOL finished, NSError *error, NSDictionary *resultInfo) {</div>
+<div class="line">    [<a class="code" href="interface_s_b_s_d_k_image_processor.html">SBSDKImageProcessor</a> <a class="code" href="interface_s_b_s_d_k_image_processor.html#a0a3f86af0ba4f83fc327cd489198530a">warpImage</a>:inputImageURL</div>
+<div class="line">                           <a class="code" href="interface_s_b_s_d_k_image_processor.html#a0a3f86af0ba4f83fc327cd489198530a">polygon</a>:result.polygon</div>
+<div class="line">                    <a class="code" href="interface_s_b_s_d_k_image_processor.html#a0a3f86af0ba4f83fc327cd489198530a">outputImageURL</a>:outputImageURL</div>
+<div class="line">                        <a class="code" href="interface_s_b_s_d_k_image_processor.html#a0a3f86af0ba4f83fc327cd489198530a">completion</a>:^(BOOL finished, NSError *error, NSDictionary *resultInfo) {</div>
 <div class="line">                            if (finished &amp;&amp; !error) {</div>
 <div class="line">                                UIImage *outputImage = resultInfo[SBSDKResultInfoDestinationImageKey];</div>
 <div class="line">                            }</div>
@@ -530,5 +530,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Tue Feb 9 2016 12:06:51 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Fri Mar 11 2016 15:43:15 <a href="https://scanbot.io"></a>
  </div>

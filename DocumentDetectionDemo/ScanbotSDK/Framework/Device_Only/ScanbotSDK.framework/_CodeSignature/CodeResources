@@ -12,6 +12,14 @@
 		<data>
 		tCd6u0IcVnewPog42+ifESxLkJk=
 		</data>
+		<key>Headers/SBSDKCreditCardRecognizer.h</key>
+		<data>
+		F641yfO74WZoJ9EOrUvgenHWJFw=
+		</data>
+		<key>Headers/SBSDKCreditCardRecognizerResult.h</key>
+		<data>
+		raaNPXIqCHWdKuY/TDYNToDHUjw=
+		</data>
 		<key>Headers/SBSDKDetectionStatusLabel.h</key>
 		<data>
 		5OGI/1WbXaPxvMKKVMw2SW/3nWc=
@@ -30,7 +38,7 @@
 		</data>
 		<key>Headers/SBSDKFeatures.h</key>
 		<data>
-		awwpBekGZrOynUGTITC3HmnpCl0=
+		mkG9NvS7t/BVNNSHOly5b+leil8=
 		</data>
 		<key>Headers/SBSDKGeometryUtilities.h</key>
 		<data>
@@ -42,7 +50,7 @@
 		</data>
 		<key>Headers/SBSDKImageProcessor.h</key>
 		<data>
-		iLP/0TMuECfrpH2hiiL7AWCzW/U=
+		XMtrt3eDVs7BSOHvySILo6kdz/4=
 		</data>
 		<key>Headers/SBSDKImageStorage.h</key>
 		<data>
@@ -70,7 +78,7 @@
 		</data>
 		<key>Headers/SBSDKPolygon.h</key>
 		<data>
-		w5QvYPsE30pJtbXpwt2/HsUxgxY=
+		niCHtoI/tIhppSBgBYTjsYwP0k8=
 		</data>
 		<key>Headers/SBSDKPolygonEdge.h</key>
 		<data>
@@ -90,15 +98,15 @@
 		</data>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<data>
-		FmX7oNuoBiKeXl6E3kDkSY5UOpM=
+		PlYpqURyEM9NJOvtWhUTHrgjxiY=
 		</data>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
 		<data>
-		ZfF8HwL/CpXqQchKSexYdwqRFB8=
+		dsvjxjWXalE2plnLakIy3NPQyfs=
 		</data>
 		<key>Headers/SBSDKScannerViewController.h</key>
 		<data>
-		7E3I9dvD9UEGx8QtPj5o3ntJr5k=
+		6vbstrk4YTEHLydHcaYK+caIbxc=
 		</data>
 		<key>Headers/SBSDKShutterButton.h</key>
 		<data>
@@ -118,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jBGu0sRMPYF/v6ljFvRdTlYJ2Xc=
+		2X9WT8kN5HUtUTHIBkfK4aGIJhs=
 		</data>
 		<key>LanguageToTesseractTrainedData.plist</key>
 		<data>
@@ -126,7 +134,7 @@
 		</data>
 		<key>Licenses.txt</key>
 		<data>
-		SCYshwl9oObORxi7Et/SoXsqtuw=
+		IThfS3K8D7ErK+4p6jk3Ctk/iZo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,6 +151,10 @@
 		<key>banks.csv</key>
 		<data>
 		rEji5xf8YOn1OgsckiGtzODBGYg=
+		</data>
+		<key>trainedData.xml</key>
+		<data>
+		P8T4LYxmIGkPcj6rXGwmLwmUbDo=
 		</data>
 		<key>ui_scan_snapbutton_active.png</key>
 		<data>
@@ -203,6 +215,14 @@
 		<data>
 		tCd6u0IcVnewPog42+ifESxLkJk=
 		</data>
+		<key>Headers/SBSDKCreditCardRecognizer.h</key>
+		<data>
+		F641yfO74WZoJ9EOrUvgenHWJFw=
+		</data>
+		<key>Headers/SBSDKCreditCardRecognizerResult.h</key>
+		<data>
+		raaNPXIqCHWdKuY/TDYNToDHUjw=
+		</data>
 		<key>Headers/SBSDKDetectionStatusLabel.h</key>
 		<data>
 		5OGI/1WbXaPxvMKKVMw2SW/3nWc=
@@ -221,7 +241,7 @@
 		</data>
 		<key>Headers/SBSDKFeatures.h</key>
 		<data>
-		awwpBekGZrOynUGTITC3HmnpCl0=
+		mkG9NvS7t/BVNNSHOly5b+leil8=
 		</data>
 		<key>Headers/SBSDKGeometryUtilities.h</key>
 		<data>
@@ -233,7 +253,7 @@
 		</data>
 		<key>Headers/SBSDKImageProcessor.h</key>
 		<data>
-		iLP/0TMuECfrpH2hiiL7AWCzW/U=
+		XMtrt3eDVs7BSOHvySILo6kdz/4=
 		</data>
 		<key>Headers/SBSDKImageStorage.h</key>
 		<data>
@@ -261,7 +281,7 @@
 		</data>
 		<key>Headers/SBSDKPolygon.h</key>
 		<data>
-		w5QvYPsE30pJtbXpwt2/HsUxgxY=
+		niCHtoI/tIhppSBgBYTjsYwP0k8=
 		</data>
 		<key>Headers/SBSDKPolygonEdge.h</key>
 		<data>
@@ -281,15 +301,15 @@
 		</data>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<data>
-		FmX7oNuoBiKeXl6E3kDkSY5UOpM=
+		PlYpqURyEM9NJOvtWhUTHrgjxiY=
 		</data>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
 		<data>
-		ZfF8HwL/CpXqQchKSexYdwqRFB8=
+		dsvjxjWXalE2plnLakIy3NPQyfs=
 		</data>
 		<key>Headers/SBSDKScannerViewController.h</key>
 		<data>
-		7E3I9dvD9UEGx8QtPj5o3ntJr5k=
+		6vbstrk4YTEHLydHcaYK+caIbxc=
 		</data>
 		<key>Headers/SBSDKShutterButton.h</key>
 		<data>
@@ -313,7 +333,7 @@
 		</data>
 		<key>Licenses.txt</key>
 		<data>
-		SCYshwl9oObORxi7Et/SoXsqtuw=
+		IThfS3K8D7ErK+4p6jk3Ctk/iZo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -330,6 +350,10 @@
 		<key>banks.csv</key>
 		<data>
 		rEji5xf8YOn1OgsckiGtzODBGYg=
+		</data>
+		<key>trainedData.xml</key>
+		<data>
+		P8T4LYxmIGkPcj6rXGwmLwmUbDo=
 		</data>
 		<key>ui_scan_snapbutton_active.png</key>
 		<data>

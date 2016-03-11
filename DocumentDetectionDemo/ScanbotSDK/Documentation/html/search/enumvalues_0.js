@@ -23,6 +23,8 @@ var searchData=
   ['sbsdkimagefiltertypeexperimental',['SBSDKImageFilterTypeExperimental',['../_s_b_s_d_k_image_filter_types_8h.html#a28f3477e0201b22eea5aa3940ec4ffb3af53198f61099c59871c29da56e3eb11a',1,'SBSDKImageFilterTypes.h']]],
   ['sbsdkimagefiltertypegray',['SBSDKImageFilterTypeGray',['../_s_b_s_d_k_image_filter_types_8h.html#a28f3477e0201b22eea5aa3940ec4ffb3a3a8e2fe851f1b8d0ec6cf2fd2bdba0d9',1,'SBSDKImageFilterTypes.h']]],
   ['sbsdkimagefiltertypenone',['SBSDKImageFilterTypeNone',['../_s_b_s_d_k_image_filter_types_8h.html#a28f3477e0201b22eea5aa3940ec4ffb3a4f81110372068eae3bffc8d3016b2a04',1,'SBSDKImageFilterTypes.h']]],
+  ['sbsdkimagemodecolor',['SBSDKImageModeColor',['../_s_b_s_d_k_scanbot_s_d_k_constants_8h.html#a1de31f92e668bff2ab65ba4c65c9536babca43be5afef71361ac7b9e48a884058',1,'SBSDKScanbotSDKConstants.h']]],
+  ['sbsdkimagemodegrayscale',['SBSDKImageModeGrayscale',['../_s_b_s_d_k_scanbot_s_d_k_constants_8h.html#a1de31f92e668bff2ab65ba4c65c9536bae6b00ba604f9011df5e48db0c075767f',1,'SBSDKScanbotSDKConstants.h']]],
   ['sbsdkocrresultblocktypeline',['SBSDKOCRResultBlockTypeLine',['../_s_b_s_d_k_o_c_r_result_8h.html#ae543bebe66a691d5424726895bd08207a58cc1bb1edcdfea08da1d0410dc1fd6a',1,'SBSDKOCRResult.h']]],
   ['sbsdkocrresultblocktypeparagraph',['SBSDKOCRResultBlockTypeParagraph',['../_s_b_s_d_k_o_c_r_result_8h.html#ae543bebe66a691d5424726895bd08207aca106291b7d665bb27ae56bbfa6bd87b',1,'SBSDKOCRResult.h']]],
   ['sbsdkocrresultblocktypeword',['SBSDKOCRResultBlockTypeWord',['../_s_b_s_d_k_o_c_r_result_8h.html#ae543bebe66a691d5424726895bd08207a32a2fce7f0167c74d80497b86a4f30c0',1,'SBSDKOCRResult.h']]],

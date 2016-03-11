@@ -692,6 +692,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SBSDKImageModeColor</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_scanbot_s_d_k_constants_8h.html</Path>
+    <Anchor>a1de31f92e668bff2ab65ba4c65c9536babca43be5afef71361ac7b9e48a884058</Anchor>
+    <DeclaredIn>SBSDKScanbotSDKConstants.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageModeGrayscale</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_scanbot_s_d_k_constants_8h.html</Path>
+    <Anchor>a1de31f92e668bff2ab65ba4c65c9536bae6b00ba604f9011df5e48db0c075767f</Anchor>
+    <DeclaredIn>SBSDKScanbotSDKConstants.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SBSDKShutterModeSmart</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -889,6 +909,78 @@
     </TokenIdentifier>
     <Path>protocol_s_b_s_d_k_camera_session_delegate-p.html</Path>
     <DeclaredIn>SBSDKCameraSession.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKCreditCardRecognizer</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKCreditCardRecognizer</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+    <DeclaredIn>SBSDKCreditCardRecognizer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recognizeCreditCardInfoOnImage:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKCreditCardRecognizer</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+    <Anchor>afb5f6022674902e776c6760535919d3c</Anchor>
+    <DeclaredIn>SBSDKCreditCardRecognizer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recognizeCreditCardInfoOnBuffer:orientation:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKCreditCardRecognizer</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
+    <Anchor>a0f890be6678b79c330f23d5739901ab7</Anchor>
+    <DeclaredIn>SBSDKCreditCardRecognizer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKCreditCardRecognizerResult</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKCreditCardRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+    <DeclaredIn>SBSDKCreditCardRecognizerResult.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>number</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCreditCardRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+    <Anchor>a143415e5df757ef7761ef0248f635d53</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>holder</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCreditCardRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+    <Anchor>a9f3d2e32a076c76674ab6848d9273354</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>expirationDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCreditCardRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+    <Anchor>a9810e168d13c83a47ac5099f81d7edb8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1150,13 +1242,79 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>filterImage:filter:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_processor.html</Path>
+    <Anchor>a588816013d9ebd8cf93bbd115bcd0d8c</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateImage:clockwise:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_processor.html</Path>
+    <Anchor>a43c3a5764c1c9a7e3f4a85772e399a58</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateImage:counterClockwise:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_processor.html</Path>
+    <Anchor>afba10832b0ea3365d1c77b9e77201ad1</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateImage:degrees:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_processor.html</Path>
+    <Anchor>a3321cba1dd4b28e5c4581436d096e011</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>warpImage:polygon:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_processor.html</Path>
+    <Anchor>abad4c11b2e75c212364d622bdee74c0f</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customFilterImage:processingBlock:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_processor.html</Path>
+    <Anchor>a7c63279181f09b6c9fa6442d274e9f23</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>filterImage:filter:outputImageURL:completion:</Name>
       <APILanguage>occ</APILanguage>
       <Type>clm</Type>
       <Scope>SBSDKImageProcessor</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_processor.html</Path>
-    <Anchor>a4d074ef17e0ffc20d94a2793d8851601</Anchor>
+    <Anchor>a1a5e14977e893bbc314dc45f9488accd</Anchor>
     <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
   </Token>
   <Token>
@@ -1167,7 +1325,7 @@
       <Scope>SBSDKImageProcessor</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_processor.html</Path>
-    <Anchor>a62e1cd2a987f407ead64767b4a5683c1</Anchor>
+    <Anchor>aa1a453b3e24a5093e3018f4b075872da</Anchor>
     <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
   </Token>
   <Token>
@@ -1178,7 +1336,7 @@
       <Scope>SBSDKImageProcessor</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_processor.html</Path>
-    <Anchor>a5f810dbb7da5a79554028e1207bcac94</Anchor>
+    <Anchor>a68c5e33612f2b86824942ed7fa00153c</Anchor>
     <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
   </Token>
   <Token>
@@ -1189,7 +1347,7 @@
       <Scope>SBSDKImageProcessor</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_processor.html</Path>
-    <Anchor>a024ba0dc6e703e9a6f62392f49784f8f</Anchor>
+    <Anchor>a59cc9430ff28264fb27edb32a6ac8d81</Anchor>
     <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
   </Token>
   <Token>
@@ -1200,7 +1358,7 @@
       <Scope>SBSDKImageProcessor</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_processor.html</Path>
-    <Anchor>a3ce5969f3f52bb25038bc30710e8e33b</Anchor>
+    <Anchor>a0a3f86af0ba4f83fc327cd489198530a</Anchor>
     <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
   </Token>
   <Token>
@@ -1211,7 +1369,83 @@
       <Scope>SBSDKImageProcessor</Scope>
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_processor.html</Path>
-    <Anchor>a7c2ca4f8dd0b3aae49266d688ab55bf0</Anchor>
+    <Anchor>a7c41db9b1817ad38c4e331552f30acfc</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageProcessor(NSURL)</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cat</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>filterImage:filter:outputImageURL:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <Anchor>a1a5e14977e893bbc314dc45f9488accd</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateImage:clockwise:outputImageURL:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <Anchor>aa1a453b3e24a5093e3018f4b075872da</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateImage:counterClockwise:outputImageURL:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <Anchor>a68c5e33612f2b86824942ed7fa00153c</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateImage:degrees:outputImageURL:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <Anchor>a59cc9430ff28264fb27edb32a6ac8d81</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>warpImage:polygon:outputImageURL:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <Anchor>a0a3f86af0ba4f83fc327cd489198530a</Anchor>
+    <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customFilterImage:processingBlock:outputImageURL:completion:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>SBSDKImageProcessor(NSURL)</Scope>
+    </TokenIdentifier>
+    <Path>category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html</Path>
+    <Anchor>a7c41db9b1817ad38c4e331552f30acfc</Anchor>
     <DeclaredIn>SBSDKImageProcessor.h</DeclaredIn>
   </Token>
   <Token>
@@ -2400,6 +2634,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>widthPercentage</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>a132f61c183a2f7df612699544df74e75</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>heightPercentage</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>af4210ad105e593c8fadca5c595efb148</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detectionScore</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>a466c4db129c203e661251b0ea9cbd689</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>detectionStatus</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -2728,6 +2992,16 @@
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
     <Anchor>a15a7313a10374cdfa0007022cab70ade</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKScannerViewController</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_scanner_view_controller.html</Path>
+    <Anchor>af8b89f4d867f20c0395b1a2b4cb022d0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -8,6 +8,7 @@ var searchData=
   ['detectedhorizontaledges',['detectedHorizontalEdges',['../interface_s_b_s_d_k_document_detector.html#aca80bdb65a5d2f85af6855f34708333e',1,'SBSDKDocumentDetector']]],
   ['detectedverticaledges',['detectedVerticalEdges',['../interface_s_b_s_d_k_document_detector.html#acbeff5ad082522406b63e7ed1e40643c',1,'SBSDKDocumentDetector']]],
   ['detectinsamplebuffer_3aorientation_3a',['detectInSampleBuffer:orientation:',['../interface_s_b_s_d_k_pay_form_scanner.html#a8dfdbd56916dd43529f6f192d3a55e54',1,'SBSDKPayFormScanner']]],
+  ['detectionscore',['detectionScore',['../interface_s_b_s_d_k_polygon.html#a466c4db129c203e661251b0ea9cbd689',1,'SBSDKPolygon']]],
   ['detectionstatus',['detectionStatus',['../interface_s_b_s_d_k_polygon.html#aa38ab846c4a770bf9e0ccaf55cb51582',1,'SBSDKPolygon']]],
   ['detectionstatushidden',['detectionStatusHidden',['../interface_s_b_s_d_k_scanner_view_controller.html#aa71bd49636867bae0b21012d4d4c3898',1,'SBSDKScannerViewController']]],
   ['detectonimage_3a',['detectOnImage:',['../interface_s_b_s_d_k_pay_form_scanner.html#a91efc357272a2b1d6639e32be7b84b53',1,'SBSDKPayFormScanner']]],

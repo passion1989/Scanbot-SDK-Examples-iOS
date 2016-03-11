@@ -20,8 +20,9 @@
  */
 @interface SBSDKPolygon : NSObject <NSCopying>
 
-
-
+@property(nonatomic, assign) double widthPercentage;
+@property(nonatomic, assign) double heightPercentage;
+@property(nonatomic, assign) double detectionScore;
 @property(nonatomic, assign) SBSDKDocumentDetectionStatus detectionStatus;
 
 /**

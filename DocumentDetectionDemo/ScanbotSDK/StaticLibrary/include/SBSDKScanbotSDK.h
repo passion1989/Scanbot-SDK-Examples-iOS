@@ -33,6 +33,8 @@
 
 #import "SBSDKPayFormScanner.h"
 
+#import "SBSDKCreditCardRecognizer.h"
+
 #import "SBSDKPDFRenderer.h"
 
 #import "UIImageSBSDK.h"

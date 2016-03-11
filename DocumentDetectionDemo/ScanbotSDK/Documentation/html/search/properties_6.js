@@ -1,6 +1,7 @@
 var searchData=
 [
   ['imagecount',['imageCount',['../interface_s_b_s_d_k_image_storage.html#a554f308ad960d48109c34edd2ae3541f',1,'SBSDKImageStorage']]],
+  ['imagemode',['imageMode',['../interface_s_b_s_d_k_scanner_view_controller.html#af8b89f4d867f20c0395b1a2b4cb022d0',1,'SBSDKScannerViewController']]],
   ['imagequality',['imageQuality',['../interface_s_b_s_d_k_image_storage.html#af492eef8bbb2904ddc6efefa529c35ac',1,'SBSDKImageStorage']]],
   ['imagescale',['imageScale',['../interface_s_b_s_d_k_scanner_view_controller.html#a71bee112418027b8d1e04a473f2282d3',1,'SBSDKScannerViewController']]],
   ['imagesize',['imageSize',['../interface_s_b_s_d_k_pay_form_result.html#a4be1730789356833faf064bcacef49b6',1,'SBSDKPayFormResult']]],

@@ -4,6 +4,7 @@ var searchData=
   ['imagecount',['imageCount',['../interface_s_b_s_d_k_image_storage.html#a554f308ad960d48109c34edd2ae3541f',1,'SBSDKImageStorage']]],
   ['imagefilteredbyfilter_3a',['imageFilteredByFilter:',['../category_u_i_image_07_s_b_s_d_k_08.html#ab7d4f160069a9972e2feea9cb538f917',1,'UIImage(SBSDK)']]],
   ['imagefromsamplebuffer_3a',['imageFromSampleBuffer:',['../category_u_i_image_07_s_b_s_d_k_08.html#aefb7990647a42b81d163b5778159c2ac',1,'UIImage(SBSDK)']]],
+  ['imagemode',['imageMode',['../interface_s_b_s_d_k_scanner_view_controller.html#af8b89f4d867f20c0395b1a2b4cb022d0',1,'SBSDKScannerViewController']]],
   ['imagequality',['imageQuality',['../interface_s_b_s_d_k_image_storage.html#af492eef8bbb2904ddc6efefa529c35ac',1,'SBSDKImageStorage']]],
   ['imagerotatedbydegrees_3a',['imageRotatedByDegrees:',['../category_u_i_image_07_s_b_s_d_k_08.html#ae45d7b53e3c4e5c00388b1be275c5c3c',1,'UIImage(SBSDK)']]],
   ['imagerotatedclockwise_3a',['imageRotatedClockwise:',['../category_u_i_image_07_s_b_s_d_k_08.html#a08c3af2ee2650c5bdc5207c4efe8aa21',1,'UIImage(SBSDK)']]],

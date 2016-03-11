@@ -3,6 +3,7 @@ var searchData=
   ['sbsdkdocumentdetectionstatus',['SBSDKDocumentDetectionStatus',['../_s_b_s_d_k_document_detection_status_8h.html#af11f3ac739e65e9ca7e9b0fce2a7c2f8',1,'SBSDKDocumentDetectionStatus.h']]],
   ['sbsdkerrorcode',['SBSDKErrorCode',['../_s_b_s_d_k_scanbot_s_d_k_constants_8h.html#abc35e34171b541bc5e909904d8cbf46a',1,'SBSDKScanbotSDKConstants.h']]],
   ['sbsdkimagefiltertype',['SBSDKImageFilterType',['../_s_b_s_d_k_image_filter_types_8h.html#a28f3477e0201b22eea5aa3940ec4ffb3',1,'SBSDKImageFilterTypes.h']]],
+  ['sbsdkimagemode',['SBSDKImageMode',['../_s_b_s_d_k_scanbot_s_d_k_constants_8h.html#a1de31f92e668bff2ab65ba4c65c9536b',1,'SBSDKScanbotSDKConstants.h']]],
   ['sbsdkocrresultblocktype',['SBSDKOCRResultBlockType',['../_s_b_s_d_k_o_c_r_result_8h.html#ae543bebe66a691d5424726895bd08207',1,'SBSDKOCRResult.h']]],
   ['sbsdkpageorientation',['SBSDKPageOrientation',['../_s_b_s_d_k_page_analyzer_result_8h.html#a7d40013d32d27d82748fe1df58273ea2',1,'SBSDKPageAnalyzerResult.h']]],
   ['sbsdkpayformtokentype',['SBSDKPayFormTokenType',['../_s_b_s_d_k_pay_form_scanner_8h.html#a421e0dfcb440ce182cae7d9129a3b11e',1,'SBSDKPayFormScanner.h']]],
