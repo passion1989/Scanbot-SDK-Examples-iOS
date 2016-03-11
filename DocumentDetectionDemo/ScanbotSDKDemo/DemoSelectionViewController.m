@@ -11,6 +11,7 @@
 @interface DemoSelectionViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *documentDemoButton;
 @property (strong, nonatomic) IBOutlet UIButton *payformDemoButton;
+@property (strong, nonatomic) IBOutlet UIButton *creditCardDemoButton;
 @end
 
 @implementation DemoSelectionViewController
@@ -21,6 +22,7 @@
     self.navigationItem.title = self.title;
     [self applyButtonAppearance:self.documentDemoButton];
     [self applyButtonAppearance:self.payformDemoButton];
+    [self applyButtonAppearance:self.creditCardDemoButton];
 }
 
 - (void)applyButtonAppearance:(UIButton *)button {

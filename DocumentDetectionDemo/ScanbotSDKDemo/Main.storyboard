@@ -39,12 +39,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Demo:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4k-TS-bx7">
-                                <rect key="frame" x="192" y="208" width="217" height="18"/>
+                                <rect key="frame" x="192" y="178" width="217" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adM-sR-Tdg">
-                                <rect key="frame" x="192" y="256" width="217" height="44"/>
+                                <rect key="frame" x="192" y="226" width="217" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="vnr-On-wDO"/>
                                 </constraints>
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-OK-541">
-                                <rect key="frame" x="192" y="320" width="217" height="44"/>
+                                <rect key="frame" x="192" y="290" width="217" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="JWv-Va-hZV"/>
                                 </constraints>
@@ -72,10 +72,24 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 doo GmbH. All rights reserved." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bWn-qW-Jpa">
-                                <rect key="frame" x="20" y="577" width="560" height="15"/>
+                                <rect key="frame" x="20" y="577.5" width="560" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEE-Gx-HIN">
+                                <rect key="frame" x="192" y="354" width="217" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="yxl-TM-UTB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                <state key="normal" title="Credit Card Demo">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="blK-ed-CC4" kind="show" id="5Kf-xb-XHj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -83,17 +97,21 @@
                             <constraint firstItem="f4k-TS-bx7" firstAttribute="width" secondItem="adM-sR-Tdg" secondAttribute="width" id="815-EP-m3u"/>
                             <constraint firstItem="1cN-OK-541" firstAttribute="top" secondItem="adM-sR-Tdg" secondAttribute="bottom" constant="20" id="8M0-yq-dG6"/>
                             <constraint firstItem="f4k-TS-bx7" firstAttribute="centerX" secondItem="c3R-D5-h9x" secondAttribute="centerX" id="9FN-ln-Yd6"/>
+                            <constraint firstItem="TEE-Gx-HIN" firstAttribute="width" secondItem="1cN-OK-541" secondAttribute="width" id="ALU-Qi-4Ud"/>
                             <constraint firstItem="adM-sR-Tdg" firstAttribute="top" secondItem="f4k-TS-bx7" secondAttribute="bottom" constant="30" id="CQL-z9-97O"/>
-                            <constraint firstItem="adM-sR-Tdg" firstAttribute="bottom" secondItem="c3R-D5-h9x" secondAttribute="centerY" id="DY7-2s-83J"/>
+                            <constraint firstItem="adM-sR-Tdg" firstAttribute="bottom" secondItem="c3R-D5-h9x" secondAttribute="centerY" constant="-30" id="DY7-2s-83J"/>
                             <constraint firstItem="adM-sR-Tdg" firstAttribute="centerX" secondItem="c3R-D5-h9x" secondAttribute="centerX" id="Kwy-n0-Phm"/>
+                            <constraint firstItem="TEE-Gx-HIN" firstAttribute="top" secondItem="1cN-OK-541" secondAttribute="bottom" constant="20" id="aUQ-h5-Ucz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bWn-qW-Jpa" secondAttribute="trailing" id="jOJ-dS-gzh"/>
                             <constraint firstItem="lwh-rA-iL3" firstAttribute="top" secondItem="bWn-qW-Jpa" secondAttribute="bottom" constant="8" id="rvI-Cn-p7k"/>
+                            <constraint firstItem="TEE-Gx-HIN" firstAttribute="centerX" secondItem="c3R-D5-h9x" secondAttribute="centerX" id="ugG-C5-EF5"/>
                             <constraint firstItem="1cN-OK-541" firstAttribute="centerX" secondItem="c3R-D5-h9x" secondAttribute="centerX" id="vTO-t9-wcn"/>
                             <constraint firstAttribute="leadingMargin" secondItem="bWn-qW-Jpa" secondAttribute="leading" id="wpC-K5-JU7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dxt-JB-ZNL"/>
                     <connections>
+                        <outlet property="creditCardDemoButton" destination="TEE-Gx-HIN" id="Kym-tR-f0c"/>
                         <outlet property="documentDemoButton" destination="adM-sR-Tdg" id="PLf-GL-ENH"/>
                         <outlet property="payformDemoButton" destination="1cN-OK-541" id="SYX-49-ghJ"/>
                     </connections>
@@ -216,6 +234,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nW-rz-JhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="807" y="1001"/>
+        </scene>
+        <!--Credit Card Recognition Demo View Controller-->
+        <scene sceneID="02R-8f-tQP">
+            <objects>
+                <viewController storyboardIdentifier="CreditCardRecognitionDemoViewController" id="blK-ed-CC4" customClass="CreditCardRecognitionDemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qfy-3t-8cz"/>
+                        <viewControllerLayoutGuide type="bottom" id="CHt-pc-tQj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rho-FF-1sE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hw-wT-cJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807" y="1703"/>
         </scene>
         <!--Recognized Text-->
         <scene sceneID="jMy-hz-a1b">
