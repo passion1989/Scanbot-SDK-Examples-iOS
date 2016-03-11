@@ -984,6 +984,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>polygon</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCreditCardRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_credit_card_recognizer_result.html</Path>
+    <Anchor>ae8caba0e7ac612f7948eb92c886d60a4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SBSDKDetectionStatusLabel</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>

@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) SBSDKCameraSession *cameraSession;
 @property (nonatomic, strong) SBSDKCreditCardRecognizer *wrapper;
+@property (nonatomic, strong) SBSDKPolygonLayer *polygonLayer;
+
 @property (atomic, assign) BOOL recognitionEnabled;
 
 @end
@@ -37,17 +39,27 @@
     return _cameraSession;
 }
 
+- (SBSDKPolygonLayer *)polygonLayer {
+    if (!_polygonLayer) {
+        UIColor *color = [UIColor colorWithRed:0.0f green:0.5f blue:1.0f alpha:1.0f];
+        _polygonLayer = [[SBSDKPolygonLayer alloc] initWithLineColor:color];
+    }
+    return _polygonLayer;
+}
+
 #pragma mark - Life cycle methods
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blackColor];
     [self.view.layer addSublayer:self.cameraSession.previewLayer];
+    [self.view.layer addSublayer:self.polygonLayer];
 }
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     self.cameraSession.previewLayer.frame = self.view.bounds;
+    self.polygonLayer.frame = self.view.bounds;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -57,9 +69,14 @@
 }
 
 - (void)showResult:(SBSDKCreditCardRecognizerResult *)result {
+    
+    self.polygonLayer.path = [result.polygon bezierPathForPreviewLayer:self.cameraSession.previewLayer].CGPath;
+    
     if (result.number.length == 0) {
         return;
     }
+    
+    self.polygonLayer.path = nil;
     
     self.recognitionEnabled = NO;
     
@@ -102,7 +119,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     
     AVCaptureVideoOrientation orientation = self.cameraSession.videoOrientation;
     SBSDKCreditCardRecognizerResult *result = [self.wrapper recognizeCreditCardInfoOnBuffer:sampleBuffer
-                                                                            orientation:orientation];
+                                                                                orientation:orientation];
     dispatch_async(dispatch_get_main_queue(), ^{
         [self showResult:result];
     });

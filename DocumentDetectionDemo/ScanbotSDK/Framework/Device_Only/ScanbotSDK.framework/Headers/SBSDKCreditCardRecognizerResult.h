@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SBSDKPolygon.h"
 
 /**
  * @class SBSDKCreditCardRecognizerResult
@@ -22,5 +23,8 @@
 
 /** The expiration date of the credit card. **/
 @property (nonatomic, readonly, strong) NSString *expirationDate;
+
+/** The polygon of the credit card withinin the image. **/
+@property (nonatomic, readonly, copy) SBSDKPolygon *polygon;
 
 @end

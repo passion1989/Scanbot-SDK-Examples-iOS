@@ -139,7 +139,7 @@ Added new method for custom drawing of detected document polygon
 - Added new delegate method  -(NSString *)scannerController:(SBSDKScannerViewController *)controller localizedTextForDetectionStatus:(SBSDKDocumentDetectionStatus)status to help you localizing the detection status strings
 
 
-##### Changelog version 1.1.0:
+##### Changelog version 1.1.1:
 
 - Added brand new credit card recognizer: SBSDKCreditCardRecognizer
 - Refactored Demo app: now contains Document Detection, Payform Detection and Credit Card detection
