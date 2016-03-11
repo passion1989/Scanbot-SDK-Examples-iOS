@@ -141,7 +141,7 @@ Added new method for custom drawing of detected document polygon
 
 ##### Changelog version 1.1.1:
 
-- Added brand new credit card recognizer: SBSDKCreditCardRecognizer
+- Beta: Added brand new credit card recognizer: SBSDKCreditCardRecognizer
 - Refactored Demo app: now contains Document Detection, Payform Detection and Credit Card detection
 - Fixed some bugs in SBSDKScannerViewController, e.g. automatic crop after manual snap
 - Added imageMode flag to SBSDKScannerViewController, can be set to grayscale mode to capture all images in grayscale mode for better memory footprint
