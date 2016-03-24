@@ -146,3 +146,8 @@ Added new method for custom drawing of detected document polygon
 - Fixed some bugs in SBSDKScannerViewController, e.g. automatic crop after manual snap
 - Added imageMode flag to SBSDKScannerViewController, can be set to grayscale mode to capture all images in grayscale mode for better memory footprint
 - Added API to SBSDImageProcessor to pass UIImage objects directly instead of NSURLs
+
+
+##### Changelog version 1.1.2:
+
+- Improved credit card recognizer (SBSDKCreditCardRecognizer)
