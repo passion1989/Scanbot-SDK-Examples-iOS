@@ -912,6 +912,67 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SBSDKChequeRecognizer</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKChequeRecognizer</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+    <DeclaredIn>SBSDKChequeRecognizer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recognizeChequeOnBuffer:orientation:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKChequeRecognizer</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+    <Anchor>a3abea25637106e3bad87d95c34303a18</Anchor>
+    <DeclaredIn>SBSDKChequeRecognizer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKChequeRecognizerResult</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKChequeRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+    <DeclaredIn>SBSDKChequeRecognizerResult.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>routingNumber</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKChequeRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+    <Anchor>a1afc2a97340e2d620dbaf49a69c1cbeb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>accountNumber</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKChequeRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+    <Anchor>a4e8eacef30d0214f2bd77f36997f0cf5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>polygon</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKChequeRecognizerResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+    <Anchor>a41bd700b5c395d6ab83f28a85c9bf185</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SBSDKCreditCardRecognizer</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>

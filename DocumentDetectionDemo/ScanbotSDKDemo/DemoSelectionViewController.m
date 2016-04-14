@@ -12,6 +12,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *documentDemoButton;
 @property (strong, nonatomic) IBOutlet UIButton *payformDemoButton;
 @property (strong, nonatomic) IBOutlet UIButton *creditCardDemoButton;
+@property (strong, nonatomic) IBOutlet UIButton *chequeDemoButton;
 @end
 
 @implementation DemoSelectionViewController
@@ -23,6 +24,7 @@
     [self applyButtonAppearance:self.documentDemoButton];
     [self applyButtonAppearance:self.payformDemoButton];
     [self applyButtonAppearance:self.creditCardDemoButton];
+    [self applyButtonAppearance:self.chequeDemoButton];
 }
 
 - (void)applyButtonAppearance:(UIButton *)button {

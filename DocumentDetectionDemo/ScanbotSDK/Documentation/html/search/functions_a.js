@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['recognizechequeonbuffer_3aorientation_3a',['recognizeChequeOnBuffer:orientation:',['../interface_s_b_s_d_k_cheque_recognizer.html#a3abea25637106e3bad87d95c34303a18',1,'SBSDKChequeRecognizer']]],
   ['recognizecreditcardinfoonbuffer_3aorientation_3a',['recognizeCreditCardInfoOnBuffer:orientation:',['../interface_s_b_s_d_k_credit_card_recognizer.html#a0f890be6678b79c330f23d5739901ab7',1,'SBSDKCreditCardRecognizer']]],
   ['recognizecreditcardinfoonimage_3a',['recognizeCreditCardInfoOnImage:',['../interface_s_b_s_d_k_credit_card_recognizer.html#afb5f6022674902e776c6760535919d3c',1,'SBSDKCreditCardRecognizer']]],
   ['recognizefieldsinsamplebuffer_3aorientation_3a',['recognizeFieldsInSampleBuffer:orientation:',['../interface_s_b_s_d_k_pay_form_scanner.html#ad07be7253aea397a67972ba5b97a895a',1,'SBSDKPayFormScanner']]],

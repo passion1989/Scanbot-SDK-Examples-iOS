@@ -82,6 +82,38 @@
             <Path>protocol_s_b_s_d_k_camera_session_delegate-p.html</Path>
            </Node>
            <Node>
+            <Name>SBSDKChequeRecognizer</Name>
+            <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>recognizeChequeOnBuffer:orientation:</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+              <Anchor>a3abea25637106e3bad87d95c34303a18</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKChequeRecognizerResult</Name>
+            <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>accountNumber</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+              <Anchor>a4e8eacef30d0214f2bd77f36997f0cf5</Anchor>
+             </Node>
+             <Node>
+              <Name>polygon</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+              <Anchor>a41bd700b5c395d6ab83f28a85c9bf185</Anchor>
+             </Node>
+             <Node>
+              <Name>routingNumber</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+              <Anchor>a1afc2a97340e2d620dbaf49a69c1cbeb</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>SBSDKCreditCardRecognizer</Name>
             <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
             <Subnodes>
@@ -1095,6 +1127,14 @@
               <Path>interface_s_b_s_d_k_camera_session.html</Path>
              </Node>
              <Node>
+              <Name>SBSDKChequeRecognizer</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+             </Node>
+             <Node>
+              <Name>SBSDKChequeRecognizerResult</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+             </Node>
+             <Node>
               <Name>SBSDKCreditCardRecognizer</Name>
               <Path>interface_s_b_s_d_k_credit_card_recognizer.html</Path>
              </Node>
@@ -1417,6 +1457,50 @@
                 <Name>videoOrientation</Name>
                 <Path>interface_s_b_s_d_k_camera_session.html</Path>
                 <Anchor>ac20ea84a65e61c60688e06ca3681c3d3</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKChequeRecognizer.h</Name>
+            <Path>_s_b_s_d_k_cheque_recognizer_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKChequeRecognizer</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>recognizeChequeOnBuffer:orientation:</Name>
+                <Path>interface_s_b_s_d_k_cheque_recognizer.html</Path>
+                <Anchor>a3abea25637106e3bad87d95c34303a18</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKChequeRecognizerResult.h</Name>
+            <Path>_s_b_s_d_k_cheque_recognizer_result_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKChequeRecognizerResult</Name>
+              <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>accountNumber</Name>
+                <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+                <Anchor>a4e8eacef30d0214f2bd77f36997f0cf5</Anchor>
+               </Node>
+               <Node>
+                <Name>polygon</Name>
+                <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+                <Anchor>a41bd700b5c395d6ab83f28a85c9bf185</Anchor>
+               </Node>
+               <Node>
+                <Name>routingNumber</Name>
+                <Path>interface_s_b_s_d_k_cheque_recognizer_result.html</Path>
+                <Anchor>a1afc2a97340e2d620dbaf49a69c1cbeb</Anchor>
                </Node>
               </Subnodes>
              </Node>

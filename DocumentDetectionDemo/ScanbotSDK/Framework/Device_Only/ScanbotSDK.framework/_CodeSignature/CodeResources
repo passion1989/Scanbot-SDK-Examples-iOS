@@ -12,6 +12,14 @@
 		<data>
 		tCd6u0IcVnewPog42+ifESxLkJk=
 		</data>
+		<key>Headers/SBSDKChequeRecognizer.h</key>
+		<data>
+		puv4duC53PZSRH8szbM+EyagN/o=
+		</data>
+		<key>Headers/SBSDKChequeRecognizerResult.h</key>
+		<data>
+		VDlGQiOWFWDNnx6AANp2DXiMI5M=
+		</data>
 		<key>Headers/SBSDKCreditCardRecognizer.h</key>
 		<data>
 		F641yfO74WZoJ9EOrUvgenHWJFw=
@@ -38,7 +46,7 @@
 		</data>
 		<key>Headers/SBSDKFeatures.h</key>
 		<data>
-		zWRVd6Qmr4BIHxuUcTFAw91+4Xk=
+		D1cnkqHUvkMhY26g5wQsMfDBAc4=
 		</data>
 		<key>Headers/SBSDKGeometryUtilities.h</key>
 		<data>
@@ -98,7 +106,7 @@
 		</data>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<data>
-		PlYpqURyEM9NJOvtWhUTHrgjxiY=
+		3L29PjHiiM4BLDaryA9yBp/Hp98=
 		</data>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
 		<data>
@@ -126,7 +134,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nSYd8QPhKlpj2ZHSBJAEOjGRhIU=
+		YjICn0rwYIcIlXKM0szNqWaAw2A=
 		</data>
 		<key>LanguageToTesseractTrainedData.plist</key>
 		<data>
@@ -139,6 +147,18 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		OZOe21eXB0w9rhQCP9TES63zR20=
+		</data>
+		<key>SBSDKChequeData/account.xml</key>
+		<data>
+		FWX8yFubwts3Tgj2ZDo/4KZxQhU=
+		</data>
+		<key>SBSDKChequeData/routing.xml</key>
+		<data>
+		CuReBbUDXj6XZ1UEj0IfwG+vbnI=
+		</data>
+		<key>SBSDKChequeData/tessdata/mcr.traineddata</key>
+		<data>
+		dkFoFaMenQZHuD3zopqXFTW+7UI=
 		</data>
 		<key>SBSDKLanguageData/pdf.ttf</key>
 		<data>
@@ -154,7 +174,7 @@
 		</data>
 		<key>trainedData.xml</key>
 		<data>
-		P8T4LYxmIGkPcj6rXGwmLwmUbDo=
+		vMyH9Pu49kYHLTGX2bd/RhMDyWk=
 		</data>
 		<key>ui_scan_snapbutton_active.png</key>
 		<data>
@@ -229,6 +249,28 @@
 			y0DWzSQ297EPIX/YNbRSgfYq7KvENJb75hgTSMx/Y0M=
 			</data>
 		</dict>
+		<key>Headers/SBSDKChequeRecognizer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			puv4duC53PZSRH8szbM+EyagN/o=
+			</data>
+			<key>hash2</key>
+			<data>
+			994lk1ZHUb1kYA+xy2UEJyeh4TQmvsSk153ZFXTyS6U=
+			</data>
+		</dict>
+		<key>Headers/SBSDKChequeRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VDlGQiOWFWDNnx6AANp2DXiMI5M=
+			</data>
+			<key>hash2</key>
+			<data>
+			kvfd8ZNx0hxZb6jVHAkUPKJHhAcgenC0jjjrqd4dxqs=
+			</data>
+		</dict>
 		<key>Headers/SBSDKCreditCardRecognizer.h</key>
 		<dict>
 			<key>hash</key>
@@ -299,11 +341,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zWRVd6Qmr4BIHxuUcTFAw91+4Xk=
+			D1cnkqHUvkMhY26g5wQsMfDBAc4=
 			</data>
 			<key>hash2</key>
 			<data>
-			cr8M4+revlUgEggfW5Wtiljt9KX2HV9/Ezj4ZfP4Cvg=
+			NUcguZffIa18OWkKmq2Bo9MFALVF00rZMiq5DxwwVp8=
 			</data>
 		</dict>
 		<key>Headers/SBSDKGeometryUtilities.h</key>
@@ -464,11 +506,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PlYpqURyEM9NJOvtWhUTHrgjxiY=
+			3L29PjHiiM4BLDaryA9yBp/Hp98=
 			</data>
 			<key>hash2</key>
 			<data>
-			+i0YXQn1RWSFM8dsz7J9AP5J69jmKPUkEmGTNJ/LPO0=
+			VaiF0tctQprcMmyQkSPjc6bB13kEVPbxAkjeqCMp4ds=
 			</data>
 		</dict>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
@@ -570,6 +612,39 @@
 			IJITPYDobU/pxRJppz7wQUSvjV5wrs7mCDXBSP/AdQU=
 			</data>
 		</dict>
+		<key>SBSDKChequeData/account.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FWX8yFubwts3Tgj2ZDo/4KZxQhU=
+			</data>
+			<key>hash2</key>
+			<data>
+			xmZmN43A73k7d6wZd6e8+RbMygCvfcaT50LFpoYLmrU=
+			</data>
+		</dict>
+		<key>SBSDKChequeData/routing.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CuReBbUDXj6XZ1UEj0IfwG+vbnI=
+			</data>
+			<key>hash2</key>
+			<data>
+			u0XKvBNUcE5QhXpsgmQDkzjB8gtuix02VI0DFb3giew=
+			</data>
+		</dict>
+		<key>SBSDKChequeData/tessdata/mcr.traineddata</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dkFoFaMenQZHuD3zopqXFTW+7UI=
+			</data>
+			<key>hash2</key>
+			<data>
+			YS37NZn1Ctig4fBMT7YmZCDbwiMA2lqTYK094Xi/qp0=
+			</data>
+		</dict>
 		<key>SBSDKLanguageData/pdf.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -607,11 +682,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P8T4LYxmIGkPcj6rXGwmLwmUbDo=
+			vMyH9Pu49kYHLTGX2bd/RhMDyWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FAXdtqMI6c2FLkk10zILD1zmP1OaiWOd0nLW3amrLv4=
+			diEpmIRjp1ggRnQkaRWa7KBR3DUKcVNjDHHQBrBBpHM=
 			</data>
 		</dict>
 		<key>ui_scan_snapbutton_active.png</key>

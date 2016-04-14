@@ -18,6 +18,7 @@
 		9EBA42171B56CC400041B9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA420A1B56CC400041B9DA /* Main.storyboard */; };
 		9EBA42181B56CC400041B9DA /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420C1B56CC400041B9DA /* PDFViewController.m */; };
 		9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA420E1B56CC400041B9DA /* TextViewController.m */; };
+		9EC136AE1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC136AD1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.m */; };
 		9ED67DF11C74824400061C86 /* DemoSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67DF01C74824400061C86 /* DemoSelectionViewController.m */; };
 		9ED67DF41C74889100061C86 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67DF31C74889100061C86 /* DemoViewController.m */; };
 		9ED67DFB1C74C2F000061C86 /* PayformDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED67DFA1C74C2F000061C86 /* PayformDemoViewController.m */; };
@@ -67,6 +68,8 @@
 		9EBA420C1B56CC400041B9DA /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		9EBA420D1B56CC400041B9DA /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		9EBA420E1B56CC400041B9DA /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		9EC136AC1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChequeRecognitionDemoViewController.h; sourceTree = "<group>"; };
+		9EC136AD1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChequeRecognitionDemoViewController.m; sourceTree = "<group>"; };
 		9ED67DEF1C74824400061C86 /* DemoSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelectionViewController.h; sourceTree = "<group>"; };
 		9ED67DF01C74824400061C86 /* DemoSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelectionViewController.m; sourceTree = "<group>"; };
 		9ED67DF21C74889100061C86 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				9EBA42041B56CC400041B9DA /* DocumentDemoViewController.m */,
 				9ED67DF91C74C2F000061C86 /* PayformDemoViewController.h */,
 				9ED67DFA1C74C2F000061C86 /* PayformDemoViewController.m */,
+				9EC136AC1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.h */,
+				9EC136AD1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.m */,
 				9EFC14A51C93131400103BB3 /* CreditCardRecognitionDemoViewController.h */,
 				9EFC14A61C93131400103BB3 /* CreditCardRecognitionDemoViewController.mm */,
 				9EBA42091B56CC400041B9DA /* main.m */,
@@ -238,6 +243,7 @@
 				9EFC14A71C93131400103BB3 /* CreditCardRecognitionDemoViewController.mm in Sources */,
 				9EBA42191B56CC400041B9DA /* TextViewController.m in Sources */,
 				9EBA42161B56CC400041B9DA /* main.m in Sources */,
+				9EC136AE1CBFDDCD00B5A724 /* ChequeRecognitionDemoViewController.m in Sources */,
 				9EBA42111B56CC400041B9DA /* DocumentDemoNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

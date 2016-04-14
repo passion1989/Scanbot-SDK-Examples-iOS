@@ -1,6 +1,7 @@
 var searchData=
 [
   ['readme_2emd',['Readme.md',['../_readme_8md.html',1,'']]],
+  ['recognizechequeonbuffer_3aorientation_3a',['recognizeChequeOnBuffer:orientation:',['../interface_s_b_s_d_k_cheque_recognizer.html#a3abea25637106e3bad87d95c34303a18',1,'SBSDKChequeRecognizer']]],
   ['recognizecreditcardinfoonbuffer_3aorientation_3a',['recognizeCreditCardInfoOnBuffer:orientation:',['../interface_s_b_s_d_k_credit_card_recognizer.html#a0f890be6678b79c330f23d5739901ab7',1,'SBSDKCreditCardRecognizer']]],
   ['recognizecreditcardinfoonimage_3a',['recognizeCreditCardInfoOnImage:',['../interface_s_b_s_d_k_credit_card_recognizer.html#afb5f6022674902e776c6760535919d3c',1,'SBSDKCreditCardRecognizer']]],
   ['recognizedfields',['recognizedFields',['../interface_s_b_s_d_k_pay_form_recognition_result.html#a0f5293a7d7ff3761f98bc72a4d0bfd2b',1,'SBSDKPayFormRecognitionResult']]],
@@ -23,5 +24,6 @@ var searchData=
   ['rotateimage_3acounterclockwise_3acompletion_3a',['rotateImage:counterClockwise:completion:',['../interface_s_b_s_d_k_image_processor.html#afba10832b0ea3365d1c77b9e77201ad1',1,'SBSDKImageProcessor']]],
   ['rotateimage_3acounterclockwise_3aoutputimageurl_3acompletion_3a',['rotateImage:counterClockwise:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a68c5e33612f2b86824942ed7fa00153c',1,'SBSDKImageProcessor(NSURL)::rotateImage:counterClockwise:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a68c5e33612f2b86824942ed7fa00153c',1,'SBSDKImageProcessor::rotateImage:counterClockwise:outputImageURL:completion:()']]],
   ['rotateimage_3adegrees_3acompletion_3a',['rotateImage:degrees:completion:',['../interface_s_b_s_d_k_image_processor.html#a3321cba1dd4b28e5c4581436d096e011',1,'SBSDKImageProcessor']]],
-  ['rotateimage_3adegrees_3aoutputimageurl_3acompletion_3a',['rotateImage:degrees:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a59cc9430ff28264fb27edb32a6ac8d81',1,'SBSDKImageProcessor(NSURL)::rotateImage:degrees:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a59cc9430ff28264fb27edb32a6ac8d81',1,'SBSDKImageProcessor::rotateImage:degrees:outputImageURL:completion:()']]]
+  ['rotateimage_3adegrees_3aoutputimageurl_3acompletion_3a',['rotateImage:degrees:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a59cc9430ff28264fb27edb32a6ac8d81',1,'SBSDKImageProcessor(NSURL)::rotateImage:degrees:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a59cc9430ff28264fb27edb32a6ac8d81',1,'SBSDKImageProcessor::rotateImage:degrees:outputImageURL:completion:()']]],
+  ['routingnumber',['routingNumber',['../interface_s_b_s_d_k_cheque_recognizer_result.html#a1afc2a97340e2d620dbaf49a69c1cbeb',1,'SBSDKChequeRecognizerResult']]]
 ];

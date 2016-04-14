@@ -35,6 +35,8 @@
 
 #import "SBSDKCreditCardRecognizer.h"
 
+#import "SBSDKChequeRecognizer.h"
+
 #import "SBSDKPDFRenderer.h"
 
 #import "UIImageSBSDK.h"
@@ -43,5 +45,5 @@
 #import "SBSDKProgress.h"
 
 /**
- * Scanbot SDK version 1.0.4
+ * Scanbot SDK version 1.1.4
  */
