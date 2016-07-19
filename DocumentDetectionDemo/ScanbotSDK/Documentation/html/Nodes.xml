@@ -14,6 +14,20 @@
         <Path>install_library.html</Path>
        </Node>
        <Node>
+        <Name>Namespace Members</Name>
+        <Path>namespacemembers.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>All</Name>
+          <Path>namespacemembers.html</Path>
+         </Node>
+         <Node>
+          <Name>Typedefs</Name>
+          <Path>namespacemembers_type.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
         <Name>Classes</Name>
         <Path>annotated.html</Path>
         <Subnodes>
@@ -22,9 +36,46 @@
           <Path>annotated.html</Path>
           <Subnodes>
            <Node>
+            <Name>doo</Name>
+            <Path>namespacedoo.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Contour</Name>
+              <Path>structdoo_1_1_contour.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Contour</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>a4cf26aa0187a89a635ec3d22fd6e667b</Anchor>
+               </Node>
+               <Node>
+                <Name>Contour</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>af302fef95d6f8ddba7f9734453faae9b</Anchor>
+               </Node>
+               <Node>
+                <Name>lines</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>ac153f532666a6baa8eb7fb884d272211</Anchor>
+               </Node>
+               <Node>
+                <Name>points</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>ab8b818389c3f9c4ff6f3eaa8c4a3288f</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>SBSDKCameraSession</Name>
             <Path>interface_s_b_s_d_k_camera_session.html</Path>
             <Subnodes>
+             <Node>
+              <Name>captureJPEGStillImageWithCompletionHandler:</Name>
+              <Path>interface_s_b_s_d_k_camera_session.html</Path>
+              <Anchor>adf9cf974889067251d98f01c01b8d3c2</Anchor>
+             </Node>
              <Node>
               <Name>captureStillImageWithCompletionHandler:</Name>
               <Path>interface_s_b_s_d_k_camera_session.html</Path>
@@ -64,6 +115,21 @@
               <Name>previewLayer</Name>
               <Path>interface_s_b_s_d_k_camera_session.html</Path>
               <Anchor>ad4a65b8dbb714d6dac3dfdb007e7eec5</Anchor>
+             </Node>
+             <Node>
+              <Name>torchLightAvailable</Name>
+              <Path>interface_s_b_s_d_k_camera_session.html</Path>
+              <Anchor>a7138ba5ca3fef201a50d78772a6a338c</Anchor>
+             </Node>
+             <Node>
+              <Name>torchLightEnabled</Name>
+              <Path>interface_s_b_s_d_k_camera_session.html</Path>
+              <Anchor>a11b992f212a8c0a42b393dcee3dd288a</Anchor>
+             </Node>
+             <Node>
+              <Name>updateTorchlightBlock</Name>
+              <Path>interface_s_b_s_d_k_camera_session.html</Path>
+              <Anchor>a6eb5602f6e12a4592447a68bcff6e628</Anchor>
              </Node>
              <Node>
               <Name>videoDelegate</Name>
@@ -180,6 +246,16 @@
               <Anchor>a3f54ce3d1f5e37df99599f370bf3e296</Anchor>
              </Node>
              <Node>
+              <Name>detectPhotoPolygonOnImage:visibleImageRect:smoothingEnabled:</Name>
+              <Path>interface_s_b_s_d_k_document_detector.html</Path>
+              <Anchor>a99639b12797d4432cec5057c800f30f4</Anchor>
+             </Node>
+             <Node>
+              <Name>detectPhotoPolygonOnSampleBuffer:visibleImageRect:smoothingEnabled:</Name>
+              <Path>interface_s_b_s_d_k_document_detector.html</Path>
+              <Anchor>ad031fc5a04f8e0d542d2eacb4e2345f5</Anchor>
+             </Node>
+             <Node>
               <Name>resetSmoothingData</Name>
               <Path>interface_s_b_s_d_k_document_detector.html</Path>
               <Anchor>a344614bb413dfb8531ff41c10fc4bbad</Anchor>
@@ -250,6 +326,114 @@
               <Path>interface_s_b_s_d_k_document_detector_result.html</Path>
               <Anchor>a1058d10a89415b34b7811d46a8099e5f</Anchor>
              </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKDocumentsDetectorResult</Name>
+            <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithPolygons:status:detectorImageSize:</Name>
+              <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+              <Anchor>a1825d7f1a11bc80926ef2d1437dd6e07</Anchor>
+             </Node>
+             <Node>
+              <Name>detectorImageSize</Name>
+              <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+              <Anchor>adc9e0a0f96264af609ea2884f01bac22</Anchor>
+             </Node>
+             <Node>
+              <Name>polygons</Name>
+              <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+              <Anchor>a64bacfe82a690317e185eb52c140ef6f</Anchor>
+             </Node>
+             <Node>
+              <Name>status</Name>
+              <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+              <Anchor>a674cc8385bb45f25c1609f159d7e1b84</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKImageMetadata</Name>
+            <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithMetadataDictionary:</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a5958acfe7e261c7046cd2e18d69a8b8d</Anchor>
+             </Node>
+             <Node>
+              <Name>aperture</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a6d3f9ace94441da6d06a41cd62ae1d9b</Anchor>
+             </Node>
+             <Node>
+              <Name>digitalizationDate</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a79f50936d357d21c157025eab85fe51c</Anchor>
+             </Node>
+             <Node>
+              <Name>exposureTime</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a6fc28961354460b81a42d8571c6e0b1a</Anchor>
+             </Node>
+             <Node>
+              <Name>focalLength</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>ad184872dcd64a31884cf47c59fd0b2ef</Anchor>
+             </Node>
+             <Node>
+              <Name>focalLength35mm</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>acd123272f21f96f6a94093804e1af3e7</Anchor>
+             </Node>
+             <Node>
+              <Name>imageHeight</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>acb38fb048362fdc01e7bfd0ba4a9262f</Anchor>
+             </Node>
+             <Node>
+              <Name>imageWidth</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a9d1137d8498921710beeaa00fe19d6bd</Anchor>
+             </Node>
+             <Node>
+              <Name>ISOValue</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a756bd83f04ed1b06125c43b61cafd851</Anchor>
+             </Node>
+             <Node>
+              <Name>lensMaker</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a4f5faa73d91dbd604af8c1b0783d22ac</Anchor>
+             </Node>
+             <Node>
+              <Name>lensModel</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a2d3600c28ca59f76263163c4510a94fb</Anchor>
+             </Node>
+             <Node>
+              <Name>metadataDictionary</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>aeec22a0defad52ddfc08425f0dfcdb3e</Anchor>
+             </Node>
+             <Node>
+              <Name>orientation</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a8bf73b9ddbdbe868632d9fa6acff72b5</Anchor>
+             </Node>
+             <Node>
+              <Name>originalDate</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Anchor>a051bccb6a5778fd0581d36dbfae7b543</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKImageMetadataProcessor</Name>
+            <Path>interface_s_b_s_d_k_image_metadata_processor.html</Path>
+            <Subnodes>
             </Subnodes>
            </Node>
            <Node>
@@ -332,6 +516,73 @@
               <Name>imageURLs</Name>
               <Path>interface_s_b_s_d_k_image_storage.html</Path>
               <Anchor>a56bcd979ab57247c937483e4e3955807</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKLensCameraProperties</Name>
+            <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithFocalLength:sensorSize:</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>ac5ad79ca77e933ffb8d709659c637479</Anchor>
+             </Node>
+             <Node>
+              <Name>cropFactor</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>ae0d56a37400a55909c07525c4fb74274</Anchor>
+             </Node>
+             <Node>
+              <Name>focalLength</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>acbf026b9b34fbf14562a10b1e9ac016e</Anchor>
+             </Node>
+             <Node>
+              <Name>focalLength35mm</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>a6ae6e7fccd751f4c41425de7c7a380dc</Anchor>
+             </Node>
+             <Node>
+              <Name>lensMaker</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>aec6b217645747cf2cba699343910963c</Anchor>
+             </Node>
+             <Node>
+              <Name>lensModel</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>ab15643f634f21d639f83493a4a06c546</Anchor>
+             </Node>
+             <Node>
+              <Name>sensorAspectRatio</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>a9a0f836a5cb63948f67ca82188ec3dca</Anchor>
+             </Node>
+             <Node>
+              <Name>sensorDiagonal</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>a87b3f0e9821b66753adbbc3da353aee4</Anchor>
+             </Node>
+             <Node>
+              <Name>sensorSize</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Anchor>a013526d6126b6454389bcd5162f86657</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKMultipleDocumentsDetector</Name>
+            <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>detectDocumentPolygonsOnImage:</Name>
+              <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+              <Anchor>a99c2da788f746e0ecfcebd8ba0ae2697</Anchor>
+             </Node>
+             <Node>
+              <Name>detectDocumentPolygonsOnSampleBuffer:</Name>
+              <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+              <Anchor>aa3992c76f147cc30005bdd92271704af</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -668,6 +919,11 @@
               <Anchor>a4d31da94e8f076f7b7a7d9338878ca3a</Anchor>
              </Node>
              <Node>
+              <Name>initWithNormalizedDoubleValues:</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>ab8525b0f9836c7509b9bcbcd3ce98725</Anchor>
+             </Node>
+             <Node>
               <Name>initWithNormalizedPointA:pointB:pointC:pointD:</Name>
               <Path>interface_s_b_s_d_k_polygon.html</Path>
               <Anchor>aa987bf845babbd5ef03238fe5e6595b3</Anchor>
@@ -691,6 +947,11 @@
               <Name>normalize</Name>
               <Path>interface_s_b_s_d_k_polygon.html</Path>
               <Anchor>a5b6f510dc47bbb974955703999c72ae2</Anchor>
+             </Node>
+             <Node>
+              <Name>normalizedDoubleValues</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>a563935b8628397476cd2ee3951314096</Anchor>
              </Node>
              <Node>
               <Name>normalizedEdgeWithIndex:</Name>
@@ -718,6 +979,16 @@
               <Anchor>a2464df560bd3d5583145f4049449252f</Anchor>
              </Node>
              <Node>
+              <Name>rotateCCW:withSize:</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>a7620779915301624994d41cda5d201ad</Anchor>
+             </Node>
+             <Node>
+              <Name>rotateCW:withSize:</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>a1f8ae8eecfa034d53d55b63b338ff39c</Anchor>
+             </Node>
+             <Node>
               <Name>setAbsolutePoint:withSize:forIndex:</Name>
               <Path>interface_s_b_s_d_k_polygon.html</Path>
               <Anchor>aeaecdc8fbf74e283087f2606a975f810</Anchor>
@@ -726,6 +997,11 @@
               <Name>setNormalizedPoint:forIndex:</Name>
               <Path>interface_s_b_s_d_k_polygon.html</Path>
               <Anchor>afd2b67c3c934a7aced884f87c4c52dd2</Anchor>
+             </Node>
+             <Node>
+              <Name>sizeWhenApplyingToImageOfSize:imageScale:focalLength:sensorWidth:</Name>
+              <Path>interface_s_b_s_d_k_polygon.html</Path>
+              <Anchor>aa128f3506a9b720f82b229ac0cf6cf5c</Anchor>
              </Node>
              <Node>
               <Name>sortClockwise</Name>
@@ -1012,6 +1288,21 @@
             <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
             <Subnodes>
              <Node>
+              <Name>imageByProcessingWithRotations:polygon:filter:compression:lensCameraProperties:imageScale:</Name>
+              <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+              <Anchor>a8354dd69e7260f0e1ff2b63f1c7dd415</Anchor>
+             </Node>
+             <Node>
+              <Name>imageDataByApplyingFilter:compression:</Name>
+              <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+              <Anchor>a1d9252eecc20a356bc5d3ff23f6613f6</Anchor>
+             </Node>
+             <Node>
+              <Name>imageDataByProcessingWithRotations:polygon:filter:compression:lensCameraProperties:imageScale:</Name>
+              <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+              <Anchor>a95bbed4a850d1c544ed055c472e2279d</Anchor>
+             </Node>
+             <Node>
               <Name>imageFilteredByFilter:</Name>
               <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
               <Anchor>ab7d4f160069a9972e2feea9cb538f917</Anchor>
@@ -1032,19 +1323,34 @@
               <Anchor>a5c15b226bf0f69319a564ddb699ade89</Anchor>
              </Node>
              <Node>
-              <Name>imageWarpedByPolygon:</Name>
+              <Name>imageWarpedByPolygon:andFilteredBy:imageScale:</Name>
               <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
-              <Anchor>a53d23884e0e8bc403d68592b8efe5185</Anchor>
+              <Anchor>afcdb1a4b4f0bc112d04580e8d7a22a46</Anchor>
              </Node>
              <Node>
-              <Name>imageWarpedByPolygon:andFilteredBy:</Name>
+              <Name>imageWarpedByPolygon:andFilteredBy:lensCameraProperties:imageScale:</Name>
               <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
-              <Anchor>a2e6c6be5b2f42bed1b509f0dacbadb62</Anchor>
+              <Anchor>a1da5774da7be68748335d56548341db0</Anchor>
+             </Node>
+             <Node>
+              <Name>imageWarpedByPolygon:imageScale:</Name>
+              <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+              <Anchor>a868a8274a03460d8e48865145afec9aa</Anchor>
+             </Node>
+             <Node>
+              <Name>imageWarpedByPolygon:lensCameraProperties:imageScale:</Name>
+              <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+              <Anchor>a336e956a045883f33467b7bd7c15453f</Anchor>
              </Node>
              <Node>
               <Name>imageWithFixedOrientation</Name>
               <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
               <Anchor>a8d7a9a81769acddc5092145968bcac1b</Anchor>
+             </Node>
+             <Node>
+              <Name>initFromSampleBuffer:</Name>
+              <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+              <Anchor>aa65b1f2451c0a3b6a895bfb8cd89fe1c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1087,6 +1393,10 @@
               <Path>interface_s_b_s_d_k_polygon_layer.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>doo::Contour</Name>
+            <Path>structdoo_1_1_contour.html</Path>
            </Node>
            <Node>
             <Name>&lt;NSCopying&gt;</Name>
@@ -1155,12 +1465,32 @@
               <Path>interface_s_b_s_d_k_document_detector_result.html</Path>
              </Node>
              <Node>
+              <Name>SBSDKDocumentsDetectorResult</Name>
+              <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+             </Node>
+             <Node>
+              <Name>SBSDKImageMetadata</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+             </Node>
+             <Node>
+              <Name>SBSDKImageMetadataProcessor</Name>
+              <Path>interface_s_b_s_d_k_image_metadata_processor.html</Path>
+             </Node>
+             <Node>
               <Name>SBSDKImageProcessor</Name>
               <Path>interface_s_b_s_d_k_image_processor.html</Path>
              </Node>
              <Node>
               <Name>SBSDKImageStorage</Name>
               <Path>interface_s_b_s_d_k_image_storage.html</Path>
+             </Node>
+             <Node>
+              <Name>SBSDKLensCameraProperties</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+             </Node>
+             <Node>
+              <Name>SBSDKMultipleDocumentsDetector</Name>
+              <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
              </Node>
              <Node>
               <Name>SBSDKOCRResult</Name>
@@ -1339,6 +1669,10 @@
               <Path>functions_l.html</Path>
              </Node>
              <Node>
+              <Name>m</Name>
+              <Path>functions_m.html</Path>
+             </Node>
+             <Node>
               <Name>n</Name>
               <Path>functions_n.html</Path>
              </Node>
@@ -1381,6 +1715,10 @@
             <Path>functions_func.html</Path>
            </Node>
            <Node>
+            <Name>Variables</Name>
+            <Path>functions_vars.html</Path>
+           </Node>
+           <Node>
             <Name>Properties</Name>
             <Path>functions_prop.html</Path>
            </Node>
@@ -1397,6 +1735,43 @@
           <Path>files.html</Path>
           <Subnodes>
            <Node>
+            <Name>Common.h</Name>
+            <Path>_common_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Contour</Name>
+              <Path>structdoo_1_1_contour.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Contour</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>a4cf26aa0187a89a635ec3d22fd6e667b</Anchor>
+               </Node>
+               <Node>
+                <Name>Contour</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>af302fef95d6f8ddba7f9734453faae9b</Anchor>
+               </Node>
+               <Node>
+                <Name>lines</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>ac153f532666a6baa8eb7fb884d272211</Anchor>
+               </Node>
+               <Node>
+                <Name>points</Name>
+                <Path>structdoo_1_1_contour.html</Path>
+                <Anchor>ab8b818389c3f9c4ff6f3eaa8c4a3288f</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>ContourList</Name>
+              <Path>_common_8h.html</Path>
+              <Anchor>a2f4716b6ef90807111ca502d2ff6ce50</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>SBSDKCameraSession.h</Name>
             <Path>_s_b_s_d_k_camera_session_8h.html</Path>
             <Subnodes>
@@ -1408,6 +1783,11 @@
               <Name>SBSDKCameraSession</Name>
               <Path>interface_s_b_s_d_k_camera_session.html</Path>
               <Subnodes>
+               <Node>
+                <Name>captureJPEGStillImageWithCompletionHandler:</Name>
+                <Path>interface_s_b_s_d_k_camera_session.html</Path>
+                <Anchor>adf9cf974889067251d98f01c01b8d3c2</Anchor>
+               </Node>
                <Node>
                 <Name>captureStillImageWithCompletionHandler:</Name>
                 <Path>interface_s_b_s_d_k_camera_session.html</Path>
@@ -1447,6 +1827,21 @@
                 <Name>previewLayer</Name>
                 <Path>interface_s_b_s_d_k_camera_session.html</Path>
                 <Anchor>ad4a65b8dbb714d6dac3dfdb007e7eec5</Anchor>
+               </Node>
+               <Node>
+                <Name>torchLightAvailable</Name>
+                <Path>interface_s_b_s_d_k_camera_session.html</Path>
+                <Anchor>a7138ba5ca3fef201a50d78772a6a338c</Anchor>
+               </Node>
+               <Node>
+                <Name>torchLightEnabled</Name>
+                <Path>interface_s_b_s_d_k_camera_session.html</Path>
+                <Anchor>a11b992f212a8c0a42b393dcee3dd288a</Anchor>
+               </Node>
+               <Node>
+                <Name>updateTorchlightBlock</Name>
+                <Path>interface_s_b_s_d_k_camera_session.html</Path>
+                <Anchor>a6eb5602f6e12a4592447a68bcff6e628</Anchor>
                </Node>
                <Node>
                 <Name>videoDelegate</Name>
@@ -1680,6 +2075,16 @@
                 <Anchor>a3f54ce3d1f5e37df99599f370bf3e296</Anchor>
                </Node>
                <Node>
+                <Name>detectPhotoPolygonOnImage:visibleImageRect:smoothingEnabled:</Name>
+                <Path>interface_s_b_s_d_k_document_detector.html</Path>
+                <Anchor>a99639b12797d4432cec5057c800f30f4</Anchor>
+               </Node>
+               <Node>
+                <Name>detectPhotoPolygonOnSampleBuffer:visibleImageRect:smoothingEnabled:</Name>
+                <Path>interface_s_b_s_d_k_document_detector.html</Path>
+                <Anchor>ad031fc5a04f8e0d542d2eacb4e2345f5</Anchor>
+               </Node>
+               <Node>
                 <Name>resetSmoothingData</Name>
                 <Path>interface_s_b_s_d_k_document_detector.html</Path>
                 <Anchor>a344614bb413dfb8531ff41c10fc4bbad</Anchor>
@@ -1779,10 +2184,119 @@
                 <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3a7d5739d411b069610c94c266931f96d9</Anchor>
                </Node>
                <Node>
+                <Name>SBSDKImageFilterTypePhoto</Name>
+                <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
+                <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3a44add378a3f1bfa35e469910e61acd4f</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKImageFilterTypePhotoBW1</Name>
+                <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
+                <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3aa0dfbf3de25638f0916680f8363ec17b</Anchor>
+               </Node>
+               <Node>
+                <Name>SBSDKImageFilterTypePhotoBW2</Name>
+                <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
+                <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3ab0b37739673457016afd87863b941805</Anchor>
+               </Node>
+               <Node>
                 <Name>SBSDKImageFilterTypeExperimental</Name>
                 <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
                 <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3af53198f61099c59871c29da56e3eb11a</Anchor>
                </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKImageMetadata.h</Name>
+            <Path>_s_b_s_d_k_image_metadata_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKImageMetadata</Name>
+              <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>initWithMetadataDictionary:</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a5958acfe7e261c7046cd2e18d69a8b8d</Anchor>
+               </Node>
+               <Node>
+                <Name>aperture</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a6d3f9ace94441da6d06a41cd62ae1d9b</Anchor>
+               </Node>
+               <Node>
+                <Name>digitalizationDate</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a79f50936d357d21c157025eab85fe51c</Anchor>
+               </Node>
+               <Node>
+                <Name>exposureTime</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a6fc28961354460b81a42d8571c6e0b1a</Anchor>
+               </Node>
+               <Node>
+                <Name>focalLength</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>ad184872dcd64a31884cf47c59fd0b2ef</Anchor>
+               </Node>
+               <Node>
+                <Name>focalLength35mm</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>acd123272f21f96f6a94093804e1af3e7</Anchor>
+               </Node>
+               <Node>
+                <Name>imageHeight</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>acb38fb048362fdc01e7bfd0ba4a9262f</Anchor>
+               </Node>
+               <Node>
+                <Name>imageWidth</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a9d1137d8498921710beeaa00fe19d6bd</Anchor>
+               </Node>
+               <Node>
+                <Name>ISOValue</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a756bd83f04ed1b06125c43b61cafd851</Anchor>
+               </Node>
+               <Node>
+                <Name>lensMaker</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a4f5faa73d91dbd604af8c1b0783d22ac</Anchor>
+               </Node>
+               <Node>
+                <Name>lensModel</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a2d3600c28ca59f76263163c4510a94fb</Anchor>
+               </Node>
+               <Node>
+                <Name>metadataDictionary</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>aeec22a0defad52ddfc08425f0dfcdb3e</Anchor>
+               </Node>
+               <Node>
+                <Name>orientation</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a8bf73b9ddbdbe868632d9fa6acff72b5</Anchor>
+               </Node>
+               <Node>
+                <Name>originalDate</Name>
+                <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+                <Anchor>a051bccb6a5778fd0581d36dbfae7b543</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKImageMetadataProcessor.h</Name>
+            <Path>_s_b_s_d_k_image_metadata_processor_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKImageMetadataProcessor</Name>
+              <Path>interface_s_b_s_d_k_image_metadata_processor.html</Path>
+              <Subnodes>
               </Subnodes>
              </Node>
             </Subnodes>
@@ -1882,6 +2396,111 @@
                 <Name>imageURLs</Name>
                 <Path>interface_s_b_s_d_k_image_storage.html</Path>
                 <Anchor>a56bcd979ab57247c937483e4e3955807</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKLensCameraProperties.h</Name>
+            <Path>_s_b_s_d_k_lens_camera_properties_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKLensCameraProperties</Name>
+              <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>initWithFocalLength:sensorSize:</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>ac5ad79ca77e933ffb8d709659c637479</Anchor>
+               </Node>
+               <Node>
+                <Name>cropFactor</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>ae0d56a37400a55909c07525c4fb74274</Anchor>
+               </Node>
+               <Node>
+                <Name>focalLength</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>acbf026b9b34fbf14562a10b1e9ac016e</Anchor>
+               </Node>
+               <Node>
+                <Name>focalLength35mm</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>a6ae6e7fccd751f4c41425de7c7a380dc</Anchor>
+               </Node>
+               <Node>
+                <Name>lensMaker</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>aec6b217645747cf2cba699343910963c</Anchor>
+               </Node>
+               <Node>
+                <Name>lensModel</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>ab15643f634f21d639f83493a4a06c546</Anchor>
+               </Node>
+               <Node>
+                <Name>sensorAspectRatio</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>a9a0f836a5cb63948f67ca82188ec3dca</Anchor>
+               </Node>
+               <Node>
+                <Name>sensorDiagonal</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>a87b3f0e9821b66753adbbc3da353aee4</Anchor>
+               </Node>
+               <Node>
+                <Name>sensorSize</Name>
+                <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+                <Anchor>a013526d6126b6454389bcd5162f86657</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKMultipleDocumentsDetector.h</Name>
+            <Path>_s_b_s_d_k_multiple_documents_detector_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>SBSDKDocumentsDetectorResult</Name>
+              <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>initWithPolygons:status:detectorImageSize:</Name>
+                <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+                <Anchor>a1825d7f1a11bc80926ef2d1437dd6e07</Anchor>
+               </Node>
+               <Node>
+                <Name>detectorImageSize</Name>
+                <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+                <Anchor>adc9e0a0f96264af609ea2884f01bac22</Anchor>
+               </Node>
+               <Node>
+                <Name>polygons</Name>
+                <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+                <Anchor>a64bacfe82a690317e185eb52c140ef6f</Anchor>
+               </Node>
+               <Node>
+                <Name>status</Name>
+                <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+                <Anchor>a674cc8385bb45f25c1609f159d7e1b84</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>SBSDKMultipleDocumentsDetector</Name>
+              <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>detectDocumentPolygonsOnImage:</Name>
+                <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+                <Anchor>a99c2da788f746e0ecfcebd8ba0ae2697</Anchor>
+               </Node>
+               <Node>
+                <Name>detectDocumentPolygonsOnSampleBuffer:</Name>
+                <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+                <Anchor>aa3992c76f147cc30005bdd92271704af</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2426,6 +3045,11 @@
                 <Anchor>a4d31da94e8f076f7b7a7d9338878ca3a</Anchor>
                </Node>
                <Node>
+                <Name>initWithNormalizedDoubleValues:</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>ab8525b0f9836c7509b9bcbcd3ce98725</Anchor>
+               </Node>
+               <Node>
                 <Name>initWithNormalizedPointA:pointB:pointC:pointD:</Name>
                 <Path>interface_s_b_s_d_k_polygon.html</Path>
                 <Anchor>aa987bf845babbd5ef03238fe5e6595b3</Anchor>
@@ -2449,6 +3073,11 @@
                 <Name>normalize</Name>
                 <Path>interface_s_b_s_d_k_polygon.html</Path>
                 <Anchor>a5b6f510dc47bbb974955703999c72ae2</Anchor>
+               </Node>
+               <Node>
+                <Name>normalizedDoubleValues</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>a563935b8628397476cd2ee3951314096</Anchor>
                </Node>
                <Node>
                 <Name>normalizedEdgeWithIndex:</Name>
@@ -2476,6 +3105,16 @@
                 <Anchor>a2464df560bd3d5583145f4049449252f</Anchor>
                </Node>
                <Node>
+                <Name>rotateCCW:withSize:</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>a7620779915301624994d41cda5d201ad</Anchor>
+               </Node>
+               <Node>
+                <Name>rotateCW:withSize:</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>a1f8ae8eecfa034d53d55b63b338ff39c</Anchor>
+               </Node>
+               <Node>
                 <Name>setAbsolutePoint:withSize:forIndex:</Name>
                 <Path>interface_s_b_s_d_k_polygon.html</Path>
                 <Anchor>aeaecdc8fbf74e283087f2606a975f810</Anchor>
@@ -2484,6 +3123,11 @@
                 <Name>setNormalizedPoint:forIndex:</Name>
                 <Path>interface_s_b_s_d_k_polygon.html</Path>
                 <Anchor>afd2b67c3c934a7aced884f87c4c52dd2</Anchor>
+               </Node>
+               <Node>
+                <Name>sizeWhenApplyingToImageOfSize:imageScale:focalLength:sensorWidth:</Name>
+                <Path>interface_s_b_s_d_k_polygon.html</Path>
+                <Anchor>aa128f3506a9b720f82b229ac0cf6cf5c</Anchor>
                </Node>
                <Node>
                 <Name>sortClockwise</Name>
@@ -2658,6 +3302,10 @@
               <Anchor>a08510a8147098de1a183c92a2b3c0cc0</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>SBSDKScanbotBaseSDK.h</Name>
+            <Path>_s_b_s_d_k_scanbot_base_s_d_k_8h.html</Path>
            </Node>
            <Node>
             <Name>SBSDKScanbotSDK.h</Name>
@@ -3033,6 +3681,21 @@
               <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
               <Subnodes>
                <Node>
+                <Name>imageByProcessingWithRotations:polygon:filter:compression:lensCameraProperties:imageScale:</Name>
+                <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+                <Anchor>a8354dd69e7260f0e1ff2b63f1c7dd415</Anchor>
+               </Node>
+               <Node>
+                <Name>imageDataByApplyingFilter:compression:</Name>
+                <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+                <Anchor>a1d9252eecc20a356bc5d3ff23f6613f6</Anchor>
+               </Node>
+               <Node>
+                <Name>imageDataByProcessingWithRotations:polygon:filter:compression:lensCameraProperties:imageScale:</Name>
+                <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+                <Anchor>a95bbed4a850d1c544ed055c472e2279d</Anchor>
+               </Node>
+               <Node>
                 <Name>imageFilteredByFilter:</Name>
                 <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
                 <Anchor>ab7d4f160069a9972e2feea9cb538f917</Anchor>
@@ -3053,19 +3716,34 @@
                 <Anchor>a5c15b226bf0f69319a564ddb699ade89</Anchor>
                </Node>
                <Node>
-                <Name>imageWarpedByPolygon:</Name>
+                <Name>imageWarpedByPolygon:andFilteredBy:imageScale:</Name>
                 <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
-                <Anchor>a53d23884e0e8bc403d68592b8efe5185</Anchor>
+                <Anchor>afcdb1a4b4f0bc112d04580e8d7a22a46</Anchor>
                </Node>
                <Node>
-                <Name>imageWarpedByPolygon:andFilteredBy:</Name>
+                <Name>imageWarpedByPolygon:andFilteredBy:lensCameraProperties:imageScale:</Name>
                 <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
-                <Anchor>a2e6c6be5b2f42bed1b509f0dacbadb62</Anchor>
+                <Anchor>a1da5774da7be68748335d56548341db0</Anchor>
+               </Node>
+               <Node>
+                <Name>imageWarpedByPolygon:imageScale:</Name>
+                <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+                <Anchor>a868a8274a03460d8e48865145afec9aa</Anchor>
+               </Node>
+               <Node>
+                <Name>imageWarpedByPolygon:lensCameraProperties:imageScale:</Name>
+                <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+                <Anchor>a336e956a045883f33467b7bd7c15453f</Anchor>
                </Node>
                <Node>
                 <Name>imageWithFixedOrientation</Name>
                 <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
                 <Anchor>a8d7a9a81769acddc5092145968bcac1b</Anchor>
+               </Node>
+               <Node>
+                <Name>initFromSampleBuffer:</Name>
+                <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+                <Anchor>aa65b1f2451c0a3b6a895bfb8cd89fe1c</Anchor>
                </Node>
               </Subnodes>
              </Node>

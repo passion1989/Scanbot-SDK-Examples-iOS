@@ -158,3 +158,16 @@ Added new method for custom drawing of detected document polygon
 ##### Changelog version 1.1.4:
 
 - Added cheque recognizer (SBSDKChequeRecognizer)
+
+
+##### Changelog version 1.2.0:
+
+- Improved all detectors accuracy
+- Added SBSDImageMetadata and SBSDKImageMetadataProcessor to extract EXIF data etc. from image
+- Added SBSDKLensCameraProperties which can be passed to polygon based warping functions to improve the aspect ratio
+of the cropped image and let it be very close to the original documents aspect ratio 
+- SBSDKLensCameraProperties can be extracted from SBSDKImageMetadata
+- Added 3 new filters: SBSDKImageFilterTypePhoto, SBSDKImageFilterTypePhotoBW1, SBSDKImageFilterTypePhotoBW2
+- The photo filter is useful to correct strong color tints, the 2 other new filters create different color-to-gray mappings 
+- Added SBSDKMultipleDocumentsDetector (Beta) to detect multiple photos or documents on an image
+- Minor fixes and optimizations

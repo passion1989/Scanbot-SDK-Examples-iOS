@@ -25,7 +25,9 @@ typedef enum: int64_t {
     FeatureCloudUpload = 1 << 7,
     FeatureCreditCardRecognition = 1 << 8,
     FeatureQRCode = 1 << 9,
+    FeatureW2Detection = 1 << 10,
     FeatureCheque = 1 << 11,
+    FeatureInvoiceDetection = 1 << 12
 } dooFeature;
 
 #endif

@@ -39,7 +39,7 @@
 
 /**
  * Executes an edge detection algorithm on the given image and returns
- * a polygon describing the extends of the detected box.
+ * a polygon describing the extends of the detected documents box.
  * For a short period of time the uncompressed image data is hold twice in memory. Use with attention.
  * @param image The image to analyze.
  * @param visibleRect The unified image rectangle that should be analyzed.
@@ -57,7 +57,7 @@
 
 /**
  * Executes an edge detection algorithm on the given sample buffer and returns
- * a polygon describing the extends of the detected box.
+ * a polygon describing the extends of the detected documents box.
  * For a short period of time the uncompressed image data is hold twice in memory. Use with attention.
  * @param sampleBuffer The CMSampleBufferRef to analyze.
  * @param visibleRect The unified image rectangle that should be analyzed.
@@ -71,6 +71,38 @@
                                                     visibleImageRect:(CGRect)visibleRect
                                                     smoothingEnabled:(BOOL)smooth
                                           useLiveDetectionParameters:(BOOL)liveDetection;
+
+
+/**
+ * Executes an edge detection algorithm on the given sample buffer and returns
+ * a polygon describing the extends of the detected photos box.
+ * For a short period of time the uncompressed image data is hold twice in memory. Use with attention.
+ * @param sampleBuffer The CMSampleBufferRef to analyze.
+ * @param visibleRect The unified image rectangle that should be analyzed.
+ * (0, 0)-(1, 1) or an empty rect means the whole image is being analyzed.
+ * @param smooth Set to YES if you want the polygon output to be smoothed with latest frames. If you choose to use smooting
+ * you should call resetSmoothingData regularly.
+ * @return The detection result containing the status and a polygon.
+ */
+- (SBSDKDocumentDetectorResult *)detectPhotoPolygonOnSampleBuffer:(CMSampleBufferRef)sampleBuffer
+                                                 visibleImageRect:(CGRect)visibleRect
+                                                 smoothingEnabled:(BOOL)smooth;
+
+
+/**
+ * Executes an edge detection algorithm on the given image and returns
+ * a polygon describing the extends of the detected photos box.
+ * For a short period of time the uncompressed image data is hold twice in memory. Use with attention.
+ * @param image The image to analyze.
+ * @param visibleRect The unified image rectangle that should be analyzed.
+ * (0, 0)-(1, 1) or an empty rect means the whole image is being analyzed.
+ * @param smooth Set to YES if you want the polygon output to be smoothed with latest frames. If you choose to use smooting
+ * you should call resetSmoothingData regularly.
+ * @return The detection result containing the status and a polygon.
+ */
+- (SBSDKDocumentDetectorResult* )detectPhotoPolygonOnImage:(UIImage *)image
+                                          visibleImageRect:(CGRect)visibleRect
+                                          smoothingEnabled:(BOOL)smooth;
 
 /**
  * Resets the smootingData. If smoothing is enabled the polygon detector smoothes the result with results from

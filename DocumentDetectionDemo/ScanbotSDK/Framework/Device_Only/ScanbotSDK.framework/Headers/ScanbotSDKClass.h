@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 doo GmbH. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  * @class ScanbotSDK
@@ -33,5 +33,9 @@
  * @return YES, if a valid license is installed and not expired or if the trial period is running. NO otherwise.
  */
 + (BOOL)isLicenseValid;
+
++ (void)setSharedApplication:(UIApplication *)application;
+
++ (UIApplication *)sharedApplication;
 
 @end

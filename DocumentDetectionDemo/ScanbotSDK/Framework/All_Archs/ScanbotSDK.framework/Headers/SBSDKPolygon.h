@@ -53,6 +53,13 @@
  */
 - (instancetype)initWithAbsolutePointA:(CGPoint)a pointB:(CGPoint)b pointC:(CGPoint)c pointD:(CGPoint)d forSize:(CGSize)size;
 
+/** 
+ * One of the desinated initializer methods.
+ * @param values An array of 8 NSNumber double values containing the normalized 
+ * coordinates in the form [x1, y1, x2, y2, x3, y3, x4, y4].
+ **/
+- (instancetype)initWithNormalizedDoubleValues:(NSArray<NSNumber *>*)values;
+
 /**
  * Compares the receiver to another instance of SBSDKPolygon.
  * @param polygon The polygon instance the receiver is compared to.
@@ -143,6 +150,11 @@
  */
 - (SBSDKPolygonEdge *)absoluteEdgeWithIndex:(NSUInteger)index forSize:(CGSize)size;
 
+/** 
+ * Returns the normalized points as an array of 8 double value NSNumbers in the form [x1, y1, x2, y2, x3, y3, x4, y4].
+ **/
+- (NSArray<NSNumber *>*)normalizedDoubleValues;
+
 /**
  * Sets the receivers point at the given index to the value of point.
  * @param point The normalized point.
@@ -182,6 +194,18 @@
  */
 - (void)rotate180WithOldSize:(CGSize)oldSize newSize:(CGSize)newSize;
 
+/** 
+ * Performs times counter-clockwise rotations on the receiver.
+ * @param size The size of the absolute coordinate system before rotating it.
+ **/
+- (void)rotateCCW:(NSUInteger)times withSize:(CGSize)size;
+
+/**
+ * Performs times clockwise rotations on the receiver.
+ * @param size The size of the absolute coordinate system before rotating it.
+ **/
+- (void)rotateCW:(NSUInteger)times withSize:(CGSize)size;
+
 /**
  * Returns the axis-oriented bounding box of the receiver.
  * @param size The absolute size the polygon is scaled to.
@@ -191,5 +215,10 @@
 
 /** Calculates the geometric center (mass point) of the polygon in normalized unit coordinates. */
 - (CGPoint)center;
+
+- (CGSize)sizeWhenApplyingToImageOfSize:(CGSize)size
+                             imageScale:(double)imageScale
+                            focalLength:(double)focalLength
+                            sensorWidth:(double)sensorWidth;
 
 @end

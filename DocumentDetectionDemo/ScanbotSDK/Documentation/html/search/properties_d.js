@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['takingphoto',['takingPhoto',['../interface_s_b_s_d_k_shutter_button.html#a2dafb9f00ae7da121276873fca8019ce',1,'SBSDKShutterButton']]],
-  ['text',['text',['../interface_s_b_s_d_k_o_c_r_result_block.html#a60a49700aa0cc39b2ce1b0a42922b747',1,'SBSDKOCRResultBlock']]],
-  ['textlineorder',['textlineOrder',['../interface_s_b_s_d_k_page_analyzer_result.html#a4e20b799b5dae3583247d2e1e0f9da0d',1,'SBSDKPageAnalyzerResult']]],
-  ['token',['token',['../interface_s_b_s_d_k_pay_form_recognized_field.html#a67b87a8061b2b69dcda9fb158ef24e9a',1,'SBSDKPayFormRecognizedField']]],
-  ['type',['type',['../interface_s_b_s_d_k_pay_form_token.html#a6355a43a5a2b39e88f20c039bfb65972',1,'SBSDKPayFormToken::type()'],['../interface_s_b_s_d_k_pay_form_detected_box.html#ac365ef12e0491f3fb16fe93c7d51de41',1,'SBSDKPayFormDetectedBox::type()']]]
+  ['recognizedfields',['recognizedFields',['../interface_s_b_s_d_k_pay_form_recognition_result.html#a0f5293a7d7ff3761f98bc72a4d0bfd2b',1,'SBSDKPayFormRecognitionResult']]],
+  ['recognizedtext',['recognizedText',['../interface_s_b_s_d_k_o_c_r_result.html#a17e22f1f1f25a6be1ccd7ce9e4bca84a',1,'SBSDKOCRResult']]],
+  ['rect',['rect',['../interface_s_b_s_d_k_pay_form_token.html#a064e7ed7f7c0e69bd8dd833dccb15f06',1,'SBSDKPayFormToken']]],
+  ['routingnumber',['routingNumber',['../interface_s_b_s_d_k_cheque_recognizer_result.html#a1afc2a97340e2d620dbaf49a69c1cbeb',1,'SBSDKChequeRecognizerResult']]]
 ];

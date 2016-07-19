@@ -116,6 +116,8 @@ Instance Methods</h2></td></tr>
 <tr class="separator:a7f219a964217f9b0596e1282c280a118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c6f52ebde684cc62d848af48159af48"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_camera_session.html#a8c6f52ebde684cc62d848af48159af48">captureStillImageWithCompletionHandler:</a></td></tr>
 <tr class="separator:a8c6f52ebde684cc62d848af48159af48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9cf974889067251d98f01c01b8d3c2"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_camera_session.html#adf9cf974889067251d98f01c01b8d3c2">captureJPEGStillImageWithCompletionHandler:</a></td></tr>
+<tr class="separator:adf9cf974889067251d98f01c01b8d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9af7a9560b78f5e7da3f270f0c480fea"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_camera_session.html#a9af7a9560b78f5e7da3f270f0c480fea">isCameraAdjusting</a></td></tr>
 <tr class="separator:a9af7a9560b78f5e7da3f270f0c480fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -129,10 +131,38 @@ Properties</h2></td></tr>
 <tr class="separator:aae3b58e9ef0e8e646f6230fe30993f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adde4269e69e2fcb3d33ffb5e087b8413"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_camera_session.html#adde4269e69e2fcb3d33ffb5e087b8413">isCapturingStillImage</a></td></tr>
 <tr class="separator:adde4269e69e2fcb3d33ffb5e087b8413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7138ba5ca3fef201a50d78772a6a338c"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_camera_session.html#a7138ba5ca3fef201a50d78772a6a338c">torchLightAvailable</a></td></tr>
+<tr class="separator:a7138ba5ca3fef201a50d78772a6a338c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b992f212a8c0a42b393dcee3dd288a"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_camera_session.html#a11b992f212a8c0a42b393dcee3dd288a">torchLightEnabled</a></td></tr>
+<tr class="separator:a11b992f212a8c0a42b393dcee3dd288a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb5602f6e12a4592447a68bcff6e628"><td class="memItemLeft" align="right" valign="top">void(^&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_b_s_d_k_camera_session.html#a6eb5602f6e12a4592447a68bcff6e628">updateTorchlightBlock</a> )()</td></tr>
+<tr class="separator:a6eb5602f6e12a4592447a68bcff6e628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An easy-to-use wrapper around the AVFoundations video capture session. Sets up and configures the camera device and the preview layer. Provides functionality to capture still images. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="adf9cf974889067251d98f01c01b8d3c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) captureJPEGStillImageWithCompletionHandler: </td>
+          <td></td>
+          <td class="paramtype">(void(^)(NSData *, NSError *))&#160;</td>
+          <td class="paramname"><em>completion</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Captures a still image asynchronously and passes the JPEG image data as NSData and if needed an error to the completion handler. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">completion</td><td>The completion handler that is called when the still image has been captured. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a8c6f52ebde684cc62d848af48159af48"></a>
 <div class="memitem">
 <div class="memproto">
@@ -285,6 +315,69 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7138ba5ca3fef201a50d78772a6a338c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) torchLightAvailable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns YES if the camera device has a torch light and the torch light is available. </p>
+
+</div>
+</div>
+<a class="anchor" id="a11b992f212a8c0a42b393dcee3dd288a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) torchLightEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Turns the torch light on or off. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6eb5602f6e12a4592447a68bcff6e628"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void(^ updateTorchlightBlock) ())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A block being executed when the torch light status changes (mode or availability). </p>
+
+</div>
+</div>
 <a class="anchor" id="aae3b58e9ef0e8e646f6230fe30993f81"></a>
 <div class="memitem">
 <div class="memproto">
@@ -337,5 +430,5 @@ Properties</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Apr 14 2016 15:59:23 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Tue Jul 19 2016 10:13:08 <a href="https://scanbot.io"></a>
  </div>

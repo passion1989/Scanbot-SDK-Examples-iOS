@@ -110,6 +110,10 @@ Instance Methods</h2></td></tr>
 <tr class="separator:a83c98a3da118c3ab725abcd76d667e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f54ce3d1f5e37df99599f370bf3e296"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_s_b_s_d_k_document_detector_result.html">SBSDKDocumentDetectorResult</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_document_detector.html#a3f54ce3d1f5e37df99599f370bf3e296">detectDocumentPolygonOnSampleBuffer:visibleImageRect:smoothingEnabled:useLiveDetectionParameters:</a></td></tr>
 <tr class="separator:a3f54ce3d1f5e37df99599f370bf3e296"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad031fc5a04f8e0d542d2eacb4e2345f5"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_s_b_s_d_k_document_detector_result.html">SBSDKDocumentDetectorResult</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_document_detector.html#ad031fc5a04f8e0d542d2eacb4e2345f5">detectPhotoPolygonOnSampleBuffer:visibleImageRect:smoothingEnabled:</a></td></tr>
+<tr class="separator:ad031fc5a04f8e0d542d2eacb4e2345f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99639b12797d4432cec5057c800f30f4"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_s_b_s_d_k_document_detector_result.html">SBSDKDocumentDetectorResult</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_document_detector.html#a99639b12797d4432cec5057c800f30f4">detectPhotoPolygonOnImage:visibleImageRect:smoothingEnabled:</a></td></tr>
+<tr class="separator:a99639b12797d4432cec5057c800f30f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a344614bb413dfb8531ff41c10fc4bbad"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_b_s_d_k_document_detector.html#a344614bb413dfb8531ff41c10fc4bbad">resetSmoothingData</a></td></tr>
 <tr class="separator:a344614bb413dfb8531ff41c10fc4bbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -172,7 +176,7 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Executes an edge detection algorithm on the given image and returns a polygon describing the extends of the detected box. For a short period of time the uncompressed image data is hold twice in memory. Use with attention. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Executes an edge detection algorithm on the given image and returns a polygon describing the extends of the detected documents box. For a short period of time the uncompressed image data is hold twice in memory. Use with attention. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">image</td><td>The image to analyze. </td></tr>
     <tr><td class="paramname">visibleRect</td><td>The unified image rectangle that should be analyzed. (0, 0)-(1, 1) or an empty rect means the whole image is being analyzed. </td></tr>
@@ -220,12 +224,94 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Executes an edge detection algorithm on the given sample buffer and returns a polygon describing the extends of the detected box. For a short period of time the uncompressed image data is hold twice in memory. Use with attention. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Executes an edge detection algorithm on the given sample buffer and returns a polygon describing the extends of the detected documents box. For a short period of time the uncompressed image data is hold twice in memory. Use with attention. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sampleBuffer</td><td>The CMSampleBufferRef to analyze. </td></tr>
     <tr><td class="paramname">visibleRect</td><td>The unified image rectangle that should be analyzed. (0, 0)-(1, 1) or an empty rect means the whole image is being analyzed. </td></tr>
     <tr><td class="paramname">smooth</td><td>Set to YES if you want the polygon output to be smoothed with latest frames. If you choose to use smooting you should call resetSmoothingData regularly. </td></tr>
     <tr><td class="paramname">liveDetection</td><td>Set YES if you want to use faster live detection. Live detection is less reliable than normal detection. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The detection result containing the status and a polygon. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a99639b12797d4432cec5057c800f30f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_s_b_s_d_k_document_detector_result.html">SBSDKDocumentDetectorResult</a>*) detectPhotoPolygonOnImage: </td>
+          <td></td>
+          <td class="paramtype">(UIImage *)&#160;</td>
+          <td class="paramname"><em>image</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">visibleImageRect:</td>
+          <td></td>
+          <td class="paramtype">(CGRect)&#160;</td>
+          <td class="paramname"><em>visibleRect</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">smoothingEnabled:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>smooth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes an edge detection algorithm on the given image and returns a polygon describing the extends of the detected photos box. For a short period of time the uncompressed image data is hold twice in memory. Use with attention. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>The image to analyze. </td></tr>
+    <tr><td class="paramname">visibleRect</td><td>The unified image rectangle that should be analyzed. (0, 0)-(1, 1) or an empty rect means the whole image is being analyzed. </td></tr>
+    <tr><td class="paramname">smooth</td><td>Set to YES if you want the polygon output to be smoothed with latest frames. If you choose to use smooting you should call resetSmoothingData regularly. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The detection result containing the status and a polygon. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad031fc5a04f8e0d542d2eacb4e2345f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_s_b_s_d_k_document_detector_result.html">SBSDKDocumentDetectorResult</a> *) detectPhotoPolygonOnSampleBuffer: </td>
+          <td></td>
+          <td class="paramtype">(CMSampleBufferRef)&#160;</td>
+          <td class="paramname"><em>sampleBuffer</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">visibleImageRect:</td>
+          <td></td>
+          <td class="paramtype">(CGRect)&#160;</td>
+          <td class="paramname"><em>visibleRect</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">smoothingEnabled:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>smooth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes an edge detection algorithm on the given sample buffer and returns a polygon describing the extends of the detected photos box. For a short period of time the uncompressed image data is hold twice in memory. Use with attention. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sampleBuffer</td><td>The CMSampleBufferRef to analyze. </td></tr>
+    <tr><td class="paramname">visibleRect</td><td>The unified image rectangle that should be analyzed. (0, 0)-(1, 1) or an empty rect means the whole image is being analyzed. </td></tr>
+    <tr><td class="paramname">smooth</td><td>Set to YES if you want the polygon output to be smoothed with latest frames. If you choose to use smooting you should call resetSmoothingData regularly. </td></tr>
   </table>
   </dd>
 </dl>
@@ -449,5 +535,5 @@ Properties</h2></td></tr>
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Apr 14 2016 15:59:23 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Tue Jul 19 2016 10:13:08 <a href="https://scanbot.io"></a>
  </div>

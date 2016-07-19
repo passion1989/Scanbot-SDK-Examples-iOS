@@ -51,6 +51,21 @@ AVCaptureMetadataOutputObjectsDelegate>
 @property (nonatomic, readonly) BOOL isCapturingStillImage;
 
 /** 
+ * Returns YES if the camera device has a torch light and the torch light is available.
+ **/
+@property (nonatomic, readonly) BOOL torchLightAvailable;
+
+/**
+ * Turns the torch light on or off.
+ **/
+@property (nonatomic, assign, getter = isTorchLightEnabled) BOOL torchLightEnabled;
+
+/** 
+ * A block being executed when the torch light status changes (mode or availability).
+ **/
+@property (nonatomic, copy) void (^updateTorchlightBlock)();
+
+/**
  * The designated initializer of the class. Does not start the capture session.
  * @param feature The feature you want to use the camera for. Relevant features are Document Detection,
  * Payform Detection and QR Codes.
@@ -79,6 +94,13 @@ AVCaptureMetadataOutputObjectsDelegate>
  * @param completion The completion handler that is called when the still image has been captured.
  */
 - (void)captureStillImageWithCompletionHandler:(void (^)(CMSampleBufferRef, NSError *))completion;
+
+/**
+ * Captures a still image asynchronously and passes the JPEG image data as NSData and if needed an error to the
+ * completion handler.
+ * @param completion The completion handler that is called when the still image has been captured.
+ */
+- (void)captureJPEGStillImageWithCompletionHandler:(void (^)(NSData*, NSError*))completion;
 
 /**
  * Returns YES, if the camera is currently adjusting autofocus, exposure or white balance, NO otherwise.

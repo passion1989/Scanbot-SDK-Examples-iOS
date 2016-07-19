@@ -110,6 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>5. Select 'Copy items if needed' and 'Create groups' and hit 'Finish'</li>
 <li>6. Add the umbrella header import to your source code file:</li>
 </ul>
+<p>If you want to make use of <a class="el" href="interface_s_b_s_d_k_credit_card_recognizer.html">SBSDKCreditCardRecognizer</a> you must add ScanbotSDKCreditCardData.bundle to your apps bundle and make sure that the bundle is included in your apps build copy phase.</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#import &lt;ScanbotSDK/ScanbotSDK.h&gt;</span></div>
 </div><!-- fragment --><p>or</p>
 <div class="fragment"><div class="line">@<span class="keyword">import</span> <a class="code" href="interface_scanbot_s_d_k.html">ScanbotSDK</a>;</div>
@@ -210,7 +211,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line">        <span class="comment">// Warp the image into the polygon.</span></div>
 <div class="line">        [<span class="keyword">self</span>.cameraSession captureStillImageWithCompletionHandler:^(CMSampleBufferRef sampleBuffer, NSError *error) {</div>
 <div class="line">            UIImage *image = [UIImage imageFromSampleBuffer:sampleBuffer]; </div>
-<div class="line">            image = [image imageWarpedByPolygon:result.polygon];</div>
+<div class="line">            image = [image imageWarpedByPolygon:result.polygon imageScale:1.0];</div>
 <div class="line">        }];</div>
 <div class="line">    }</div>
 <div class="line">}</div>
@@ -530,5 +531,5 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>-->
 <link href="ScanbotSDK.css" rel="stylesheet" type="text/css" />
 <div class="footer">
-        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Thu Apr 14 2016 15:59:23 <a href="https://scanbot.io"></a>
+        Scanbot SDK Documentation - Copyright 2015 by doo GmbH generated on Tue Jul 19 2016 10:13:08 <a href="https://scanbot.io"></a>
  </div>

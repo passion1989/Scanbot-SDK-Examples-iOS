@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['validatedindexsetforindexset_3a',['validatedIndexSetForIndexSet:',['../interface_s_b_s_d_k_image_storage.html#a909566a8f0559a0ef6b7b328f1326cae',1,'SBSDKImageStorage']]],
-  ['value',['value',['../interface_s_b_s_d_k_pay_form_recognized_field.html#a77584ed8a416f7d7522abf487d3ff4e7',1,'SBSDKPayFormRecognizedField']]],
-  ['videodelegate',['videoDelegate',['../interface_s_b_s_d_k_camera_session.html#aae3b58e9ef0e8e646f6230fe30993f81',1,'SBSDKCameraSession']]],
-  ['videoorientation',['videoOrientation',['../interface_s_b_s_d_k_camera_session.html#ac20ea84a65e61c60688e06ca3681c3d3',1,'SBSDKCameraSession']]]
+  ['uiimage_28sbsdk_29',['UIImage(SBSDK)',['../category_u_i_image_07_s_b_s_d_k_08.html',1,'']]],
+  ['uiimagesbsdk_2eh',['UIImageSBSDK.h',['../_u_i_image_s_b_s_d_k_8h.html',1,'']]],
+  ['updatehandler',['updateHandler',['../interface_s_b_s_d_k_progress.html#af0e1f865390dd725016de966a0011116',1,'SBSDKProgress']]],
+  ['updatetorchlightblock',['updateTorchlightBlock',['../interface_s_b_s_d_k_camera_session.html#a6eb5602f6e12a4592447a68bcff6e628',1,'SBSDKCameraSession']]],
+  ['userpreferredlanguages',['userPreferredLanguages',['../interface_s_b_s_d_k_optical_text_recognizer.html#a4c77461dd9d31b0d6363a7cf1401d2c7',1,'SBSDKOpticalTextRecognizer']]]
 ];

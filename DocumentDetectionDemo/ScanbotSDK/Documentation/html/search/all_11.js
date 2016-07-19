@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['warpimage_3apolygon_3acompletion_3a',['warpImage:polygon:completion:',['../interface_s_b_s_d_k_image_processor.html#abad4c11b2e75c212364d622bdee74c0f',1,'SBSDKImageProcessor']]],
-  ['warpimage_3apolygon_3aoutputimageurl_3acompletion_3a',['warpImage:polygon:outputImageURL:completion:',['../category_s_b_s_d_k_image_processor_07_n_s_u_r_l_08.html#a0a3f86af0ba4f83fc327cd489198530a',1,'SBSDKImageProcessor(NSURL)::warpImage:polygon:outputImageURL:completion:()'],['../interface_s_b_s_d_k_image_processor.html#a0a3f86af0ba4f83fc327cd489198530a',1,'SBSDKImageProcessor::warpImage:polygon:outputImageURL:completion:()']]],
-  ['widthpercentage',['widthPercentage',['../interface_s_b_s_d_k_polygon.html#a132f61c183a2f7df612699544df74e75',1,'SBSDKPolygon']]],
-  ['words',['words',['../interface_s_b_s_d_k_o_c_r_result.html#aecf39b6ca211b61e141b6ad704efec4d',1,'SBSDKOCRResult']]],
-  ['writingdirection',['writingDirection',['../interface_s_b_s_d_k_page_analyzer_result.html#a6fa6c6cbcc91980ae1d15ccd33afc46b',1,'SBSDKPageAnalyzerResult']]]
+  ['validatedindexsetforindexset_3a',['validatedIndexSetForIndexSet:',['../interface_s_b_s_d_k_image_storage.html#a909566a8f0559a0ef6b7b328f1326cae',1,'SBSDKImageStorage']]],
+  ['value',['value',['../interface_s_b_s_d_k_pay_form_recognized_field.html#a77584ed8a416f7d7522abf487d3ff4e7',1,'SBSDKPayFormRecognizedField']]],
+  ['videodelegate',['videoDelegate',['../interface_s_b_s_d_k_camera_session.html#aae3b58e9ef0e8e646f6230fe30993f81',1,'SBSDKCameraSession']]],
+  ['videoorientation',['videoOrientation',['../interface_s_b_s_d_k_camera_session.html#ac20ea84a65e61c60688e06ca3681c3d3',1,'SBSDKCameraSession']]]
 ];

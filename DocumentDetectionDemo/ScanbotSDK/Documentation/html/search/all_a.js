@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['orientation',['orientation',['../interface_s_b_s_d_k_page_analyzer_result.html#a2713299037fbc986e92aa29267cb7818',1,'SBSDKPageAnalyzerResult::orientation()'],['../interface_s_b_s_d_k_polygon_edge.html#a3de519b28c9807126e4ae5d859c1a9aa',1,'SBSDKPolygonEdge::orientation()']]]
+  ['normalize',['normalize',['../interface_s_b_s_d_k_polygon.html#a5b6f510dc47bbb974955703999c72ae2',1,'SBSDKPolygon']]],
+  ['normalizeddoublevalues',['normalizedDoubleValues',['../interface_s_b_s_d_k_polygon.html#a563935b8628397476cd2ee3951314096',1,'SBSDKPolygon']]],
+  ['normalizededgewithindex_3a',['normalizedEdgeWithIndex:',['../interface_s_b_s_d_k_polygon.html#a829aa959d14ad2d13031b06647d8967b',1,'SBSDKPolygon']]],
+  ['normalizedpointfromabsolutepoint_3awithsize_3a',['normalizedPointFromAbsolutePoint:withSize:',['../interface_s_b_s_d_k_polygon.html#ad51f5f33cf41fed9d7412eb1df43f1cf',1,'SBSDKPolygon']]],
+  ['normalizedpointwithindex_3a',['normalizedPointWithIndex:',['../interface_s_b_s_d_k_polygon.html#a4557e5e8446c6b65fa11dfccb293b8a2',1,'SBSDKPolygon']]],
+  ['number',['number',['../interface_s_b_s_d_k_credit_card_recognizer_result.html#a143415e5df757ef7761ef0248f635d53',1,'SBSDKCreditCardRecognizerResult']]]
 ];

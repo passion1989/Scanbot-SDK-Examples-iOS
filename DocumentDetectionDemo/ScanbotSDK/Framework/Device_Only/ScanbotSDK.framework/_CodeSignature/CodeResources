@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CountryCodeToLanguageCode.plist</key>
-		<data>
-		wCvgDumscJRkZnAlHpJnMIK0zUs=
-		</data>
 		<key>Headers/SBSDKCameraSession.h</key>
 		<data>
-		tCd6u0IcVnewPog42+ifESxLkJk=
+		9/N7frx5t9zSDt8lNb4iPQweEVI=
 		</data>
 		<key>Headers/SBSDKChequeRecognizer.h</key>
 		<data>
@@ -42,11 +38,11 @@
 		</data>
 		<key>Headers/SBSDKDocumentDetector.h</key>
 		<data>
-		TYNeks3hIOdsjq74CyPQ1b73JTQ=
+		41cYRIcImk1MnOj8QNm9Prt48uI=
 		</data>
 		<key>Headers/SBSDKFeatures.h</key>
 		<data>
-		D1cnkqHUvkMhY26g5wQsMfDBAc4=
+		3g+DVXU/yEriU6SOQuGJMZYqi6I=
 		</data>
 		<key>Headers/SBSDKGeometryUtilities.h</key>
 		<data>
@@ -54,7 +50,15 @@
 		</data>
 		<key>Headers/SBSDKImageFilterTypes.h</key>
 		<data>
-		Pjj9ssakPhYBSNizQ4a2COZHFRU=
+		JQAzbnRnuF/2DQ/RKEJJOHgj1ik=
+		</data>
+		<key>Headers/SBSDKImageMetadata.h</key>
+		<data>
+		S6FJylgcPQuP8qGlzEOToT9qiTE=
+		</data>
+		<key>Headers/SBSDKImageMetadataProcessor.h</key>
+		<data>
+		VVop/CwxUgR9bK7plAX9+NF2H9Y=
 		</data>
 		<key>Headers/SBSDKImageProcessor.h</key>
 		<data>
@@ -63,6 +67,14 @@
 		<key>Headers/SBSDKImageStorage.h</key>
 		<data>
 		lvmFThJycJCKL3bNHK6DGjT6uX8=
+		</data>
+		<key>Headers/SBSDKLensCameraProperties.h</key>
+		<data>
+		oJd/3EIyJu715dHQ5s257qG+E7I=
+		</data>
+		<key>Headers/SBSDKMultipleDocumentsDetector.h</key>
+		<data>
+		uLKXbOlbt36182n05gkcu3y2oeI=
 		</data>
 		<key>Headers/SBSDKOCRResult.h</key>
 		<data>
@@ -86,7 +98,7 @@
 		</data>
 		<key>Headers/SBSDKPolygon.h</key>
 		<data>
-		niCHtoI/tIhppSBgBYTjsYwP0k8=
+		XhOCXlJaspuRXi6iZpKo35zmyOs=
 		</data>
 		<key>Headers/SBSDKPolygonEdge.h</key>
 		<data>
@@ -104,9 +116,13 @@
 		<data>
 		z4c0PW4pUqGDtfcpVP4UIcAdBD4=
 		</data>
+		<key>Headers/SBSDKScanbotBaseSDK.h</key>
+		<data>
+		I6Gu0tI6FXwqYQWpPrFN6/J8lLg=
+		</data>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<data>
-		3L29PjHiiM4BLDaryA9yBp/Hp98=
+		OOSI3ssdJGoTZV1zEbsy7iGLrgA=
 		</data>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
 		<data>
@@ -126,19 +142,15 @@
 		</data>
 		<key>Headers/ScanbotSDKClass.h</key>
 		<data>
-		seoVGhTsa8mSKNJt9LfpqyUMAsE=
+		8scPWb44ady8zjEZgVX3104o6gc=
 		</data>
 		<key>Headers/UIImageSBSDK.h</key>
 		<data>
-		o0SZ4zgvLqCcKLj6j9xVOjZf+8U=
+		daLaRxXRLWzBtNgT/BLGg+kgF40=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YjICn0rwYIcIlXKM0szNqWaAw2A=
-		</data>
-		<key>LanguageToTesseractTrainedData.plist</key>
-		<data>
-		h7Nb6nHIJeeRfwzuTo+dN4skRAI=
+		3e9/7vQJOLAbwv+gGYkmerCMfnw=
 		</data>
 		<key>Licenses.txt</key>
 		<data>
@@ -148,105 +160,106 @@
 		<data>
 		OZOe21eXB0w9rhQCP9TES63zR20=
 		</data>
-		<key>SBSDKChequeData/account.xml</key>
+		<key>ScanbotSDK.bundle/CountryCodeToLanguageCode.plist</key>
+		<data>
+		wCvgDumscJRkZnAlHpJnMIK0zUs=
+		</data>
+		<key>ScanbotSDK.bundle/Info.plist</key>
+		<data>
+		RXqRoGRzrR08neiFXFW4Q2hsZQ0=
+		</data>
+		<key>ScanbotSDK.bundle/LanguageToTesseractTrainedData.plist</key>
+		<data>
+		h7Nb6nHIJeeRfwzuTo+dN4skRAI=
+		</data>
+		<key>ScanbotSDK.bundle/Licenses.txt</key>
+		<data>
+		IThfS3K8D7ErK+4p6jk3Ctk/iZo=
+		</data>
+		<key>ScanbotSDK.bundle/SBSDKChequeData/account.xml</key>
 		<data>
 		FWX8yFubwts3Tgj2ZDo/4KZxQhU=
 		</data>
-		<key>SBSDKChequeData/routing.xml</key>
+		<key>ScanbotSDK.bundle/SBSDKChequeData/routing.xml</key>
 		<data>
 		CuReBbUDXj6XZ1UEj0IfwG+vbnI=
 		</data>
-		<key>SBSDKChequeData/tessdata/mcr.traineddata</key>
+		<key>ScanbotSDK.bundle/SBSDKChequeData/tessdata/mcr.traineddata</key>
 		<data>
 		dkFoFaMenQZHuD3zopqXFTW+7UI=
 		</data>
-		<key>SBSDKLanguageData/pdf.ttf</key>
+		<key>ScanbotSDK.bundle/SBSDKLanguageData/pdf.ttf</key>
 		<data>
 		gIWxghEclQfaKOqDE5g4fUYcEH4=
 		</data>
-		<key>SBSDKLanguageData/pdf.ttx</key>
+		<key>ScanbotSDK.bundle/SBSDKLanguageData/pdf.ttx</key>
 		<data>
 		qX79xHAtx2WFw3XVvNvIGfRI0QU=
 		</data>
-		<key>banks.csv</key>
+		<key>ScanbotSDK.bundle/banks.csv</key>
 		<data>
 		rEji5xf8YOn1OgsckiGtzODBGYg=
 		</data>
-		<key>trainedData.xml</key>
-		<data>
-		vMyH9Pu49kYHLTGX2bd/RhMDyWk=
-		</data>
-		<key>ui_scan_snapbutton_active.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_active.png</key>
 		<data>
 		FoV/SLP7MFOVjyymLPXIj9zVC+A=
 		</data>
-		<key>ui_scan_snapbutton_active@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_active@2x.png</key>
 		<data>
 		eUI/M8fQqexnQHNYbtjz5/QDBAQ=
 		</data>
-		<key>ui_scan_snapbutton_active@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_active@3x.png</key>
 		<data>
 		boHefAfrUVtVWbYJBixgfQ+4Yus=
 		</data>
-		<key>ui_scan_snapbutton_innerarc.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_innerarc.png</key>
 		<data>
 		N1T719tatt9nJYgzGU6GYoLYsec=
 		</data>
-		<key>ui_scan_snapbutton_innerarc@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_innerarc@2x.png</key>
 		<data>
 		n27ie2+qw6kPIrGx3pbuavQtsqc=
 		</data>
-		<key>ui_scan_snapbutton_innerarc@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_innerarc@3x.png</key>
 		<data>
 		NaWOb62YbyiAQGaB1D9WiSCc/A8=
 		</data>
-		<key>ui_scan_snapbutton_outerarc.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerarc.png</key>
 		<data>
 		r7vvGBsvYbzQ1lMAHFeYZJzHvnI=
 		</data>
-		<key>ui_scan_snapbutton_outerarc@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerarc@2x.png</key>
 		<data>
 		pDTAttYPNFI17xvPQz8BzYbC3tU=
 		</data>
-		<key>ui_scan_snapbutton_outerarc@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerarc@3x.png</key>
 		<data>
 		9tQOeI8sLYhQEHMQMvE8OAgxY9w=
 		</data>
-		<key>ui_scan_snapbutton_outerring.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerring.png</key>
 		<data>
 		hGZMB4bvXVhGSX7YCerBVHk1MA0=
 		</data>
-		<key>ui_scan_snapbutton_outerring@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerring@2x.png</key>
 		<data>
 		oug5iM1x9HxkzII3cI5UQjJCUM8=
 		</data>
-		<key>ui_scan_snapbutton_outerring@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerring@3x.png</key>
 		<data>
 		lXcykxf4YeqR592F6/lEXJF4mCY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CountryCodeToLanguageCode.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wCvgDumscJRkZnAlHpJnMIK0zUs=
-			</data>
-			<key>hash2</key>
-			<data>
-			da8legitFPM4h8nb3FS8dwgcPBXxtgyA1Fjyzc4M+bA=
-			</data>
-		</dict>
 		<key>Headers/SBSDKCameraSession.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tCd6u0IcVnewPog42+ifESxLkJk=
+			9/N7frx5t9zSDt8lNb4iPQweEVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			y0DWzSQ297EPIX/YNbRSgfYq7KvENJb75hgTSMx/Y0M=
+			p2A+5Ax9w/cALdht348zN36yw7IzDYNKJK2sK17CcwA=
 			</data>
 		</dict>
 		<key>Headers/SBSDKChequeRecognizer.h</key>
@@ -330,22 +343,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TYNeks3hIOdsjq74CyPQ1b73JTQ=
+			41cYRIcImk1MnOj8QNm9Prt48uI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bm8U307anRpXf8+LhP7BbJDC1WxDuahu8035Vx3OUYs=
+			XffAeEXAvD0NtiRP/YQBHA2AWQJNmsscCNeJsTNX5yE=
 			</data>
 		</dict>
 		<key>Headers/SBSDKFeatures.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D1cnkqHUvkMhY26g5wQsMfDBAc4=
+			3g+DVXU/yEriU6SOQuGJMZYqi6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			NUcguZffIa18OWkKmq2Bo9MFALVF00rZMiq5DxwwVp8=
+			GskbzdzqiaBXE6o4WhkTCzQkEtUdtUcHydeFSGNBcs0=
 			</data>
 		</dict>
 		<key>Headers/SBSDKGeometryUtilities.h</key>
@@ -363,11 +376,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pjj9ssakPhYBSNizQ4a2COZHFRU=
+			JQAzbnRnuF/2DQ/RKEJJOHgj1ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WNZNOjDrGcxig1otSa90C7GzphZ2tINwN4NAM6Na0c=
+			hQV3RbyIeFsfkTKshBCsWp6fvJP49U4pLxEeCPDvzD8=
+			</data>
+		</dict>
+		<key>Headers/SBSDKImageMetadata.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S6FJylgcPQuP8qGlzEOToT9qiTE=
+			</data>
+			<key>hash2</key>
+			<data>
+			GohcC1VKhJDb320930EnaeT1ASCZP1lV86qItNhOOwE=
+			</data>
+		</dict>
+		<key>Headers/SBSDKImageMetadataProcessor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VVop/CwxUgR9bK7plAX9+NF2H9Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			4e2OLHL8LDbNnK60bpC17cDLO+4+SF4rmBd7uvlXPXM=
 			</data>
 		</dict>
 		<key>Headers/SBSDKImageProcessor.h</key>
@@ -390,6 +425,28 @@
 			<key>hash2</key>
 			<data>
 			tJ+hYK2yUz4nOJLEM7iph2xNodTrXZHmbwsMBvdDD/c=
+			</data>
+		</dict>
+		<key>Headers/SBSDKLensCameraProperties.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oJd/3EIyJu715dHQ5s257qG+E7I=
+			</data>
+			<key>hash2</key>
+			<data>
+			y6YUyh2yDPSflI3D0Vr+VOVaBwNiOEdvFub8hfZvOR8=
+			</data>
+		</dict>
+		<key>Headers/SBSDKMultipleDocumentsDetector.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uLKXbOlbt36182n05gkcu3y2oeI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q7YWnM6+MwP6JlCqoJHT2x1JZ2h9wv4irc2nVRl8lkQ=
 			</data>
 		</dict>
 		<key>Headers/SBSDKOCRResult.h</key>
@@ -451,11 +508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			niCHtoI/tIhppSBgBYTjsYwP0k8=
+			XhOCXlJaspuRXi6iZpKo35zmyOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			0mfDDeZOC6Y7qtfIZVL/wMUvyFc2bbMc2wF6alGd3So=
+			M28sDNWNe05n5e676VNIohyY4nHL3IPa6WgjDum3DhU=
 			</data>
 		</dict>
 		<key>Headers/SBSDKPolygonEdge.h</key>
@@ -502,15 +559,26 @@
 			EycdIvNWOwL8zSsBYShxLet9XStlGtuubnengSI9wTk=
 			</data>
 		</dict>
+		<key>Headers/SBSDKScanbotBaseSDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I6Gu0tI6FXwqYQWpPrFN6/J8lLg=
+			</data>
+			<key>hash2</key>
+			<data>
+			aNkS94s+t+NoA04CcrQ19h/ehaGk7IL9r+jvOJylcV4=
+			</data>
+		</dict>
 		<key>Headers/SBSDKScanbotSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3L29PjHiiM4BLDaryA9yBp/Hp98=
+			OOSI3ssdJGoTZV1zEbsy7iGLrgA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VaiF0tctQprcMmyQkSPjc6bB13kEVPbxAkjeqCMp4ds=
+			h1Yr6ZpbVK4V7PJvqKSqmns6S2zJLrBzzMkifEgsqHk=
 			</data>
 		</dict>
 		<key>Headers/SBSDKScanbotSDKConstants.h</key>
@@ -561,33 +629,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			seoVGhTsa8mSKNJt9LfpqyUMAsE=
+			8scPWb44ady8zjEZgVX3104o6gc=
 			</data>
 			<key>hash2</key>
 			<data>
-			4PBWetDdu/6vqekDWoIrS8NT1+bMizrvH/at5cnOmJw=
+			G4MKivDkk4Sfe5T9iz0XPAPepzI+mvKSgU/5Qbk8SvA=
 			</data>
 		</dict>
 		<key>Headers/UIImageSBSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o0SZ4zgvLqCcKLj6j9xVOjZf+8U=
+			daLaRxXRLWzBtNgT/BLGg+kgF40=
 			</data>
 			<key>hash2</key>
 			<data>
-			pOXztOsYugrAopFiTOna4/wyvAEwhYGPMIQoNJ47Za4=
-			</data>
-		</dict>
-		<key>LanguageToTesseractTrainedData.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			h7Nb6nHIJeeRfwzuTo+dN4skRAI=
-			</data>
-			<key>hash2</key>
-			<data>
-			uw1aAc+60JG1OcYnlIEQkupeaeR7zuwWqFf+y6STA8w=
+			VF9C0M+zE6WIGUI/AblcU84QmWNuIKCMMLrcLdNBrpE=
 			</data>
 		</dict>
 		<key>Licenses.txt</key>
@@ -612,7 +669,51 @@
 			IJITPYDobU/pxRJppz7wQUSvjV5wrs7mCDXBSP/AdQU=
 			</data>
 		</dict>
-		<key>SBSDKChequeData/account.xml</key>
+		<key>ScanbotSDK.bundle/CountryCodeToLanguageCode.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wCvgDumscJRkZnAlHpJnMIK0zUs=
+			</data>
+			<key>hash2</key>
+			<data>
+			da8legitFPM4h8nb3FS8dwgcPBXxtgyA1Fjyzc4M+bA=
+			</data>
+		</dict>
+		<key>ScanbotSDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RXqRoGRzrR08neiFXFW4Q2hsZQ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0rYfPL2K9J+MW/WjlyQTB9OPdWn0dQP3PpUdRFevZGE=
+			</data>
+		</dict>
+		<key>ScanbotSDK.bundle/LanguageToTesseractTrainedData.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h7Nb6nHIJeeRfwzuTo+dN4skRAI=
+			</data>
+			<key>hash2</key>
+			<data>
+			uw1aAc+60JG1OcYnlIEQkupeaeR7zuwWqFf+y6STA8w=
+			</data>
+		</dict>
+		<key>ScanbotSDK.bundle/Licenses.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IThfS3K8D7ErK+4p6jk3Ctk/iZo=
+			</data>
+			<key>hash2</key>
+			<data>
+			90viWHornJ6geUeFNNQE+UKyieTeTDO82tQ8QZcy5/4=
+			</data>
+		</dict>
+		<key>ScanbotSDK.bundle/SBSDKChequeData/account.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -623,7 +724,7 @@
 			xmZmN43A73k7d6wZd6e8+RbMygCvfcaT50LFpoYLmrU=
 			</data>
 		</dict>
-		<key>SBSDKChequeData/routing.xml</key>
+		<key>ScanbotSDK.bundle/SBSDKChequeData/routing.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -634,7 +735,7 @@
 			u0XKvBNUcE5QhXpsgmQDkzjB8gtuix02VI0DFb3giew=
 			</data>
 		</dict>
-		<key>SBSDKChequeData/tessdata/mcr.traineddata</key>
+		<key>ScanbotSDK.bundle/SBSDKChequeData/tessdata/mcr.traineddata</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -645,7 +746,7 @@
 			YS37NZn1Ctig4fBMT7YmZCDbwiMA2lqTYK094Xi/qp0=
 			</data>
 		</dict>
-		<key>SBSDKLanguageData/pdf.ttf</key>
+		<key>ScanbotSDK.bundle/SBSDKLanguageData/pdf.ttf</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -656,7 +757,7 @@
 			wUcRkDgRRT/SInWQAXDFgUAgKWXewuUORFccLe24BOg=
 			</data>
 		</dict>
-		<key>SBSDKLanguageData/pdf.ttx</key>
+		<key>ScanbotSDK.bundle/SBSDKLanguageData/pdf.ttx</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -667,7 +768,7 @@
 			FVZn9ruUkAXCxAq4n8NxdHcmXfmThgDIyVz5WY8ohMk=
 			</data>
 		</dict>
-		<key>banks.csv</key>
+		<key>ScanbotSDK.bundle/banks.csv</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -678,18 +779,7 @@
 			jTXtUk1AXRnvltXRypz4EO+KwUSOEgYcv3PyYb/JBpA=
 			</data>
 		</dict>
-		<key>trainedData.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vMyH9Pu49kYHLTGX2bd/RhMDyWk=
-			</data>
-			<key>hash2</key>
-			<data>
-			diEpmIRjp1ggRnQkaRWa7KBR3DUKcVNjDHHQBrBBpHM=
-			</data>
-		</dict>
-		<key>ui_scan_snapbutton_active.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_active.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -700,7 +790,7 @@
 			xQinBoMzwZFRz5i9wKFfPG6Gs8QIDztFQcLHgPOPxH8=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_active@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_active@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -711,7 +801,7 @@
 			yci7O92lI8/Pc2Ae/X8SKM4HqbHEvKsyOxQ5/qEvj8g=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_active@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_active@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -722,7 +812,7 @@
 			GlCFQMXOG2QqTRdyivZ/RvgpzI/OJjFYNcSz+JYGDqE=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_innerarc.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_innerarc.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -733,7 +823,7 @@
 			hekbp0uDfRaWwSNYO8Zg9RqEOvvxbLudB6QkHTGxcLw=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_innerarc@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_innerarc@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -744,7 +834,7 @@
 			Scht8BFgCmj8Uqcag5DbFxcr+ww7J1fMXMBbN+uKVBA=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_innerarc@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_innerarc@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -755,7 +845,7 @@
 			J7cF2hEhA4FLN4HVJaKSrWhkg+7XYfJBIzpUzYNKW3k=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_outerarc.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerarc.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -766,7 +856,7 @@
 			uf2Bv7aptD4X4aw95AKWMJKVhQL2ISn+T0C4P2zELvA=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_outerarc@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerarc@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -777,7 +867,7 @@
 			5WFKYgsiKgz7K6zr0EDO6QF8qS+PYmGYj966gFZhVbU=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_outerarc@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerarc@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -788,7 +878,7 @@
 			8qLbvQ9cBNorZpasASy9NF1SdfT9YI0TZqbESPWCRnw=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_outerring.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerring.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -799,7 +889,7 @@
 			WXZeOogkYRvx/tP4L+ZBLHKQvmCQeknFhvJQ9kCZtxE=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_outerring@2x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerring@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -810,7 +900,7 @@
 			GKfDmE6ueqgUzDOVVpW8ymkx7Ca+Wbgr9E+lfX/6eAo=
 			</data>
 		</dict>
-		<key>ui_scan_snapbutton_outerring@3x.png</key>
+		<key>ScanbotSDK.bundle/ui_scan_snapbutton_outerring@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>

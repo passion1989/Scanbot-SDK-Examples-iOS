@@ -2,6 +2,17 @@
 <Tokens version="1.0">
   <Token>
     <TokenIdentifier>
+      <Name>ContourList</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>doo</Scope>
+    </TokenIdentifier>
+    <Path>namespacedoo.html</Path>
+    <Anchor>a2f4716b6ef90807111ca502d2ff6ce50</Anchor>
+    <DeclaredIn>Common.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SBSDKDocumentDetectionStatus</Name>
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
@@ -148,6 +159,36 @@
     </TokenIdentifier>
     <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
     <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3a7d5739d411b069610c94c266931f96d9</Anchor>
+    <DeclaredIn>SBSDKImageFilterTypes.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageFilterTypePhoto</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
+    <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3a44add378a3f1bfa35e469910e61acd4f</Anchor>
+    <DeclaredIn>SBSDKImageFilterTypes.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageFilterTypePhotoBW1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
+    <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3aa0dfbf3de25638f0916680f8363ec17b</Anchor>
+    <DeclaredIn>SBSDKImageFilterTypes.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageFilterTypePhotoBW2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_s_b_s_d_k_image_filter_types_8h.html</Path>
+    <Anchor>a28f3477e0201b22eea5aa3940ec4ffb3ab0b37739673457016afd87863b941805</Anchor>
     <DeclaredIn>SBSDKImageFilterTypes.h</DeclaredIn>
   </Token>
   <Token>
@@ -851,6 +892,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>captureJPEGStillImageWithCompletionHandler:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKCameraSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_camera_session.html</Path>
+    <Anchor>adf9cf974889067251d98f01c01b8d3c2</Anchor>
+    <DeclaredIn>SBSDKCameraSession.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isCameraAdjusting</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -899,6 +951,36 @@
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_camera_session.html</Path>
     <Anchor>adde4269e69e2fcb3d33ffb5e087b8413</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>torchLightAvailable</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCameraSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_camera_session.html</Path>
+    <Anchor>a7138ba5ca3fef201a50d78772a6a338c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>torchLightEnabled</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCameraSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_camera_session.html</Path>
+    <Anchor>a11b992f212a8c0a42b393dcee3dd288a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>updateTorchlightBlock</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKCameraSession</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_camera_session.html</Path>
+    <Anchor>a6eb5602f6e12a4592447a68bcff6e628</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1162,6 +1244,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>detectPhotoPolygonOnSampleBuffer:visibleImageRect:smoothingEnabled:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKDocumentDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_document_detector.html</Path>
+    <Anchor>ad031fc5a04f8e0d542d2eacb4e2345f5</Anchor>
+    <DeclaredIn>SBSDKDocumentDetector.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detectPhotoPolygonOnImage:visibleImageRect:smoothingEnabled:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKDocumentDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_document_detector.html</Path>
+    <Anchor>a99639b12797d4432cec5057c800f30f4</Anchor>
+    <DeclaredIn>SBSDKDocumentDetector.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>resetSmoothingData</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -1300,6 +1404,240 @@
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_document_detector_result.html</Path>
     <Anchor>a2c9f3e3d679c7d40d7285b1f57e65a12</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKDocumentsDetectorResult</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKDocumentsDetectorResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+    <DeclaredIn>SBSDKMultipleDocumentsDetector.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithPolygons:status:detectorImageSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKDocumentsDetectorResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+    <Anchor>a1825d7f1a11bc80926ef2d1437dd6e07</Anchor>
+    <DeclaredIn>SBSDKMultipleDocumentsDetector.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>status</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKDocumentsDetectorResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+    <Anchor>a674cc8385bb45f25c1609f159d7e1b84</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>polygons</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKDocumentsDetectorResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+    <Anchor>a64bacfe82a690317e185eb52c140ef6f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detectorImageSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKDocumentsDetectorResult</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_documents_detector_result.html</Path>
+    <Anchor>adc9e0a0f96264af609ea2884f01bac22</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageMetadata</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <DeclaredIn>SBSDKImageMetadata.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithMetadataDictionary:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a5958acfe7e261c7046cd2e18d69a8b8d</Anchor>
+    <DeclaredIn>SBSDKImageMetadata.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>metadataDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>aeec22a0defad52ddfc08425f0dfcdb3e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>orientation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a8bf73b9ddbdbe868632d9fa6acff72b5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageWidth</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a9d1137d8498921710beeaa00fe19d6bd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageHeight</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>acb38fb048362fdc01e7bfd0ba4a9262f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>originalDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a051bccb6a5778fd0581d36dbfae7b543</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>digitalizationDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a79f50936d357d21c157025eab85fe51c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lensModel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a2d3600c28ca59f76263163c4510a94fb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lensMaker</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a4f5faa73d91dbd604af8c1b0783d22ac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>focalLength</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>ad184872dcd64a31884cf47c59fd0b2ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>focalLength35mm</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>acd123272f21f96f6a94093804e1af3e7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>aperture</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a6d3f9ace94441da6d06a41cd62ae1d9b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exposureTime</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a6fc28961354460b81a42d8571c6e0b1a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ISOValue</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKImageMetadata</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata.html</Path>
+    <Anchor>a756bd83f04ed1b06125c43b61cafd851</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKImageMetadataProcessor</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKImageMetadataProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata_processor.html</Path>
+    <DeclaredIn>SBSDKImageMetadataProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extractMetadataFromImageData:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageMetadataProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata_processor.html</Path>
+    <Anchor>a9f25a043366dcc6ff9106babdece5f71</Anchor>
+    <DeclaredIn>SBSDKImageMetadataProcessor.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageDataByInjectingMetadata:intoImageData:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKImageMetadataProcessor</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_image_metadata_processor.html</Path>
+    <Anchor>a3586c6405b76b85b489c71632f9eb067</Anchor>
+    <DeclaredIn>SBSDKImageMetadataProcessor.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1699,6 +2037,150 @@
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_image_storage.html</Path>
     <Anchor>af492eef8bbb2904ddc6efefa529c35ac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKLensCameraProperties</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <DeclaredIn>SBSDKLensCameraProperties.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithFocalLength:sensorSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>ac5ad79ca77e933ffb8d709659c637479</Anchor>
+    <DeclaredIn>SBSDKLensCameraProperties.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>propertiesFromMetadata:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>a3eadf5dc65fc7609fe933ef1d2c08ec4</Anchor>
+    <DeclaredIn>SBSDKLensCameraProperties.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>focalLength</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>acbf026b9b34fbf14562a10b1e9ac016e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>focalLength35mm</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>a6ae6e7fccd751f4c41425de7c7a380dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cropFactor</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>ae0d56a37400a55909c07525c4fb74274</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sensorDiagonal</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>a87b3f0e9821b66753adbbc3da353aee4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sensorAspectRatio</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>a9a0f836a5cb63948f67ca82188ec3dca</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sensorSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>a013526d6126b6454389bcd5162f86657</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lensMaker</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>aec6b217645747cf2cba699343910963c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lensModel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>SBSDKLensCameraProperties</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_lens_camera_properties.html</Path>
+    <Anchor>ab15643f634f21d639f83493a4a06c546</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SBSDKMultipleDocumentsDetector</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>SBSDKMultipleDocumentsDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+    <DeclaredIn>SBSDKMultipleDocumentsDetector.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detectDocumentPolygonsOnImage:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKMultipleDocumentsDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+    <Anchor>a99c2da788f746e0ecfcebd8ba0ae2697</Anchor>
+    <DeclaredIn>SBSDKMultipleDocumentsDetector.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detectDocumentPolygonsOnSampleBuffer:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKMultipleDocumentsDetector</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_multiple_documents_detector.html</Path>
+    <Anchor>aa3992c76f147cc30005bdd92271704af</Anchor>
+    <DeclaredIn>SBSDKMultipleDocumentsDetector.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2485,6 +2967,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>initWithNormalizedDoubleValues:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>ab8525b0f9836c7509b9bcbcd3ce98725</Anchor>
+    <DeclaredIn>SBSDKPolygon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isEqualToPolygon:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -2606,6 +3099,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>normalizedDoubleValues</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>a563935b8628397476cd2ee3951314096</Anchor>
+    <DeclaredIn>SBSDKPolygon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>setNormalizedPoint:forIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -2661,6 +3165,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>rotateCCW:withSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>a7620779915301624994d41cda5d201ad</Anchor>
+    <DeclaredIn>SBSDKPolygon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotateCW:withSize:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>a1f8ae8eecfa034d53d55b63b338ff39c</Anchor>
+    <DeclaredIn>SBSDKPolygon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>boundingBoxWithSize:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -2679,6 +3205,17 @@
     </TokenIdentifier>
     <Path>interface_s_b_s_d_k_polygon.html</Path>
     <Anchor>a91313bf561c61b5e20c5fa5dcc673d13</Anchor>
+    <DeclaredIn>SBSDKPolygon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sizeWhenApplyingToImageOfSize:imageScale:focalLength:sensorWidth:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>SBSDKPolygon</Scope>
+    </TokenIdentifier>
+    <Path>interface_s_b_s_d_k_polygon.html</Path>
+    <Anchor>aa128f3506a9b720f82b229ac0cf6cf5c</Anchor>
     <DeclaredIn>SBSDKPolygon.h</DeclaredIn>
   </Token>
   <Token>
@@ -3323,12 +3860,45 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>setSharedApplication:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>ScanbotSDK</Scope>
+    </TokenIdentifier>
+    <Path>interface_scanbot_s_d_k.html</Path>
+    <Anchor>aef4c1f833e64fce8fc128aeb8bad0da3</Anchor>
+    <DeclaredIn>ScanbotSDKClass.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sharedApplication</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>ScanbotSDK</Scope>
+    </TokenIdentifier>
+    <Path>interface_scanbot_s_d_k.html</Path>
+    <Anchor>a8fac85a00eba2e814dd12c048011e4ff</Anchor>
+    <DeclaredIn>ScanbotSDKClass.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>UIImage(SBSDK)</Name>
       <APILanguage>c</APILanguage>
       <Type>cat</Type>
       <Scope>UIImage(SBSDK)</Scope>
     </TokenIdentifier>
     <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initFromSampleBuffer:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>aa65b1f2451c0a3b6a895bfb8cd89fe1c</Anchor>
     <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
   </Token>
   <Token>
@@ -3344,24 +3914,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>imageWarpedByPolygon:</Name>
+      <Name>imageWarpedByPolygon:imageScale:</Name>
       <APILanguage>occ</APILanguage>
       <Type>func</Type>
       <Scope>UIImage(SBSDK)</Scope>
     </TokenIdentifier>
     <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
-    <Anchor>a53d23884e0e8bc403d68592b8efe5185</Anchor>
+    <Anchor>a868a8274a03460d8e48865145afec9aa</Anchor>
     <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>imageWarpedByPolygon:andFilteredBy:</Name>
+      <Name>imageWarpedByPolygon:lensCameraProperties:imageScale:</Name>
       <APILanguage>occ</APILanguage>
       <Type>func</Type>
       <Scope>UIImage(SBSDK)</Scope>
     </TokenIdentifier>
     <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
-    <Anchor>a2e6c6be5b2f42bed1b509f0dacbadb62</Anchor>
+    <Anchor>a336e956a045883f33467b7bd7c15453f</Anchor>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageWarpedByPolygon:andFilteredBy:imageScale:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>afcdb1a4b4f0bc112d04580e8d7a22a46</Anchor>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageWarpedByPolygon:andFilteredBy:lensCameraProperties:imageScale:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>a1da5774da7be68748335d56548341db0</Anchor>
     <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
   </Token>
   <Token>
@@ -3399,6 +3991,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>imageByProcessingWithRotations:polygon:filter:compression:lensCameraProperties:imageScale:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>a8354dd69e7260f0e1ff2b63f1c7dd415</Anchor>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageDataByProcessingWithRotations:polygon:filter:compression:lensCameraProperties:imageScale:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>a95bbed4a850d1c544ed055c472e2279d</Anchor>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageDataByApplyingFilter:compression:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>a1d9252eecc20a356bc5d3ff23f6613f6</Anchor>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>imageWithFixedOrientation</Name>
       <APILanguage>occ</APILanguage>
       <Type>func</Type>
@@ -3418,5 +4043,88 @@
     <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
     <Anchor>aefb7990647a42b81d163b5778159c2ac</Anchor>
     <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imageDataWithFixedOrientation:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>UIImage(SBSDK)</Scope>
+    </TokenIdentifier>
+    <Path>category_u_i_image_07_s_b_s_d_k_08.html</Path>
+    <Anchor>ad5d670e409eba2723649887ddead5c29</Anchor>
+    <DeclaredIn>UIImageSBSDK.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doo</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>doo</Scope>
+    </TokenIdentifier>
+    <Path>namespacedoo.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ContourList</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>doo</Scope>
+    </TokenIdentifier>
+    <Path>namespacedoo.html</Path>
+    <Anchor>a2f4716b6ef90807111ca502d2ff6ce50</Anchor>
+    <DeclaredIn>Common.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doo::Contour</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>doo::Contour</Scope>
+    </TokenIdentifier>
+    <Path>structdoo_1_1_contour.html</Path>
+    <DeclaredIn>Common.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Contour</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>doo::Contour</Scope>
+    </TokenIdentifier>
+    <Path>structdoo_1_1_contour.html</Path>
+    <Anchor>a4cf26aa0187a89a635ec3d22fd6e667b</Anchor>
+    <DeclaredIn>Common.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Contour</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>doo::Contour</Scope>
+    </TokenIdentifier>
+    <Path>structdoo_1_1_contour.html</Path>
+    <Anchor>af302fef95d6f8ddba7f9734453faae9b</Anchor>
+    <DeclaredIn>Common.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>points</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>doo::Contour</Scope>
+    </TokenIdentifier>
+    <Path>structdoo_1_1_contour.html</Path>
+    <Anchor>ab8b818389c3f9c4ff6f3eaa8c4a3288f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lines</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>doo::Contour</Scope>
+    </TokenIdentifier>
+    <Path>structdoo_1_1_contour.html</Path>
+    <Anchor>ac153f532666a6baa8eb7fb884d272211</Anchor>
   </Token>
 </Tokens>

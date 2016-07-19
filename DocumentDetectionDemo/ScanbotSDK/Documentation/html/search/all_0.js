@@ -8,6 +8,7 @@ var searchData=
   ['accountnumber',['accountNumber',['../interface_s_b_s_d_k_cheque_recognizer_result.html#a4e8eacef30d0214f2bd77f36997f0cf5',1,'SBSDKChequeRecognizerResult']]],
   ['addimage_3a',['addImage:',['../interface_s_b_s_d_k_image_storage.html#a44137265d6577f6c551eee78ecb73c01',1,'SBSDKImageStorage']]],
   ['analyseimagepagelayout_3acompletion_3a',['analyseImagePageLayout:completion:',['../interface_s_b_s_d_k_optical_text_recognizer.html#a148eab2f04647f17aad55a9bf7e07765',1,'SBSDKOpticalTextRecognizer']]],
+  ['aperture',['aperture',['../interface_s_b_s_d_k_image_metadata.html#a6d3f9ace94441da6d06a41cd62ae1d9b',1,'SBSDKImageMetadata']]],
   ['appendlines_3a',['appendLines:',['../interface_s_b_s_d_k_o_c_r_result.html#a22bf02f27d7506b626864d4b413d1ee7',1,'SBSDKOCRResult']]],
   ['appendparagraphs_3a',['appendParagraphs:',['../interface_s_b_s_d_k_o_c_r_result.html#aaa15e2e7812858fe53c105734b3aa7c9',1,'SBSDKOCRResult']]],
   ['appendrecognizedtext_3a',['appendRecognizedText:',['../interface_s_b_s_d_k_o_c_r_result.html#ae38df1e79dff441b32aba369f90290f5',1,'SBSDKOCRResult']]],
