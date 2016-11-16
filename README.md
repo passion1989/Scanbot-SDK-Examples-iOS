@@ -171,3 +171,7 @@ of the cropped image and let it be very close to the original documents aspect r
 - The photo filter is useful to correct strong color tints, the 2 other new filters create different color-to-gray mappings 
 - Added SBSDKMultipleDocumentsDetector (Beta) to detect multiple photos or documents on an image
 - Minor fixes and optimizations
+
+##### Changelog version 1.2.1:
+
+- Fixed crash in sample app by adding `NSCameraUsageDescription` and `NSPhotoLibraryUsageDescription`.
