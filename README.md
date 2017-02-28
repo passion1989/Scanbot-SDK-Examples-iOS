@@ -26,4 +26,5 @@ Scanbot SDK supports iOS 8 and higher.
 
 If you need further information or are interested in licensing Scanbot SDK please contact us: sdk@scanbot.io
 
-You can download Scanbot SDK or view the documentation here: https://scanbot.io/sdk.html
+[Download Scanbot SDK](http://sdkdownload.scanbot.io.s3-website.eu-central-1.amazonaws.com/ios-sdk/scanbot-ios-sdk1.3.0.zip)
+[View Scanbot SDK Online documentation](https://scanbotsdk.github.io/documentation/ios/)
